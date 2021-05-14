@@ -4,7 +4,6 @@ C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcor
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\MultiToolApplication.runtimeconfig.dev.json
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\MultiToolApplication.dll
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\netcoreapp3.1\MultiToolApplication.pdb
-C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\MultiToolApplication.csprojAssemblyReference.cache
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.CalculatorForm.resources
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.MainForm.resources
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\MultiToolApplication.csproj.GenerateResource.cache

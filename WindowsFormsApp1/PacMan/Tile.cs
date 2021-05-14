@@ -8,6 +8,11 @@ namespace MultiToolApplication.PacMan
     {
         private int xValue, yValue;
         private bool isEmpty, pathable;
+
+
+
+
+        //Tiles items (Dot = D, Pellet = P, Fruit = F)
         private char tileItem;
 
 
@@ -31,6 +36,11 @@ namespace MultiToolApplication.PacMan
             pathable = path;
         }
 
+        public void updateItem(char item)
+        {
+            tileItem = item;
+        }
+
 
 
         public void changeEmpty()
@@ -39,10 +49,16 @@ namespace MultiToolApplication.PacMan
             {
                 isEmpty = false;
             }
-            else
+            if(isEmpty == false)
             {
                 isEmpty = true;
             }
+        }
+
+
+        public string ToString() 
+        {
+            return "X = " + xValue + " & Y = " + yValue;
         }
 
 
