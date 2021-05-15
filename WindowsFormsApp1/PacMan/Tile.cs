@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 
 namespace MultiToolApplication.PacMan
@@ -8,11 +9,14 @@ namespace MultiToolApplication.PacMan
     {
         private int xValue, yValue;
         private bool isEmpty, pathable;
+        private Image image;
 
 
 
+        //Either (PacMan = P or Ghost = G)
+        private char occupiedBy;
 
-        //Tiles items (Dot = D, Pellet = P, Fruit = F)
+        //Tiles items (Dot = D, Pellet = P, Fruit = F, Empty = E)
         private char tileItem;
 
 
@@ -31,17 +35,15 @@ namespace MultiToolApplication.PacMan
             tileItem = item;
         }
 
-        public void changePath(bool path)
+        public void changePathTrue()
         {
-            pathable = path;
+            pathable = true;
         }
 
-        public void updateItem(char item)
+        public char getItem()
         {
-            tileItem = item;
+            return tileItem;
         }
-
-
 
         public void changeEmpty()
         {
@@ -55,11 +57,34 @@ namespace MultiToolApplication.PacMan
             }
         }
 
-
-        public string ToString() 
+        public void setImage(string imagePath)
         {
-            return "X = " + xValue + " & Y = " + yValue;
+            image = Image.FromFile(imagePath);
         }
+
+        public void setOccupied(char character)
+        {
+            occupiedBy = character;
+        }
+
+        public void setItem(char newItem)
+        {
+            tileItem = newItem;
+        }
+
+        public void removeItem()
+        {
+            tileItem = 'E';
+        }
+
+
+
+        public bool getPathable()
+        {
+            return pathable;
+        }
+
+        
 
 
 

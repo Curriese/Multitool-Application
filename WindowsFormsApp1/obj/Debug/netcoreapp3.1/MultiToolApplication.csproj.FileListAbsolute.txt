@@ -17,3 +17,4 @@ C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcor
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\MultiToolApplication.SortingForm.resources
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\MultiToolApplication.Properties.Resources.resources
 C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\MultiToolApplication.PacManForm.resources
+C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\MultiToolApplication.csprojAssemblyReference.cache
