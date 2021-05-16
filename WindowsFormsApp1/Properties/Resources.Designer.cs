@@ -73,6 +73,16 @@ namespace MultiToolApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Dot32x32 {
+            get {
+                object obj = ResourceManager.GetObject("Dot32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HangMan {
             get {
                 object obj = ResourceManager.GetObject("HangMan", resourceCulture);

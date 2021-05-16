@@ -13,7 +13,7 @@ namespace MultiToolApplication
         private int score;
         private int lives;
         private int dotsLeft;
-        private int pacmanSpeed  = 10;
+        private int pacmanSpeed  = 5;
         private int ghostSpeed = 10;
         private char direction;
         private char nextDirection = '-';
@@ -107,33 +107,56 @@ namespace MultiToolApplication
         {
             //manuel populate the maze of dots with loops
 
-            
-            TextReader dotLocation = File.OpenText("C:\\Users\\Spenser\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\PacMan\\Dotlocations.txt");
-
-            
-            for (int k = 0; k < 305; k++)
+            if (atStart == true)
             {
-                //read in the tiles dot locations and update the tiles in the grid
+                TextReader dotLocation = File.OpenText("C:\\Users\\Spenser\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\PacMan\\Dotlocations.txt");
 
-                int xDot = int.Parse(dotLocation.ReadLine());
-                int yDot = int.Parse(dotLocation.ReadLine());
-                dotLocation.ReadLine();
 
-                for (int i = 0; i < 31; i++)
+                for (int k = 0; k < 305; k++)
+                {
+                    //read in the tiles dot locations and update the tiles in the grid
+
+                    int xDot = int.Parse(dotLocation.ReadLine());
+                    int yDot = int.Parse(dotLocation.ReadLine());
+                    dotLocation.ReadLine();
+
+                    for (int i = 0; i < 31; i++)
+                    {
+                        for (int j = 0; j < 32; j++)
+                        {
+
+                            //Update where items are on the grid
+                            if (i == xDot && j == yDot)
+                            {
+                                grid[i][j].changeEmpty();
+                                grid[i][j].setItem('D');
+                                dotsLeft++;
+                                Debug.WriteLine("dotsLeft = " + dotsLeft + " At Location " + i + " " + j + " K: " + k);
+                            }
+                        }
+                    }
+
+                }
+                dotLocation.Close();
+            } 
+            else
+            {
+                
+                for(int i = 0; i < 31; i++)
                 {
                     for (int j = 0; j < 32; j++)
                     {
 
                         //Update where items are on the grid
-                        if (i == xDot && j == yDot)
+                        if (grid[i][j].getItem() == 'E')
                         {
-                            grid[i][j].changeEmpty();
                             grid[i][j].setItem('D');
                             dotsLeft++;
-                            Debug.WriteLine("dotsLeft = " + dotsLeft + " At Location " + i + " " + j + " K: " + k);
+                            Debug.WriteLine("dotsLeft = " + dotsLeft + " At Location " + i + " " + j );
                         }
                     }
                 }
+
                 
             }
 
@@ -150,7 +173,6 @@ namespace MultiToolApplication
             dotsLeft++;
             dotsLeft++;
             dotsLeft++;
-            dotLocation.Close();
         }
 
 
@@ -183,6 +205,7 @@ namespace MultiToolApplication
             //Checks if the next tile is pathable if so update direction and move that direction
             if (grid[player.getXLocation() + 1][player.getYLocation()].getPathable())
             {
+                pacmanSpeed = 500;
                 updateDirection();
                 player.setLocation(player.getXLocation() + 1, player.getYLocation());
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
@@ -198,6 +221,7 @@ namespace MultiToolApplication
                     grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
+            pacmanSpeed = 0;
         }
 
         public void moveLeft()
@@ -218,19 +242,23 @@ namespace MultiToolApplication
             //Checks if the next tile is pathable if so update direction and move that direction
             if (grid[player.getXLocation() - 1][player.getYLocation()].getPathable())
             {
+                pacmanSpeed = 500;
                 updateDirection();
                 player.setLocation(player.getXLocation() - 1, player.getYLocation());
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
                 {
                     score += 10;
                     dotsLeft -= 1;
+                    grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'P')
                 {
                     score += 50;
                     dotsLeft -= 1;
+                    grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
+            pacmanSpeed = 0;
         }
 
         public void moveUp()
@@ -251,19 +279,23 @@ namespace MultiToolApplication
             //Checks if the next tile is pathable if so update direction and move that direction
             if (grid[player.getXLocation()][player.getYLocation() - 1].getPathable())
             {
+                pacmanSpeed = 500;
                 updateDirection();
                 player.setLocation(player.getXLocation(), player.getYLocation() - 1);
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
                 {
                     score += 10;
                     dotsLeft -= 1;
+                    grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'P')
                 {
                     score += 50;
                     dotsLeft -= 1;
+                    grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
+            pacmanSpeed = 0;
         }
 
 
@@ -285,19 +317,23 @@ namespace MultiToolApplication
             //Checks if the next tile is pathable if so update direction and move that direction
             if (grid[player.getXLocation()][player.getYLocation() + 1].getPathable())
             {
+                pacmanSpeed = 500;
                 updateDirection();
                 player.setLocation(player.getXLocation(), player.getYLocation() + 1);
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
                 {
                     score += 10;
                     dotsLeft -= 1;
+                    grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'P')
                 {
                     score += 50;
                     dotsLeft -= 1;
+                    grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
+            pacmanSpeed = 0;
         }
 
 

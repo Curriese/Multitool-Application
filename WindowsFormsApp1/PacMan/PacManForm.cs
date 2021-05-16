@@ -109,8 +109,8 @@ namespace MultiToolApplication
                 Thread.Sleep(4000);
                 pacmanGame.atStart = false;
             }*/
-            
-            
+
+            Thread.Sleep(120);
             scoreLabel.Text = "Score: " + pacmanGame.getScore();
             pacmanGame.playGame();
 
@@ -118,40 +118,26 @@ namespace MultiToolApplication
             if (pacmanGame.getDirection() == 'U')
             {
                 pacmanGame.moveUp();
+                pacmanchar.Top -= pacmanGame.getPlayerSpeed();
             }
             if (pacmanGame.getDirection() == 'D')
             {
                 pacmanGame.moveDown();
+                pacmanchar.Top += pacmanGame.getPlayerSpeed();
             }
             if (pacmanGame.getDirection() == 'R')
             {
                 pacmanGame.moveRight();
+                pacmanchar.Left += pacmanGame.getPlayerSpeed();
             }
             if (pacmanGame.getDirection() == 'L')
             {
                 pacmanGame.moveLeft();
-            }
-
-
-
-            /*
-            if (pacmanGame.isLeft == true)
-            {
                 pacmanchar.Left -= pacmanGame.getPlayerSpeed();
             }
-            if (pacmanGame.isRight == true)
-            {
-                pacmanchar.Left += pacmanGame.getPlayerSpeed();
-            }
-            if(pacmanGame.isDown == true)
-            {
-                pacmanchar.Top += pacmanGame.getPlayerSpeed();
-            }
-            if(pacmanGame.isUp == true)
-            {
-                pacmanchar.Top -= pacmanGame.getPlayerSpeed();
-            }
-            */
+
+
+            
 
 
             //Teleport to each side using the hallway
@@ -229,6 +215,11 @@ namespace MultiToolApplication
             */
 
 
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
 
         }
     }
