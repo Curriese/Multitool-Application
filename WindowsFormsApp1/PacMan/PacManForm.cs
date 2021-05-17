@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Media;
 using System.Text;
@@ -13,7 +14,6 @@ namespace MultiToolApplication
     public partial class PacManForm : Form
     {
         private PacManGame pacmanGame;
-        private int playerSpeed;
         SoundPlayer pacSoundStart = new SoundPlayer(@"C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\PacMan\PacManSounds\pacman_beginning.wav");
         SoundPlayer pacSoundMunch = new SoundPlayer(@"C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\PacMan\PacManSounds\pacman_chomp.wav");
 
@@ -23,8 +23,10 @@ namespace MultiToolApplication
             InitializeComponent();
             pacmanGame = new PacManGame();
             resetGame();
-            scoreLabel.Text = "Score: " + pacmanGame.getScore();
+            scoreLabel.Text = "Score: \n" +  pacmanGame.getScore();
             gameTimer.Start();
+            hiddenPacMan.Visible = true;
+            hiddenPacMan.BackColor = Color.Transparent;
 
         }
 
@@ -33,14 +35,12 @@ namespace MultiToolApplication
         public void resetGame()
         {
             pacmanGame.nextLevel();
-            pacmanchar.Left = 400;
-            pacmanchar.Top = 692;
 
-
-            //playerSpeed = 10;
-
-
-            foreach (Control x in this.Controls)
+            pacmanchar.Left = 440;
+            pacmanchar.Top = 728;
+            hiddenPacMan.Left = 448;
+            hiddenPacMan.Top = 736;
+            foreach (Control x in panel1.Controls)
             {
                 if( x is PictureBox)
                 {
@@ -101,6 +101,10 @@ namespace MultiToolApplication
 
         private void mainGameTimer(object sender, EventArgs e)
         {
+            if (pacmanGame.getDotsLeft() == 0)
+            {
+                resetGame();
+            }
             /*
             if(pacmanGame.atStart == true)
             {
@@ -108,119 +112,92 @@ namespace MultiToolApplication
                 pacSoundStart.Play();
                 Thread.Sleep(4000);
                 pacmanGame.atStart = false;
-            }*/
+            }
+            */
 
-            Thread.Sleep(120);
-            scoreLabel.Text = "Score: " + pacmanGame.getScore();
-            pacmanGame.playGame();
+            Thread.Sleep(5);
+            scoreLabel.Text = "Score: \n" + pacmanGame.getScore();
 
 
             if (pacmanGame.getDirection() == 'U')
             {
                 pacmanGame.moveUp();
-                pacmanchar.Top -= pacmanGame.getPlayerSpeed();
+                for (int i = 0; i < 32; i++)
+                {
+                    pacmanchar.Top -= pacmanGame.getPlayerSpeed();
+                    hiddenPacMan.Top -= pacmanGame.getPlayerSpeed();
+                }
             }
             if (pacmanGame.getDirection() == 'D')
             {
                 pacmanGame.moveDown();
-                pacmanchar.Top += pacmanGame.getPlayerSpeed();
+                for (int i = 0; i < 32; i++)
+                {
+                    pacmanchar.Top += pacmanGame.getPlayerSpeed();
+                    hiddenPacMan.Top += pacmanGame.getPlayerSpeed();
+
+                }
             }
             if (pacmanGame.getDirection() == 'R')
             {
                 pacmanGame.moveRight();
-                pacmanchar.Left += pacmanGame.getPlayerSpeed();
+
+                for (int i = 0; i < 32; i++)
+                {
+                    pacmanchar.Left += pacmanGame.getPlayerSpeed();
+                    hiddenPacMan.Left += pacmanGame.getPlayerSpeed();
+                }
             }
             if (pacmanGame.getDirection() == 'L')
             {
                 pacmanGame.moveLeft();
-                pacmanchar.Left -= pacmanGame.getPlayerSpeed();
+                for(int i = 0; i < 32; i++)
+                {
+                    pacmanchar.Left -= pacmanGame.getPlayerSpeed();
+                    hiddenPacMan.Left -= pacmanGame.getPlayerSpeed();
+                }
             }
+            pacmanGame.setSpeed(0);
 
 
             
 
 
             //Teleport to each side using the hallway
-            if(pacmanchar.Left < -30)
+            if(pacmanchar.Left < -32)
             {
-                pacmanchar.Left = 840;
+                pacmanchar.Left = 896;
             }
-            if(pacmanchar.Left > 840)
+            if(pacmanchar.Left > 896)
             {
-                pacmanchar.Left = -30;
+                pacmanchar.Left = -32;
             }
 
 
 
-            /*
-            foreach(Control x in this.Controls)
+            
+            foreach(Control x in panel1.Controls)
             {
-                if(x is PictureBox)
+                if (x is PictureBox && (string)x.Tag == "Dot" && x.Visible == true)
                 {
-                    if((string)x.Tag == "Dot" && x.Visible == true)
+
+                    if (hiddenPacMan.Bounds.IntersectsWith(x.Bounds))
                     {
-                        if (pacmanchar.Bounds.IntersectsWith(x.Bounds))
-                        {
-                            //pacmanGame.addScore(10); ;
-                           // pacmanGame.subtractDotsLeft();
-                            x.Visible = false;
-                        }
+                        x.Visible = false;
                     }
-
-                    if ((string)x.Tag == "PowerPellet" && x.Visible == true)
+                }
+                if(x is PictureBox && (string)x.Tag == "Pellet" && x.Visible == true)
+                {
+                    if (hiddenPacMan.Bounds.IntersectsWith(x.Bounds))
                     {
-                        if (pacmanchar.Bounds.IntersectsWith(x.Bounds))
-                        {
-                            //pacmanGame.addScore(50); ;
-                            //pacmanGame.subtractDotsLeft();
-                            x.Visible = false;
-                        }
+                        x.Visible = false;
                     }
-
-
-                    if((string)x.Tag == "Wall")
-                    {
-                        if (pacmanchar.Bounds.IntersectsWith(x.Bounds))
-                        {
-                            playerSpeed = 0;
-
-                            switch (pacmanGame.getDirection())
-                            {
-                                case 'D':
-                                    pacmanGame.noDown = true;
-                                    pacmanchar.Top -= 11;
-                                    break;
-                                case 'U':
-                                    pacmanGame.noUp = true;
-                                    pacmanchar.Top += 11;
-                                    break;
-                                case 'R':
-                                    pacmanGame.noRight = true;
-                                    pacmanchar.Left -= 11;
-                                    break;
-                                case 'L':
-                                    pacmanGame.noLeft = true;
-                                    pacmanchar.Left += 11;
-                                    break;
-
-                            }
-
-                        }
-                    }
-
-
                 }
             }
 
-            */
-
-
+            Debug.WriteLine("Dots Left " + pacmanGame.getDotsLeft());
 
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

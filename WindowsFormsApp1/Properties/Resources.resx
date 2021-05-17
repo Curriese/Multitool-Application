@@ -124,9 +124,6 @@
   <data name="Calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PacManSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PacManSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PacmanDownGif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PacmanDownGif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,19 +136,109 @@
   <data name="PacmanUpGif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PacmanUpGif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pixil_frame_0__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pixil-frame-0 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PacManDot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PacManDot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PowerPellet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PowerPellet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PacManDotNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PacManDotNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Dot32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dot32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomLeftCorner32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BottomLeftCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomLeftCornerGhostBox32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BottomLeftCornerGhostBox32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomLeftDoorGhostBox32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BottomLeftDoorGhostBox32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideBottomRightCornerWide32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BottomRightCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomRightCornerGhostBox32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BottomRightCornerGhostBox32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BottomRightDoorGhostBox32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BottomRightDoorGhostBox32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideBottomWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideBottomWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideLeftWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideLeftWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideRightWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideRightWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideTopWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideTopWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideBottomLeftCorner32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideBottomLeftCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideBottomLeftCornerWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideBottomLeftCornerWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideBottomRightCorner32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideBottomRightCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideBottomRightCornerWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideBottomRightCornerWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideBottomWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideBottomWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideLeftWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideRightWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideTopLeftCorner32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideTopLeftCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideTopLeftCornerWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideTopLeftCornerWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideTopRightCorner32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideTopRightCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideTopRightCornerWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideTopRightCornerWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideTopWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideTopWall32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TopLeftCornerGhostBox32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TopLeftCornerGhostBox32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TopRightCornerGhostBox32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TopRightCornerGhostBox32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacManSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacManSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideBottomeRightCornerTight32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideBottomeRightCornerTight32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideBottomLeftCornerWide32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideBottomLeftCornerWide32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideTopLeftCorner32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideTopLeftCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideTopLeftCornerWide32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideTopLeftCornerWide32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideTopRightCorner32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideTopRightCorner32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideTopRightCornerWide32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideTopRightCornerWide32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideBottomLeftCornerWallTop32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideBottomLeftCornerWallTop32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideBottomRightCornerWallTop32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideBottomRightCornerWallTop32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutsideRightWall32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OutsideRightWall32x32 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PelletBlinkGif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PelletBlinkGif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

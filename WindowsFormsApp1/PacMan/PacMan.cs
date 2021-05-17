@@ -13,7 +13,7 @@ namespace MultiToolApplication
         private int score;
         private int lives;
         private int dotsLeft;
-        private int pacmanSpeed  = 5;
+        private int pacmanSpeed  = 1;
         private int ghostSpeed = 10;
         private char direction;
         private char nextDirection = '-';
@@ -58,8 +58,11 @@ namespace MultiToolApplication
 
         public void nextLevel()
         {
-            
-            atStart = true;
+            atStart = false;
+            populateMaze();
+            player = new PackManPlayer(15, 24);
+            //grid[15][24].setOccupied('P');
+            direction = 'R';
         }
 
         public void setUpMaze()
@@ -94,13 +97,12 @@ namespace MultiToolApplication
                         if (i == xPath && j == yPath)
                         {
                             grid[i][j].changePathTrue();
-                            Debug.WriteLine("Tile " + i + " , " + j + " is now pathable");
-                            //Find why the tile is reseting to unpathable
                         }
                     }
                 }
 
             }
+            pathLocation.Close();
         }
 
         public void populateMaze()
@@ -112,7 +114,7 @@ namespace MultiToolApplication
                 TextReader dotLocation = File.OpenText("C:\\Users\\Spenser\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\PacMan\\Dotlocations.txt");
 
 
-                for (int k = 0; k < 305; k++)
+                for (int k = 0; k < 247; k++)
                 {
                     //read in the tiles dot locations and update the tiles in the grid
 
@@ -120,9 +122,9 @@ namespace MultiToolApplication
                     int yDot = int.Parse(dotLocation.ReadLine());
                     dotLocation.ReadLine();
 
-                    for (int i = 0; i < 31; i++)
+                    for (int i = 0; i <= 31; i++)
                     {
-                        for (int j = 0; j < 32; j++)
+                        for (int j = 0; j <= 32; j++)
                         {
 
                             //Update where items are on the grid
@@ -131,7 +133,7 @@ namespace MultiToolApplication
                                 grid[i][j].changeEmpty();
                                 grid[i][j].setItem('D');
                                 dotsLeft++;
-                                Debug.WriteLine("dotsLeft = " + dotsLeft + " At Location " + i + " " + j + " K: " + k);
+                                break;
                             }
                         }
                     }
@@ -152,15 +154,12 @@ namespace MultiToolApplication
                         {
                             grid[i][j].setItem('D');
                             dotsLeft++;
-                            Debug.WriteLine("dotsLeft = " + dotsLeft + " At Location " + i + " " + j );
+                            break;
                         }
                     }
                 }
-
-                
             }
-
-
+            //Set up the special cases for Power Pellets
             grid[2][4].setItem('P');
             grid[2][4].changeEmpty();
             grid[2][24].setItem('P');
@@ -169,44 +168,45 @@ namespace MultiToolApplication
             grid[27][4].changeEmpty();
             grid[27][24].setItem('P');
             grid[27][24].changeEmpty();
-            dotsLeft++;
-            dotsLeft++;
-            dotsLeft++;
-            dotsLeft++;
         }
 
-
-        public void playGame()
-        {
-            
-
-            Debug.WriteLine("Pac-Man Location " + player.getXLocation() +" " + player.getYLocation());
-
-
-        }
 
 
         public void moveRight()
         {
             //See if the player wants to move another direction
-            if(nextDirection == 'U')
+            if (nextDirection == 'U')
             {
-                moveUp();
+                if (checkUp() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
-            if(nextDirection == 'D')
+            if (nextDirection == 'D')
             {
-                moveDown();
+                if (checkDown() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
-            if(nextDirection == 'L')
+            if (nextDirection == 'L')
             {
-                moveLeft();
+                if (checkLeft() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
 
             //Checks if the next tile is pathable if so update direction and move that direction
-            if (grid[player.getXLocation() + 1][player.getYLocation()].getPathable())
+            if (checkRight())
             {
-                pacmanSpeed = 500;
-                updateDirection();
+                pacmanSpeed = 1;
                 player.setLocation(player.getXLocation() + 1, player.getYLocation());
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
                 {
@@ -221,7 +221,6 @@ namespace MultiToolApplication
                     grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
-            pacmanSpeed = 0;
         }
 
         public void moveLeft()
@@ -229,21 +228,35 @@ namespace MultiToolApplication
             //See if the player wants to move another direction
             if (nextDirection == 'U')
             {
-                moveUp();
+                if (checkUp() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             if (nextDirection == 'D')
             {
-                moveDown();
+                if (checkDown() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             if (nextDirection == 'R')
             {
-                moveRight();
+                if (checkRight() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             //Checks if the next tile is pathable if so update direction and move that direction
-            if (grid[player.getXLocation() - 1][player.getYLocation()].getPathable())
+            if (checkLeft())
             {
-                pacmanSpeed = 500;
-                updateDirection();
+                pacmanSpeed = 1;
                 player.setLocation(player.getXLocation() - 1, player.getYLocation());
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
                 {
@@ -258,7 +271,6 @@ namespace MultiToolApplication
                     grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
-            pacmanSpeed = 0;
         }
 
         public void moveUp()
@@ -266,21 +278,35 @@ namespace MultiToolApplication
             //See if the player wants to move another direction
             if (nextDirection == 'R')
             {
-                moveRight();
+                if (checkRight() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             if (nextDirection == 'D')
             {
-                moveDown();
+                if(checkDown() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             if (nextDirection == 'L')
             {
-                moveLeft();
+                if (checkLeft() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             //Checks if the next tile is pathable if so update direction and move that direction
-            if (grid[player.getXLocation()][player.getYLocation() - 1].getPathable())
+            if (checkUp())
             {
-                pacmanSpeed = 500;
-                updateDirection();
+                pacmanSpeed = 1;
                 player.setLocation(player.getXLocation(), player.getYLocation() - 1);
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
                 {
@@ -295,7 +321,6 @@ namespace MultiToolApplication
                     grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
-            pacmanSpeed = 0;
         }
 
 
@@ -304,21 +329,35 @@ namespace MultiToolApplication
             //See if the player wants to move another direction
             if (nextDirection == 'U')
             {
-                moveUp();
+                if(checkUp() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             if (nextDirection == 'R')
             {
-                moveRight();
+                if (checkRight() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             if (nextDirection == 'L')
             {
-                moveLeft();
+                if (checkLeft() == true)
+                {
+                    updateDirection();
+                    pacmanSpeed = 0;
+                }
+                return;
             }
             //Checks if the next tile is pathable if so update direction and move that direction
-            if (grid[player.getXLocation()][player.getYLocation() + 1].getPathable())
+            if (checkDown())
             {
-                pacmanSpeed = 500;
-                updateDirection();
+                pacmanSpeed = 1;
                 player.setLocation(player.getXLocation(), player.getYLocation() + 1);
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'D')
                 {
@@ -333,22 +372,68 @@ namespace MultiToolApplication
                     grid[player.getXLocation()][player.getYLocation()].removeItem();
                 }
             }
-            pacmanSpeed = 0;
+        }
+
+
+        public bool checkUp()
+        {
+            if(grid[player.getXLocation()][player.getYLocation() - 1].getPathable() == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool checkDown()
+        {
+            if (grid[player.getXLocation()][player.getYLocation() + 1].getPathable() == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool checkLeft()
+        {
+            if (grid[player.getXLocation() - 1][player.getYLocation()].getPathable() == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool checkRight()
+        {
+            if (grid[player.getXLocation() + 1][player.getYLocation()].getPathable() == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
 
 
-
+        public void setSpeed(int newSpeed)
+        {
+            pacmanSpeed = newSpeed;
+        }
 
 
         public void addScore(int x)
         {
             score += x;
-        }
-
-        public void subtractDotsLeft()
-        {
-            dotsLeft -= 1;
         }
 
         public void updateDirection()

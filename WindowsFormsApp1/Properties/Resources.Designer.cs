@@ -63,6 +63,56 @@ namespace MultiToolApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BottomLeftCorner32x32 {
+            get {
+                object obj = ResourceManager.GetObject("BottomLeftCorner32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BottomLeftCornerGhostBox32x32 {
+            get {
+                object obj = ResourceManager.GetObject("BottomLeftCornerGhostBox32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BottomLeftDoorGhostBox32x32 {
+            get {
+                object obj = ResourceManager.GetObject("BottomLeftDoorGhostBox32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BottomRightCornerGhostBox32x32 {
+            get {
+                object obj = ResourceManager.GetObject("BottomRightCornerGhostBox32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BottomRightDoorGhostBox32x32 {
+            get {
+                object obj = ResourceManager.GetObject("BottomRightDoorGhostBox32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Calculator {
             get {
                 object obj = ResourceManager.GetObject("Calculator", resourceCulture);
@@ -93,9 +143,9 @@ namespace MultiToolApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PacManDot {
+        internal static System.Drawing.Bitmap InsideBottomeRightCornerTight32x32 {
             get {
-                object obj = ResourceManager.GetObject("PacManDot", resourceCulture);
+                object obj = ResourceManager.GetObject("InsideBottomeRightCornerTight32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +153,239 @@ namespace MultiToolApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PacManDotNew {
+        internal static System.Drawing.Bitmap InsideBottomLeftCornerWide32x32 {
             get {
-                object obj = ResourceManager.GetObject("PacManDotNew", resourceCulture);
+                object obj = ResourceManager.GetObject("InsideBottomLeftCornerWide32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideBottomRightCornerWide32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideBottomRightCornerWide32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideBottomWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideBottomWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideLeftWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideLeftWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideRightWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideRightWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideTopLeftCorner32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideTopLeftCorner32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideTopLeftCornerWide32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideTopLeftCornerWide32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideTopRightCorner32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideTopRightCorner32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideTopRightCornerWide32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideTopRightCornerWide32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InsideTopWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("InsideTopWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideBottomLeftCorner32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideBottomLeftCorner32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideBottomLeftCornerWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideBottomLeftCornerWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideBottomLeftCornerWallTop32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideBottomLeftCornerWallTop32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideBottomRightCorner32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideBottomRightCorner32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideBottomRightCornerWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideBottomRightCornerWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideBottomRightCornerWallTop32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideBottomRightCornerWallTop32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideBottomWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideBottomWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideLeftWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideLeftWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideRightWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideRightWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideTopLeftCorner32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideTopLeftCorner32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideTopLeftCornerWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideTopLeftCornerWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideTopRightCorner32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideTopRightCorner32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideTopRightCornerWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideTopRightCornerWall32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OutsideTopWall32x32 {
+            get {
+                object obj = ResourceManager.GetObject("OutsideTopWall32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +443,9 @@ namespace MultiToolApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pixil_frame_0__2_ {
+        internal static System.Drawing.Bitmap PelletBlinkGif {
             get {
-                object obj = ResourceManager.GetObject("pixil_frame_0__2_", resourceCulture);
+                object obj = ResourceManager.GetObject("PelletBlinkGif", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +453,19 @@ namespace MultiToolApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PowerPellet {
+        internal static System.Drawing.Bitmap TopLeftCornerGhostBox32x32 {
             get {
-                object obj = ResourceManager.GetObject("PowerPellet", resourceCulture);
+                object obj = ResourceManager.GetObject("TopLeftCornerGhostBox32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TopRightCornerGhostBox32x32 {
+            get {
+                object obj = ResourceManager.GetObject("TopRightCornerGhostBox32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -40,6 +40,7 @@ namespace MultiToolApplication
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox108 = new System.Windows.Forms.PictureBox();
             this.pictureBox107 = new System.Windows.Forms.PictureBox();
             this.pictureBox106 = new System.Windows.Forms.PictureBox();
             this.pictureBox911 = new System.Windows.Forms.PictureBox();
@@ -213,13 +214,10 @@ namespace MultiToolApplication
             this.pictureBox766 = new System.Windows.Forms.PictureBox();
             this.pictureBox767 = new System.Windows.Forms.PictureBox();
             this.pictureBox768 = new System.Windows.Forms.PictureBox();
-            this.pictureBox769 = new System.Windows.Forms.PictureBox();
             this.pictureBox770 = new System.Windows.Forms.PictureBox();
-            this.pictureBox771 = new System.Windows.Forms.PictureBox();
             this.pictureBox772 = new System.Windows.Forms.PictureBox();
             this.pictureBox773 = new System.Windows.Forms.PictureBox();
             this.pictureBox742 = new System.Windows.Forms.PictureBox();
-            this.pictureBox743 = new System.Windows.Forms.PictureBox();
             this.pictureBox744 = new System.Windows.Forms.PictureBox();
             this.pictureBox745 = new System.Windows.Forms.PictureBox();
             this.pictureBox746 = new System.Windows.Forms.PictureBox();
@@ -399,7 +397,6 @@ namespace MultiToolApplication
             this.pictureBox555 = new System.Windows.Forms.PictureBox();
             this.pictureBox556 = new System.Windows.Forms.PictureBox();
             this.pictureBox557 = new System.Windows.Forms.PictureBox();
-            this.pictureBox558 = new System.Windows.Forms.PictureBox();
             this.pictureBox559 = new System.Windows.Forms.PictureBox();
             this.pictureBox560 = new System.Windows.Forms.PictureBox();
             this.pictureBox561 = new System.Windows.Forms.PictureBox();
@@ -663,8 +660,6 @@ namespace MultiToolApplication
             this.pictureBox239 = new System.Windows.Forms.PictureBox();
             this.pictureBox240 = new System.Windows.Forms.PictureBox();
             this.pictureBox241 = new System.Windows.Forms.PictureBox();
-            this.pictureBox242 = new System.Windows.Forms.PictureBox();
-            this.pictureBox243 = new System.Windows.Forms.PictureBox();
             this.pictureBox244 = new System.Windows.Forms.PictureBox();
             this.pictureBox245 = new System.Windows.Forms.PictureBox();
             this.pictureBox246 = new System.Windows.Forms.PictureBox();
@@ -746,7 +741,6 @@ namespace MultiToolApplication
             this.pictureBox149 = new System.Windows.Forms.PictureBox();
             this.pictureBox150 = new System.Windows.Forms.PictureBox();
             this.pictureBox151 = new System.Windows.Forms.PictureBox();
-            this.pictureBox152 = new System.Windows.Forms.PictureBox();
             this.pictureBox145 = new System.Windows.Forms.PictureBox();
             this.pictureBox146 = new System.Windows.Forms.PictureBox();
             this.pictureBox147 = new System.Windows.Forms.PictureBox();
@@ -882,6 +876,12 @@ namespace MultiToolApplication
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.hiddenPacMan = new System.Windows.Forms.PictureBox();
+            this.pictureBox110 = new System.Windows.Forms.PictureBox();
+            this.pictureBox116 = new System.Windows.Forms.PictureBox();
+            this.pictureBox109 = new System.Windows.Forms.PictureBox();
+            this.pictureBox127 = new System.Windows.Forms.PictureBox();
+            this.pictureBox140 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pacmanchar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -889,6 +889,7 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox911)).BeginInit();
@@ -1062,13 +1063,10 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox766)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox767)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox768)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox769)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox770)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox771)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox772)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox773)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox742)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox743)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox744)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox745)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox746)).BeginInit();
@@ -1248,7 +1246,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox555)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox556)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox557)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox558)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox559)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox560)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox561)).BeginInit();
@@ -1512,8 +1509,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox239)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox240)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox241)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox242)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox243)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox244)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox245)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox246)).BeginInit();
@@ -1595,7 +1590,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox149)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox150)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox151)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox152)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox146)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox147)).BeginInit();
@@ -1731,6 +1725,12 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).BeginInit();
             this.SuspendLayout();
             // 
             // scoreLabel
@@ -1738,11 +1738,11 @@ namespace MultiToolApplication
             this.scoreLabel.AutoSize = true;
             this.scoreLabel.Font = new System.Drawing.Font("Bauhaus 93", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.scoreLabel.ForeColor = System.Drawing.Color.White;
-            this.scoreLabel.Location = new System.Drawing.Point(11, 352);
+            this.scoreLabel.Location = new System.Drawing.Point(30, 324);
             this.scoreLabel.Name = "scoreLabel";
-            this.scoreLabel.Size = new System.Drawing.Size(98, 28);
+            this.scoreLabel.Size = new System.Drawing.Size(104, 28);
             this.scoreLabel.TabIndex = 0;
-            this.scoreLabel.Text = "Score: 0";
+            this.scoreLabel.Text = "Score:  0";
             // 
             // gameTimer
             // 
@@ -1755,7 +1755,7 @@ namespace MultiToolApplication
             this.pacmanchar.BackColor = System.Drawing.Color.Transparent;
             this.pacmanchar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pacmanchar.Image = global::MultiToolApplication.Properties.Resources.PacmanRightGif;
-            this.pacmanchar.Location = new System.Drawing.Point(430, 430);
+            this.pacmanchar.Location = new System.Drawing.Point(480, 448);
             this.pacmanchar.Name = "pacmanchar";
             this.pacmanchar.Size = new System.Drawing.Size(50, 50);
             this.pacmanchar.TabIndex = 2;
@@ -1825,8 +1825,14 @@ namespace MultiToolApplication
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.pictureBox107);
+            this.panel1.Controls.Add(this.pictureBox127);
+            this.panel1.Controls.Add(this.pictureBox140);
+            this.panel1.Controls.Add(this.pictureBox109);
+            this.panel1.Controls.Add(this.pictureBox110);
+            this.panel1.Controls.Add(this.pictureBox116);
             this.panel1.Controls.Add(this.pacmanchar);
+            this.panel1.Controls.Add(this.pictureBox108);
+            this.panel1.Controls.Add(this.pictureBox107);
             this.panel1.Controls.Add(this.scoreLabel);
             this.panel1.Controls.Add(this.pictureBox106);
             this.panel1.Controls.Add(this.pictureBox911);
@@ -2000,13 +2006,10 @@ namespace MultiToolApplication
             this.panel1.Controls.Add(this.pictureBox766);
             this.panel1.Controls.Add(this.pictureBox767);
             this.panel1.Controls.Add(this.pictureBox768);
-            this.panel1.Controls.Add(this.pictureBox769);
             this.panel1.Controls.Add(this.pictureBox770);
-            this.panel1.Controls.Add(this.pictureBox771);
             this.panel1.Controls.Add(this.pictureBox772);
             this.panel1.Controls.Add(this.pictureBox773);
             this.panel1.Controls.Add(this.pictureBox742);
-            this.panel1.Controls.Add(this.pictureBox743);
             this.panel1.Controls.Add(this.pictureBox744);
             this.panel1.Controls.Add(this.pictureBox745);
             this.panel1.Controls.Add(this.pictureBox746);
@@ -2186,7 +2189,6 @@ namespace MultiToolApplication
             this.panel1.Controls.Add(this.pictureBox555);
             this.panel1.Controls.Add(this.pictureBox556);
             this.panel1.Controls.Add(this.pictureBox557);
-            this.panel1.Controls.Add(this.pictureBox558);
             this.panel1.Controls.Add(this.pictureBox559);
             this.panel1.Controls.Add(this.pictureBox560);
             this.panel1.Controls.Add(this.pictureBox561);
@@ -2450,8 +2452,6 @@ namespace MultiToolApplication
             this.panel1.Controls.Add(this.pictureBox239);
             this.panel1.Controls.Add(this.pictureBox240);
             this.panel1.Controls.Add(this.pictureBox241);
-            this.panel1.Controls.Add(this.pictureBox242);
-            this.panel1.Controls.Add(this.pictureBox243);
             this.panel1.Controls.Add(this.pictureBox244);
             this.panel1.Controls.Add(this.pictureBox245);
             this.panel1.Controls.Add(this.pictureBox246);
@@ -2533,7 +2533,6 @@ namespace MultiToolApplication
             this.panel1.Controls.Add(this.pictureBox149);
             this.panel1.Controls.Add(this.pictureBox150);
             this.panel1.Controls.Add(this.pictureBox151);
-            this.panel1.Controls.Add(this.pictureBox152);
             this.panel1.Controls.Add(this.pictureBox145);
             this.panel1.Controls.Add(this.pictureBox146);
             this.panel1.Controls.Add(this.pictureBox147);
@@ -2669,18 +2668,30 @@ namespace MultiToolApplication
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Controls.Add(this.hiddenPacMan);
+            this.panel1.Location = new System.Drawing.Point(12, 11);
             this.panel1.MaximumSize = new System.Drawing.Size(896, 992);
             this.panel1.MinimumSize = new System.Drawing.Size(896, 992);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(896, 992);
             this.panel1.TabIndex = 3;
             // 
+            // pictureBox108
+            // 
+            this.pictureBox108.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox108.Image = global::MultiToolApplication.Properties.Resources.PelletBlinkGif;
+            this.pictureBox108.Location = new System.Drawing.Point(832, 96);
+            this.pictureBox108.Name = "pictureBox108";
+            this.pictureBox108.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox108.TabIndex = 933;
+            this.pictureBox108.TabStop = false;
+            this.pictureBox108.Tag = "Pellet";
+            // 
             // pictureBox107
             // 
-            this.pictureBox107.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox107.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox107.Location = new System.Drawing.Point(32, 959);
+            this.pictureBox107.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox107.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
+            this.pictureBox107.Location = new System.Drawing.Point(32, 960);
             this.pictureBox107.Name = "pictureBox107";
             this.pictureBox107.Size = new System.Drawing.Size(32, 32);
             this.pictureBox107.TabIndex = 932;
@@ -2695,11 +2706,12 @@ namespace MultiToolApplication
             this.pictureBox106.Size = new System.Drawing.Size(32, 32);
             this.pictureBox106.TabIndex = 931;
             this.pictureBox106.TabStop = false;
+            this.pictureBox106.Tag = "Dot";
             // 
             // pictureBox911
             // 
-            this.pictureBox911.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox911.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox911.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox911.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox911.Location = new System.Drawing.Point(768, 960);
             this.pictureBox911.Name = "pictureBox911";
             this.pictureBox911.Size = new System.Drawing.Size(32, 32);
@@ -2708,8 +2720,8 @@ namespace MultiToolApplication
             // 
             // pictureBox912
             // 
-            this.pictureBox912.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox912.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox912.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox912.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox912.Location = new System.Drawing.Point(736, 960);
             this.pictureBox912.Name = "pictureBox912";
             this.pictureBox912.Size = new System.Drawing.Size(32, 32);
@@ -2718,8 +2730,8 @@ namespace MultiToolApplication
             // 
             // pictureBox913
             // 
-            this.pictureBox913.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox913.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox913.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox913.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox913.Location = new System.Drawing.Point(704, 960);
             this.pictureBox913.Name = "pictureBox913";
             this.pictureBox913.Size = new System.Drawing.Size(32, 32);
@@ -2728,8 +2740,8 @@ namespace MultiToolApplication
             // 
             // pictureBox914
             // 
-            this.pictureBox914.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox914.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox914.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox914.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox914.Location = new System.Drawing.Point(672, 960);
             this.pictureBox914.Name = "pictureBox914";
             this.pictureBox914.Size = new System.Drawing.Size(32, 32);
@@ -2738,8 +2750,8 @@ namespace MultiToolApplication
             // 
             // pictureBox915
             // 
-            this.pictureBox915.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox915.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox915.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox915.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox915.Location = new System.Drawing.Point(640, 960);
             this.pictureBox915.Name = "pictureBox915";
             this.pictureBox915.Size = new System.Drawing.Size(32, 32);
@@ -2748,8 +2760,8 @@ namespace MultiToolApplication
             // 
             // pictureBox916
             // 
-            this.pictureBox916.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox916.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox916.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox916.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox916.Location = new System.Drawing.Point(608, 960);
             this.pictureBox916.Name = "pictureBox916";
             this.pictureBox916.Size = new System.Drawing.Size(32, 32);
@@ -2758,8 +2770,8 @@ namespace MultiToolApplication
             // 
             // pictureBox917
             // 
-            this.pictureBox917.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox917.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox917.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox917.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox917.Location = new System.Drawing.Point(576, 960);
             this.pictureBox917.Name = "pictureBox917";
             this.pictureBox917.Size = new System.Drawing.Size(32, 32);
@@ -2768,8 +2780,8 @@ namespace MultiToolApplication
             // 
             // pictureBox918
             // 
-            this.pictureBox918.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox918.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox918.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox918.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox918.Location = new System.Drawing.Point(544, 960);
             this.pictureBox918.Name = "pictureBox918";
             this.pictureBox918.Size = new System.Drawing.Size(32, 32);
@@ -2778,8 +2790,8 @@ namespace MultiToolApplication
             // 
             // pictureBox919
             // 
-            this.pictureBox919.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox919.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox919.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox919.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox919.Location = new System.Drawing.Point(512, 960);
             this.pictureBox919.Name = "pictureBox919";
             this.pictureBox919.Size = new System.Drawing.Size(32, 32);
@@ -2788,8 +2800,8 @@ namespace MultiToolApplication
             // 
             // pictureBox920
             // 
-            this.pictureBox920.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox920.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox920.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox920.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox920.Location = new System.Drawing.Point(480, 960);
             this.pictureBox920.Name = "pictureBox920";
             this.pictureBox920.Size = new System.Drawing.Size(32, 32);
@@ -2798,8 +2810,8 @@ namespace MultiToolApplication
             // 
             // pictureBox921
             // 
-            this.pictureBox921.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox921.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox921.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox921.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox921.Location = new System.Drawing.Point(448, 960);
             this.pictureBox921.Name = "pictureBox921";
             this.pictureBox921.Size = new System.Drawing.Size(32, 32);
@@ -2808,8 +2820,8 @@ namespace MultiToolApplication
             // 
             // pictureBox922
             // 
-            this.pictureBox922.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox922.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox922.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox922.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox922.Location = new System.Drawing.Point(416, 960);
             this.pictureBox922.Name = "pictureBox922";
             this.pictureBox922.Size = new System.Drawing.Size(32, 32);
@@ -2818,8 +2830,8 @@ namespace MultiToolApplication
             // 
             // pictureBox923
             // 
-            this.pictureBox923.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox923.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox923.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox923.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox923.Location = new System.Drawing.Point(384, 960);
             this.pictureBox923.Name = "pictureBox923";
             this.pictureBox923.Size = new System.Drawing.Size(32, 32);
@@ -2828,8 +2840,8 @@ namespace MultiToolApplication
             // 
             // pictureBox924
             // 
-            this.pictureBox924.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox924.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox924.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox924.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox924.Location = new System.Drawing.Point(352, 960);
             this.pictureBox924.Name = "pictureBox924";
             this.pictureBox924.Size = new System.Drawing.Size(32, 32);
@@ -2838,8 +2850,8 @@ namespace MultiToolApplication
             // 
             // pictureBox925
             // 
-            this.pictureBox925.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox925.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox925.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox925.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox925.Location = new System.Drawing.Point(320, 960);
             this.pictureBox925.Name = "pictureBox925";
             this.pictureBox925.Size = new System.Drawing.Size(32, 32);
@@ -2848,8 +2860,8 @@ namespace MultiToolApplication
             // 
             // pictureBox926
             // 
-            this.pictureBox926.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox926.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox926.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox926.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox926.Location = new System.Drawing.Point(288, 960);
             this.pictureBox926.Name = "pictureBox926";
             this.pictureBox926.Size = new System.Drawing.Size(32, 32);
@@ -2858,8 +2870,8 @@ namespace MultiToolApplication
             // 
             // pictureBox927
             // 
-            this.pictureBox927.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox927.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox927.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox927.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox927.Location = new System.Drawing.Point(256, 960);
             this.pictureBox927.Name = "pictureBox927";
             this.pictureBox927.Size = new System.Drawing.Size(32, 32);
@@ -2868,8 +2880,8 @@ namespace MultiToolApplication
             // 
             // pictureBox928
             // 
-            this.pictureBox928.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox928.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox928.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox928.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox928.Location = new System.Drawing.Point(224, 960);
             this.pictureBox928.Name = "pictureBox928";
             this.pictureBox928.Size = new System.Drawing.Size(32, 32);
@@ -2878,8 +2890,8 @@ namespace MultiToolApplication
             // 
             // pictureBox929
             // 
-            this.pictureBox929.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox929.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox929.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox929.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox929.Location = new System.Drawing.Point(192, 960);
             this.pictureBox929.Name = "pictureBox929";
             this.pictureBox929.Size = new System.Drawing.Size(32, 32);
@@ -2888,8 +2900,8 @@ namespace MultiToolApplication
             // 
             // pictureBox930
             // 
-            this.pictureBox930.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox930.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox930.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox930.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox930.Location = new System.Drawing.Point(160, 960);
             this.pictureBox930.Name = "pictureBox930";
             this.pictureBox930.Size = new System.Drawing.Size(32, 32);
@@ -2898,8 +2910,8 @@ namespace MultiToolApplication
             // 
             // pictureBox931
             // 
-            this.pictureBox931.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox931.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox931.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox931.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox931.Location = new System.Drawing.Point(128, 960);
             this.pictureBox931.Name = "pictureBox931";
             this.pictureBox931.Size = new System.Drawing.Size(32, 32);
@@ -2908,8 +2920,8 @@ namespace MultiToolApplication
             // 
             // pictureBox932
             // 
-            this.pictureBox932.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox932.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox932.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox932.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox932.Location = new System.Drawing.Point(96, 960);
             this.pictureBox932.Name = "pictureBox932";
             this.pictureBox932.Size = new System.Drawing.Size(32, 32);
@@ -2918,8 +2930,8 @@ namespace MultiToolApplication
             // 
             // pictureBox933
             // 
-            this.pictureBox933.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox933.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox933.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox933.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox933.Location = new System.Drawing.Point(64, 960);
             this.pictureBox933.Name = "pictureBox933";
             this.pictureBox933.Size = new System.Drawing.Size(32, 32);
@@ -2928,8 +2940,8 @@ namespace MultiToolApplication
             // 
             // pictureBox934
             // 
-            this.pictureBox934.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox934.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox934.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox934.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox934.Location = new System.Drawing.Point(832, 960);
             this.pictureBox934.Name = "pictureBox934";
             this.pictureBox934.Size = new System.Drawing.Size(32, 32);
@@ -2938,8 +2950,8 @@ namespace MultiToolApplication
             // 
             // pictureBox935
             // 
-            this.pictureBox935.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox935.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox935.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox935.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox935.Location = new System.Drawing.Point(800, 960);
             this.pictureBox935.Name = "pictureBox935";
             this.pictureBox935.Size = new System.Drawing.Size(32, 32);
@@ -2955,6 +2967,7 @@ namespace MultiToolApplication
             this.pictureBox898.Size = new System.Drawing.Size(32, 32);
             this.pictureBox898.TabIndex = 905;
             this.pictureBox898.TabStop = false;
+            this.pictureBox898.Tag = "Dot";
             // 
             // pictureBox899
             // 
@@ -2965,6 +2978,7 @@ namespace MultiToolApplication
             this.pictureBox899.Size = new System.Drawing.Size(32, 32);
             this.pictureBox899.TabIndex = 904;
             this.pictureBox899.TabStop = false;
+            this.pictureBox899.Tag = "Dot";
             // 
             // pictureBox900
             // 
@@ -2975,6 +2989,7 @@ namespace MultiToolApplication
             this.pictureBox900.Size = new System.Drawing.Size(32, 32);
             this.pictureBox900.TabIndex = 903;
             this.pictureBox900.TabStop = false;
+            this.pictureBox900.Tag = "Dot";
             // 
             // pictureBox901
             // 
@@ -2985,11 +3000,12 @@ namespace MultiToolApplication
             this.pictureBox901.Size = new System.Drawing.Size(32, 32);
             this.pictureBox901.TabIndex = 902;
             this.pictureBox901.TabStop = false;
+            this.pictureBox901.Tag = "Dot";
             // 
             // pictureBox902
             // 
-            this.pictureBox902.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox902.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox902.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox902.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox902.Location = new System.Drawing.Point(32, 800);
             this.pictureBox902.Name = "pictureBox902";
             this.pictureBox902.Size = new System.Drawing.Size(32, 32);
@@ -2998,8 +3014,8 @@ namespace MultiToolApplication
             // 
             // pictureBox903
             // 
-            this.pictureBox903.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox903.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox903.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox903.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox903.Location = new System.Drawing.Point(32, 768);
             this.pictureBox903.Name = "pictureBox903";
             this.pictureBox903.Size = new System.Drawing.Size(32, 32);
@@ -3008,13 +3024,14 @@ namespace MultiToolApplication
             // 
             // pictureBox904
             // 
-            this.pictureBox904.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox904.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox904.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox904.Image = global::MultiToolApplication.Properties.Resources.PelletBlinkGif;
             this.pictureBox904.Location = new System.Drawing.Point(32, 736);
             this.pictureBox904.Name = "pictureBox904";
             this.pictureBox904.Size = new System.Drawing.Size(32, 32);
             this.pictureBox904.TabIndex = 899;
             this.pictureBox904.TabStop = false;
+            this.pictureBox904.Tag = "Pellet";
             // 
             // pictureBox905
             // 
@@ -3025,6 +3042,7 @@ namespace MultiToolApplication
             this.pictureBox905.Size = new System.Drawing.Size(32, 32);
             this.pictureBox905.TabIndex = 898;
             this.pictureBox905.TabStop = false;
+            this.pictureBox905.Tag = "Dot";
             // 
             // pictureBox906
             // 
@@ -3035,6 +3053,7 @@ namespace MultiToolApplication
             this.pictureBox906.Size = new System.Drawing.Size(32, 32);
             this.pictureBox906.TabIndex = 897;
             this.pictureBox906.TabStop = false;
+            this.pictureBox906.Tag = "Dot";
             // 
             // pictureBox907
             // 
@@ -3045,11 +3064,12 @@ namespace MultiToolApplication
             this.pictureBox907.Size = new System.Drawing.Size(32, 32);
             this.pictureBox907.TabIndex = 896;
             this.pictureBox907.TabStop = false;
+            this.pictureBox907.Tag = "Dot";
             // 
             // pictureBox908
             // 
-            this.pictureBox908.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox908.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox908.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox908.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox908.Location = new System.Drawing.Point(32, 608);
             this.pictureBox908.Name = "pictureBox908";
             this.pictureBox908.Size = new System.Drawing.Size(32, 32);
@@ -3058,8 +3078,8 @@ namespace MultiToolApplication
             // 
             // pictureBox884
             // 
-            this.pictureBox884.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox884.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox884.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox884.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox884.Location = new System.Drawing.Point(864, 832);
             this.pictureBox884.Name = "pictureBox884";
             this.pictureBox884.Size = new System.Drawing.Size(32, 32);
@@ -3068,8 +3088,8 @@ namespace MultiToolApplication
             // 
             // pictureBox885
             // 
-            this.pictureBox885.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox885.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox885.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox885.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomLeftCornerWall32x32;
             this.pictureBox885.Location = new System.Drawing.Point(864, 800);
             this.pictureBox885.Name = "pictureBox885";
             this.pictureBox885.Size = new System.Drawing.Size(32, 32);
@@ -3078,8 +3098,8 @@ namespace MultiToolApplication
             // 
             // pictureBox886
             // 
-            this.pictureBox886.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox886.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox886.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox886.Image = global::MultiToolApplication.Properties.Resources.OutsideTopLeftCornerWall32x32;
             this.pictureBox886.Location = new System.Drawing.Point(864, 768);
             this.pictureBox886.Name = "pictureBox886";
             this.pictureBox886.Size = new System.Drawing.Size(32, 32);
@@ -3088,8 +3108,8 @@ namespace MultiToolApplication
             // 
             // pictureBox887
             // 
-            this.pictureBox887.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox887.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox887.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox887.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox887.Location = new System.Drawing.Point(832, 800);
             this.pictureBox887.Name = "pictureBox887";
             this.pictureBox887.Size = new System.Drawing.Size(32, 32);
@@ -3098,8 +3118,8 @@ namespace MultiToolApplication
             // 
             // pictureBox888
             // 
-            this.pictureBox888.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox888.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox888.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox888.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox888.Location = new System.Drawing.Point(832, 768);
             this.pictureBox888.Name = "pictureBox888";
             this.pictureBox888.Size = new System.Drawing.Size(32, 32);
@@ -3108,8 +3128,8 @@ namespace MultiToolApplication
             // 
             // pictureBox889
             // 
-            this.pictureBox889.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox889.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox889.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox889.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox889.Location = new System.Drawing.Point(800, 768);
             this.pictureBox889.Name = "pictureBox889";
             this.pictureBox889.Size = new System.Drawing.Size(32, 32);
@@ -3118,8 +3138,8 @@ namespace MultiToolApplication
             // 
             // pictureBox890
             // 
-            this.pictureBox890.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox890.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox890.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox890.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox890.Location = new System.Drawing.Point(864, 704);
             this.pictureBox890.Name = "pictureBox890";
             this.pictureBox890.Size = new System.Drawing.Size(32, 32);
@@ -3129,7 +3149,7 @@ namespace MultiToolApplication
             // pictureBox891
             // 
             this.pictureBox891.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox891.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox891.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox891.Location = new System.Drawing.Point(864, 736);
             this.pictureBox891.Name = "pictureBox891";
             this.pictureBox891.Size = new System.Drawing.Size(32, 32);
@@ -3138,13 +3158,14 @@ namespace MultiToolApplication
             // 
             // pictureBox892
             // 
-            this.pictureBox892.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox892.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox892.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox892.Image = global::MultiToolApplication.Properties.Resources.PelletBlinkGif;
             this.pictureBox892.Location = new System.Drawing.Point(832, 736);
             this.pictureBox892.Name = "pictureBox892";
             this.pictureBox892.Size = new System.Drawing.Size(32, 32);
             this.pictureBox892.TabIndex = 885;
             this.pictureBox892.TabStop = false;
+            this.pictureBox892.Tag = "Pellet";
             // 
             // pictureBox893
             // 
@@ -3155,6 +3176,7 @@ namespace MultiToolApplication
             this.pictureBox893.Size = new System.Drawing.Size(32, 32);
             this.pictureBox893.TabIndex = 884;
             this.pictureBox893.TabStop = false;
+            this.pictureBox893.Tag = "Dot";
             // 
             // pictureBox894
             // 
@@ -3165,6 +3187,7 @@ namespace MultiToolApplication
             this.pictureBox894.Size = new System.Drawing.Size(32, 32);
             this.pictureBox894.TabIndex = 883;
             this.pictureBox894.TabStop = false;
+            this.pictureBox894.Tag = "Dot";
             // 
             // pictureBox895
             // 
@@ -3175,11 +3198,12 @@ namespace MultiToolApplication
             this.pictureBox895.Size = new System.Drawing.Size(32, 32);
             this.pictureBox895.TabIndex = 882;
             this.pictureBox895.TabStop = false;
+            this.pictureBox895.Tag = "Dot";
             // 
             // pictureBox896
             // 
-            this.pictureBox896.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox896.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox896.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox896.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox896.Location = new System.Drawing.Point(800, 704);
             this.pictureBox896.Name = "pictureBox896";
             this.pictureBox896.Size = new System.Drawing.Size(32, 32);
@@ -3188,8 +3212,8 @@ namespace MultiToolApplication
             // 
             // pictureBox897
             // 
-            this.pictureBox897.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox897.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox897.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox897.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox897.Location = new System.Drawing.Point(768, 704);
             this.pictureBox897.Name = "pictureBox897";
             this.pictureBox897.Size = new System.Drawing.Size(32, 32);
@@ -3205,11 +3229,12 @@ namespace MultiToolApplication
             this.pictureBox874.Size = new System.Drawing.Size(32, 32);
             this.pictureBox874.TabIndex = 879;
             this.pictureBox874.TabStop = false;
+            this.pictureBox874.Tag = "Dot";
             // 
             // pictureBox875
             // 
-            this.pictureBox875.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox875.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox875.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox875.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox875.Location = new System.Drawing.Point(640, 800);
             this.pictureBox875.Name = "pictureBox875";
             this.pictureBox875.Size = new System.Drawing.Size(32, 32);
@@ -3225,11 +3250,12 @@ namespace MultiToolApplication
             this.pictureBox876.Size = new System.Drawing.Size(32, 32);
             this.pictureBox876.TabIndex = 877;
             this.pictureBox876.TabStop = false;
+            this.pictureBox876.Tag = "Dot";
             // 
             // pictureBox877
             // 
-            this.pictureBox877.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox877.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox877.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox877.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox877.Location = new System.Drawing.Point(608, 800);
             this.pictureBox877.Name = "pictureBox877";
             this.pictureBox877.Size = new System.Drawing.Size(32, 32);
@@ -3238,8 +3264,8 @@ namespace MultiToolApplication
             // 
             // pictureBox878
             // 
-            this.pictureBox878.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox878.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox878.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox878.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox878.Location = new System.Drawing.Point(640, 768);
             this.pictureBox878.Name = "pictureBox878";
             this.pictureBox878.Size = new System.Drawing.Size(32, 32);
@@ -3248,8 +3274,8 @@ namespace MultiToolApplication
             // 
             // pictureBox879
             // 
-            this.pictureBox879.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox879.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox879.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox879.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox879.Location = new System.Drawing.Point(608, 768);
             this.pictureBox879.Name = "pictureBox879";
             this.pictureBox879.Size = new System.Drawing.Size(32, 32);
@@ -3265,6 +3291,7 @@ namespace MultiToolApplication
             this.pictureBox880.Size = new System.Drawing.Size(32, 32);
             this.pictureBox880.TabIndex = 873;
             this.pictureBox880.TabStop = false;
+            this.pictureBox880.Tag = "Dot";
             // 
             // pictureBox881
             // 
@@ -3275,11 +3302,12 @@ namespace MultiToolApplication
             this.pictureBox881.Size = new System.Drawing.Size(32, 32);
             this.pictureBox881.TabIndex = 872;
             this.pictureBox881.TabStop = false;
+            this.pictureBox881.Tag = "Dot";
             // 
             // pictureBox882
             // 
-            this.pictureBox882.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox882.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox882.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox882.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox882.Location = new System.Drawing.Point(576, 704);
             this.pictureBox882.Name = "pictureBox882";
             this.pictureBox882.Size = new System.Drawing.Size(32, 32);
@@ -3295,6 +3323,7 @@ namespace MultiToolApplication
             this.pictureBox883.Size = new System.Drawing.Size(32, 32);
             this.pictureBox883.TabIndex = 870;
             this.pictureBox883.TabStop = false;
+            this.pictureBox883.Tag = "Dot";
             // 
             // pictureBox864
             // 
@@ -3305,6 +3334,7 @@ namespace MultiToolApplication
             this.pictureBox864.Size = new System.Drawing.Size(32, 32);
             this.pictureBox864.TabIndex = 869;
             this.pictureBox864.TabStop = false;
+            this.pictureBox864.Tag = "Dot";
             // 
             // pictureBox865
             // 
@@ -3315,6 +3345,7 @@ namespace MultiToolApplication
             this.pictureBox865.Size = new System.Drawing.Size(32, 32);
             this.pictureBox865.TabIndex = 868;
             this.pictureBox865.TabStop = false;
+            this.pictureBox865.Tag = "Dot";
             // 
             // pictureBox866
             // 
@@ -3325,6 +3356,7 @@ namespace MultiToolApplication
             this.pictureBox866.Size = new System.Drawing.Size(32, 32);
             this.pictureBox866.TabIndex = 867;
             this.pictureBox866.TabStop = false;
+            this.pictureBox866.Tag = "Dot";
             // 
             // pictureBox867
             // 
@@ -3335,11 +3367,12 @@ namespace MultiToolApplication
             this.pictureBox867.Size = new System.Drawing.Size(32, 32);
             this.pictureBox867.TabIndex = 866;
             this.pictureBox867.TabStop = false;
+            this.pictureBox867.Tag = "Dot";
             // 
             // pictureBox868
             // 
-            this.pictureBox868.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox868.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox868.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox868.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox868.Location = new System.Drawing.Point(768, 896);
             this.pictureBox868.Name = "pictureBox868";
             this.pictureBox868.Size = new System.Drawing.Size(32, 32);
@@ -3348,8 +3381,8 @@ namespace MultiToolApplication
             // 
             // pictureBox869
             // 
-            this.pictureBox869.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox869.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox869.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox869.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox869.Location = new System.Drawing.Point(736, 896);
             this.pictureBox869.Name = "pictureBox869";
             this.pictureBox869.Size = new System.Drawing.Size(32, 32);
@@ -3358,8 +3391,8 @@ namespace MultiToolApplication
             // 
             // pictureBox870
             // 
-            this.pictureBox870.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox870.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox870.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox870.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox870.Location = new System.Drawing.Point(736, 864);
             this.pictureBox870.Name = "pictureBox870";
             this.pictureBox870.Size = new System.Drawing.Size(32, 32);
@@ -3368,8 +3401,8 @@ namespace MultiToolApplication
             // 
             // pictureBox871
             // 
-            this.pictureBox871.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox871.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox871.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox871.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox871.Location = new System.Drawing.Point(704, 864);
             this.pictureBox871.Name = "pictureBox871";
             this.pictureBox871.Size = new System.Drawing.Size(32, 32);
@@ -3385,11 +3418,12 @@ namespace MultiToolApplication
             this.pictureBox872.Size = new System.Drawing.Size(32, 32);
             this.pictureBox872.TabIndex = 861;
             this.pictureBox872.TabStop = false;
+            this.pictureBox872.Tag = "Dot";
             // 
             // pictureBox873
             // 
-            this.pictureBox873.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox873.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox873.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox873.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox873.Location = new System.Drawing.Point(704, 896);
             this.pictureBox873.Name = "pictureBox873";
             this.pictureBox873.Size = new System.Drawing.Size(32, 32);
@@ -3398,8 +3432,8 @@ namespace MultiToolApplication
             // 
             // pictureBox854
             // 
-            this.pictureBox854.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox854.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox854.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox854.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox854.Location = new System.Drawing.Point(544, 672);
             this.pictureBox854.Name = "pictureBox854";
             this.pictureBox854.Size = new System.Drawing.Size(32, 32);
@@ -3408,8 +3442,8 @@ namespace MultiToolApplication
             // 
             // pictureBox855
             // 
-            this.pictureBox855.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox855.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox855.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox855.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox855.Location = new System.Drawing.Point(512, 672);
             this.pictureBox855.Name = "pictureBox855";
             this.pictureBox855.Size = new System.Drawing.Size(32, 32);
@@ -3418,8 +3452,8 @@ namespace MultiToolApplication
             // 
             // pictureBox856
             // 
-            this.pictureBox856.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox856.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox856.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox856.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox856.Location = new System.Drawing.Point(448, 672);
             this.pictureBox856.Name = "pictureBox856";
             this.pictureBox856.Size = new System.Drawing.Size(32, 32);
@@ -3435,6 +3469,7 @@ namespace MultiToolApplication
             this.pictureBox857.Size = new System.Drawing.Size(32, 32);
             this.pictureBox857.TabIndex = 856;
             this.pictureBox857.TabStop = false;
+            this.pictureBox857.Tag = "Dot";
             // 
             // pictureBox858
             // 
@@ -3445,6 +3480,7 @@ namespace MultiToolApplication
             this.pictureBox858.Size = new System.Drawing.Size(32, 32);
             this.pictureBox858.TabIndex = 855;
             this.pictureBox858.TabStop = false;
+            this.pictureBox858.Tag = "Dot";
             // 
             // pictureBox859
             // 
@@ -3455,11 +3491,12 @@ namespace MultiToolApplication
             this.pictureBox859.Size = new System.Drawing.Size(32, 32);
             this.pictureBox859.TabIndex = 854;
             this.pictureBox859.TabStop = false;
+            this.pictureBox859.Tag = "Dot";
             // 
             // pictureBox860
             // 
-            this.pictureBox860.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox860.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox860.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox860.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox860.Location = new System.Drawing.Point(480, 608);
             this.pictureBox860.Name = "pictureBox860";
             this.pictureBox860.Size = new System.Drawing.Size(32, 32);
@@ -3468,8 +3505,8 @@ namespace MultiToolApplication
             // 
             // pictureBox861
             // 
-            this.pictureBox861.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox861.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox861.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox861.Image = global::MultiToolApplication.Properties.Resources.InsideBottomRightCornerWide32x32;
             this.pictureBox861.Location = new System.Drawing.Point(448, 608);
             this.pictureBox861.Name = "pictureBox861";
             this.pictureBox861.Size = new System.Drawing.Size(32, 32);
@@ -3478,8 +3515,8 @@ namespace MultiToolApplication
             // 
             // pictureBox862
             // 
-            this.pictureBox862.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox862.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox862.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox862.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox862.Location = new System.Drawing.Point(448, 576);
             this.pictureBox862.Name = "pictureBox862";
             this.pictureBox862.Size = new System.Drawing.Size(32, 32);
@@ -3488,8 +3525,8 @@ namespace MultiToolApplication
             // 
             // pictureBox863
             // 
-            this.pictureBox863.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox863.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox863.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox863.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox863.Location = new System.Drawing.Point(448, 640);
             this.pictureBox863.Name = "pictureBox863";
             this.pictureBox863.Size = new System.Drawing.Size(32, 32);
@@ -3498,8 +3535,8 @@ namespace MultiToolApplication
             // 
             // pictureBox838
             // 
-            this.pictureBox838.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox838.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox838.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox838.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox838.Location = new System.Drawing.Point(672, 896);
             this.pictureBox838.Name = "pictureBox838";
             this.pictureBox838.Size = new System.Drawing.Size(32, 32);
@@ -3508,8 +3545,8 @@ namespace MultiToolApplication
             // 
             // pictureBox839
             // 
-            this.pictureBox839.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox839.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox839.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox839.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox839.Location = new System.Drawing.Point(672, 864);
             this.pictureBox839.Name = "pictureBox839";
             this.pictureBox839.Size = new System.Drawing.Size(32, 32);
@@ -3525,6 +3562,7 @@ namespace MultiToolApplication
             this.pictureBox840.Size = new System.Drawing.Size(32, 32);
             this.pictureBox840.TabIndex = 847;
             this.pictureBox840.TabStop = false;
+            this.pictureBox840.Tag = "Dot";
             // 
             // pictureBox841
             // 
@@ -3535,6 +3573,7 @@ namespace MultiToolApplication
             this.pictureBox841.Size = new System.Drawing.Size(32, 32);
             this.pictureBox841.TabIndex = 846;
             this.pictureBox841.TabStop = false;
+            this.pictureBox841.Tag = "Dot";
             // 
             // pictureBox842
             // 
@@ -3545,6 +3584,7 @@ namespace MultiToolApplication
             this.pictureBox842.Size = new System.Drawing.Size(32, 32);
             this.pictureBox842.TabIndex = 845;
             this.pictureBox842.TabStop = false;
+            this.pictureBox842.Tag = "Dot";
             // 
             // pictureBox843
             // 
@@ -3555,6 +3595,7 @@ namespace MultiToolApplication
             this.pictureBox843.Size = new System.Drawing.Size(32, 32);
             this.pictureBox843.TabIndex = 844;
             this.pictureBox843.TabStop = false;
+            this.pictureBox843.Tag = "Dot";
             // 
             // pictureBox844
             // 
@@ -3565,11 +3606,12 @@ namespace MultiToolApplication
             this.pictureBox844.Size = new System.Drawing.Size(32, 32);
             this.pictureBox844.TabIndex = 843;
             this.pictureBox844.TabStop = false;
+            this.pictureBox844.Tag = "Dot";
             // 
             // pictureBox845
             // 
-            this.pictureBox845.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox845.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox845.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox845.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox845.Location = new System.Drawing.Point(640, 896);
             this.pictureBox845.Name = "pictureBox845";
             this.pictureBox845.Size = new System.Drawing.Size(32, 32);
@@ -3578,8 +3620,8 @@ namespace MultiToolApplication
             // 
             // pictureBox846
             // 
-            this.pictureBox846.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox846.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox846.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox846.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCornerWide32x32;
             this.pictureBox846.Location = new System.Drawing.Point(640, 864);
             this.pictureBox846.Name = "pictureBox846";
             this.pictureBox846.Size = new System.Drawing.Size(32, 32);
@@ -3588,8 +3630,8 @@ namespace MultiToolApplication
             // 
             // pictureBox847
             // 
-            this.pictureBox847.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox847.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox847.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox847.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox847.Location = new System.Drawing.Point(640, 832);
             this.pictureBox847.Name = "pictureBox847";
             this.pictureBox847.Size = new System.Drawing.Size(32, 32);
@@ -3598,8 +3640,8 @@ namespace MultiToolApplication
             // 
             // pictureBox848
             // 
-            this.pictureBox848.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox848.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox848.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox848.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox848.Location = new System.Drawing.Point(608, 896);
             this.pictureBox848.Name = "pictureBox848";
             this.pictureBox848.Size = new System.Drawing.Size(32, 32);
@@ -3608,8 +3650,8 @@ namespace MultiToolApplication
             // 
             // pictureBox849
             // 
-            this.pictureBox849.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox849.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox849.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox849.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCornerWide32x32;
             this.pictureBox849.Location = new System.Drawing.Point(608, 864);
             this.pictureBox849.Name = "pictureBox849";
             this.pictureBox849.Size = new System.Drawing.Size(32, 32);
@@ -3618,8 +3660,8 @@ namespace MultiToolApplication
             // 
             // pictureBox850
             // 
-            this.pictureBox850.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox850.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox850.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox850.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox850.Location = new System.Drawing.Point(608, 832);
             this.pictureBox850.Name = "pictureBox850";
             this.pictureBox850.Size = new System.Drawing.Size(32, 32);
@@ -3628,8 +3670,8 @@ namespace MultiToolApplication
             // 
             // pictureBox851
             // 
-            this.pictureBox851.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox851.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox851.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox851.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox851.Location = new System.Drawing.Point(576, 864);
             this.pictureBox851.Name = "pictureBox851";
             this.pictureBox851.Size = new System.Drawing.Size(32, 32);
@@ -3645,11 +3687,12 @@ namespace MultiToolApplication
             this.pictureBox852.Size = new System.Drawing.Size(32, 32);
             this.pictureBox852.TabIndex = 835;
             this.pictureBox852.TabStop = false;
+            this.pictureBox852.Tag = "Dot";
             // 
             // pictureBox853
             // 
-            this.pictureBox853.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox853.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox853.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox853.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox853.Location = new System.Drawing.Point(576, 896);
             this.pictureBox853.Name = "pictureBox853";
             this.pictureBox853.Size = new System.Drawing.Size(32, 32);
@@ -3658,8 +3701,8 @@ namespace MultiToolApplication
             // 
             // pictureBox822
             // 
-            this.pictureBox822.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox822.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox822.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox822.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox822.Location = new System.Drawing.Point(544, 896);
             this.pictureBox822.Name = "pictureBox822";
             this.pictureBox822.Size = new System.Drawing.Size(32, 32);
@@ -3668,8 +3711,8 @@ namespace MultiToolApplication
             // 
             // pictureBox823
             // 
-            this.pictureBox823.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox823.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox823.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox823.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox823.Location = new System.Drawing.Point(544, 864);
             this.pictureBox823.Name = "pictureBox823";
             this.pictureBox823.Size = new System.Drawing.Size(32, 32);
@@ -3685,6 +3728,7 @@ namespace MultiToolApplication
             this.pictureBox824.Size = new System.Drawing.Size(32, 32);
             this.pictureBox824.TabIndex = 831;
             this.pictureBox824.TabStop = false;
+            this.pictureBox824.Tag = "Dot";
             // 
             // pictureBox825
             // 
@@ -3695,6 +3739,7 @@ namespace MultiToolApplication
             this.pictureBox825.Size = new System.Drawing.Size(32, 32);
             this.pictureBox825.TabIndex = 830;
             this.pictureBox825.TabStop = false;
+            this.pictureBox825.Tag = "Dot";
             // 
             // pictureBox826
             // 
@@ -3705,6 +3750,7 @@ namespace MultiToolApplication
             this.pictureBox826.Size = new System.Drawing.Size(32, 32);
             this.pictureBox826.TabIndex = 829;
             this.pictureBox826.TabStop = false;
+            this.pictureBox826.Tag = "Dot";
             // 
             // pictureBox827
             // 
@@ -3715,6 +3761,7 @@ namespace MultiToolApplication
             this.pictureBox827.Size = new System.Drawing.Size(32, 32);
             this.pictureBox827.TabIndex = 828;
             this.pictureBox827.TabStop = false;
+            this.pictureBox827.Tag = "Dot";
             // 
             // pictureBox828
             // 
@@ -3725,11 +3772,12 @@ namespace MultiToolApplication
             this.pictureBox828.Size = new System.Drawing.Size(32, 32);
             this.pictureBox828.TabIndex = 827;
             this.pictureBox828.TabStop = false;
+            this.pictureBox828.Tag = "Dot";
             // 
             // pictureBox829
             // 
-            this.pictureBox829.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox829.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox829.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox829.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox829.Location = new System.Drawing.Point(512, 896);
             this.pictureBox829.Name = "pictureBox829";
             this.pictureBox829.Size = new System.Drawing.Size(32, 32);
@@ -3738,8 +3786,8 @@ namespace MultiToolApplication
             // 
             // pictureBox830
             // 
-            this.pictureBox830.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox830.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox830.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox830.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox830.Location = new System.Drawing.Point(512, 864);
             this.pictureBox830.Name = "pictureBox830";
             this.pictureBox830.Size = new System.Drawing.Size(32, 32);
@@ -3755,6 +3803,7 @@ namespace MultiToolApplication
             this.pictureBox831.Size = new System.Drawing.Size(32, 32);
             this.pictureBox831.TabIndex = 824;
             this.pictureBox831.TabStop = false;
+            this.pictureBox831.Tag = "Dot";
             // 
             // pictureBox832
             // 
@@ -3765,6 +3814,7 @@ namespace MultiToolApplication
             this.pictureBox832.Size = new System.Drawing.Size(32, 32);
             this.pictureBox832.TabIndex = 823;
             this.pictureBox832.TabStop = false;
+            this.pictureBox832.Tag = "Dot";
             // 
             // pictureBox833
             // 
@@ -3775,6 +3825,7 @@ namespace MultiToolApplication
             this.pictureBox833.Size = new System.Drawing.Size(32, 32);
             this.pictureBox833.TabIndex = 822;
             this.pictureBox833.TabStop = false;
+            this.pictureBox833.Tag = "Dot";
             // 
             // pictureBox834
             // 
@@ -3785,11 +3836,12 @@ namespace MultiToolApplication
             this.pictureBox834.Size = new System.Drawing.Size(32, 32);
             this.pictureBox834.TabIndex = 821;
             this.pictureBox834.TabStop = false;
+            this.pictureBox834.Tag = "Dot";
             // 
             // pictureBox835
             // 
-            this.pictureBox835.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox835.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox835.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox835.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox835.Location = new System.Drawing.Point(448, 864);
             this.pictureBox835.Name = "pictureBox835";
             this.pictureBox835.Size = new System.Drawing.Size(32, 32);
@@ -3798,8 +3850,8 @@ namespace MultiToolApplication
             // 
             // pictureBox836
             // 
-            this.pictureBox836.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox836.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox836.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox836.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox836.Location = new System.Drawing.Point(448, 832);
             this.pictureBox836.Name = "pictureBox836";
             this.pictureBox836.Size = new System.Drawing.Size(32, 32);
@@ -3808,8 +3860,8 @@ namespace MultiToolApplication
             // 
             // pictureBox837
             // 
-            this.pictureBox837.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox837.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox837.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox837.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox837.Location = new System.Drawing.Point(448, 896);
             this.pictureBox837.Name = "pictureBox837";
             this.pictureBox837.Size = new System.Drawing.Size(32, 32);
@@ -3818,8 +3870,8 @@ namespace MultiToolApplication
             // 
             // pictureBox806
             // 
-            this.pictureBox806.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox806.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox806.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox806.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox806.Location = new System.Drawing.Point(416, 896);
             this.pictureBox806.Name = "pictureBox806";
             this.pictureBox806.Size = new System.Drawing.Size(32, 32);
@@ -3828,8 +3880,8 @@ namespace MultiToolApplication
             // 
             // pictureBox807
             // 
-            this.pictureBox807.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox807.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox807.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox807.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox807.Location = new System.Drawing.Point(416, 864);
             this.pictureBox807.Name = "pictureBox807";
             this.pictureBox807.Size = new System.Drawing.Size(32, 32);
@@ -3845,6 +3897,7 @@ namespace MultiToolApplication
             this.pictureBox808.Size = new System.Drawing.Size(32, 32);
             this.pictureBox808.TabIndex = 815;
             this.pictureBox808.TabStop = false;
+            this.pictureBox808.Tag = "Dot";
             // 
             // pictureBox809
             // 
@@ -3855,6 +3908,7 @@ namespace MultiToolApplication
             this.pictureBox809.Size = new System.Drawing.Size(32, 32);
             this.pictureBox809.TabIndex = 814;
             this.pictureBox809.TabStop = false;
+            this.pictureBox809.Tag = "Dot";
             // 
             // pictureBox810
             // 
@@ -3865,6 +3919,7 @@ namespace MultiToolApplication
             this.pictureBox810.Size = new System.Drawing.Size(32, 32);
             this.pictureBox810.TabIndex = 813;
             this.pictureBox810.TabStop = false;
+            this.pictureBox810.Tag = "Dot";
             // 
             // pictureBox811
             // 
@@ -3875,11 +3930,12 @@ namespace MultiToolApplication
             this.pictureBox811.Size = new System.Drawing.Size(32, 32);
             this.pictureBox811.TabIndex = 812;
             this.pictureBox811.TabStop = false;
+            this.pictureBox811.Tag = "Dot";
             // 
             // pictureBox812
             // 
-            this.pictureBox812.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox812.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox812.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox812.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox812.Location = new System.Drawing.Point(416, 832);
             this.pictureBox812.Name = "pictureBox812";
             this.pictureBox812.Size = new System.Drawing.Size(32, 32);
@@ -3888,38 +3944,41 @@ namespace MultiToolApplication
             // 
             // pictureBox813
             // 
-            this.pictureBox813.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox813.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox813.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox813.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox813.Location = new System.Drawing.Point(384, 896);
             this.pictureBox813.Name = "pictureBox813";
             this.pictureBox813.Size = new System.Drawing.Size(32, 32);
             this.pictureBox813.TabIndex = 810;
             this.pictureBox813.TabStop = false;
+            this.pictureBox813.Tag = "Dot";
             // 
             // pictureBox814
             // 
-            this.pictureBox814.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox814.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox814.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox814.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox814.Location = new System.Drawing.Point(384, 864);
             this.pictureBox814.Name = "pictureBox814";
             this.pictureBox814.Size = new System.Drawing.Size(32, 32);
             this.pictureBox814.TabIndex = 809;
             this.pictureBox814.TabStop = false;
+            this.pictureBox814.Tag = "Dot";
             // 
             // pictureBox815
             // 
-            this.pictureBox815.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox815.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox815.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox815.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox815.Location = new System.Drawing.Point(384, 832);
             this.pictureBox815.Name = "pictureBox815";
             this.pictureBox815.Size = new System.Drawing.Size(32, 32);
             this.pictureBox815.TabIndex = 808;
             this.pictureBox815.TabStop = false;
+            this.pictureBox815.Tag = "Dot";
             // 
             // pictureBox816
             // 
             this.pictureBox816.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox816.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox816.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox816.Location = new System.Drawing.Point(352, 896);
             this.pictureBox816.Name = "pictureBox816";
             this.pictureBox816.Size = new System.Drawing.Size(32, 32);
@@ -3929,7 +3988,7 @@ namespace MultiToolApplication
             // pictureBox817
             // 
             this.pictureBox817.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox817.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox817.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox817.Location = new System.Drawing.Point(352, 864);
             this.pictureBox817.Name = "pictureBox817";
             this.pictureBox817.Size = new System.Drawing.Size(32, 32);
@@ -3945,11 +4004,12 @@ namespace MultiToolApplication
             this.pictureBox818.Size = new System.Drawing.Size(32, 32);
             this.pictureBox818.TabIndex = 805;
             this.pictureBox818.TabStop = false;
+            this.pictureBox818.Tag = "Dot";
             // 
             // pictureBox819
             // 
-            this.pictureBox819.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox819.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox819.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox819.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox819.Location = new System.Drawing.Point(320, 864);
             this.pictureBox819.Name = "pictureBox819";
             this.pictureBox819.Size = new System.Drawing.Size(32, 32);
@@ -3965,11 +4025,12 @@ namespace MultiToolApplication
             this.pictureBox820.Size = new System.Drawing.Size(32, 32);
             this.pictureBox820.TabIndex = 803;
             this.pictureBox820.TabStop = false;
+            this.pictureBox820.Tag = "Dot";
             // 
             // pictureBox821
             // 
-            this.pictureBox821.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox821.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox821.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox821.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox821.Location = new System.Drawing.Point(320, 896);
             this.pictureBox821.Name = "pictureBox821";
             this.pictureBox821.Size = new System.Drawing.Size(32, 32);
@@ -3978,8 +4039,8 @@ namespace MultiToolApplication
             // 
             // pictureBox790
             // 
-            this.pictureBox790.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox790.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox790.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox790.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox790.Location = new System.Drawing.Point(288, 896);
             this.pictureBox790.Name = "pictureBox790";
             this.pictureBox790.Size = new System.Drawing.Size(32, 32);
@@ -3988,8 +4049,8 @@ namespace MultiToolApplication
             // 
             // pictureBox791
             // 
-            this.pictureBox791.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox791.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox791.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox791.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox791.Location = new System.Drawing.Point(288, 864);
             this.pictureBox791.Name = "pictureBox791";
             this.pictureBox791.Size = new System.Drawing.Size(32, 32);
@@ -4005,6 +4066,7 @@ namespace MultiToolApplication
             this.pictureBox792.Size = new System.Drawing.Size(32, 32);
             this.pictureBox792.TabIndex = 799;
             this.pictureBox792.TabStop = false;
+            this.pictureBox792.Tag = "Dot";
             // 
             // pictureBox793
             // 
@@ -4015,6 +4077,7 @@ namespace MultiToolApplication
             this.pictureBox793.Size = new System.Drawing.Size(32, 32);
             this.pictureBox793.TabIndex = 798;
             this.pictureBox793.TabStop = false;
+            this.pictureBox793.Tag = "Dot";
             // 
             // pictureBox794
             // 
@@ -4025,6 +4088,7 @@ namespace MultiToolApplication
             this.pictureBox794.Size = new System.Drawing.Size(32, 32);
             this.pictureBox794.TabIndex = 797;
             this.pictureBox794.TabStop = false;
+            this.pictureBox794.Tag = "Dot";
             // 
             // pictureBox795
             // 
@@ -4035,6 +4099,7 @@ namespace MultiToolApplication
             this.pictureBox795.Size = new System.Drawing.Size(32, 32);
             this.pictureBox795.TabIndex = 796;
             this.pictureBox795.TabStop = false;
+            this.pictureBox795.Tag = "Dot";
             // 
             // pictureBox796
             // 
@@ -4045,11 +4110,12 @@ namespace MultiToolApplication
             this.pictureBox796.Size = new System.Drawing.Size(32, 32);
             this.pictureBox796.TabIndex = 795;
             this.pictureBox796.TabStop = false;
+            this.pictureBox796.Tag = "Dot";
             // 
             // pictureBox797
             // 
-            this.pictureBox797.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox797.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox797.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox797.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox797.Location = new System.Drawing.Point(256, 896);
             this.pictureBox797.Name = "pictureBox797";
             this.pictureBox797.Size = new System.Drawing.Size(32, 32);
@@ -4058,8 +4124,8 @@ namespace MultiToolApplication
             // 
             // pictureBox798
             // 
-            this.pictureBox798.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox798.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox798.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox798.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCornerWide32x32;
             this.pictureBox798.Location = new System.Drawing.Point(256, 864);
             this.pictureBox798.Name = "pictureBox798";
             this.pictureBox798.Size = new System.Drawing.Size(32, 32);
@@ -4069,7 +4135,7 @@ namespace MultiToolApplication
             // pictureBox799
             // 
             this.pictureBox799.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox799.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox799.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox799.Location = new System.Drawing.Point(256, 832);
             this.pictureBox799.Name = "pictureBox799";
             this.pictureBox799.Size = new System.Drawing.Size(32, 32);
@@ -4078,8 +4144,8 @@ namespace MultiToolApplication
             // 
             // pictureBox800
             // 
-            this.pictureBox800.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox800.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox800.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox800.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox800.Location = new System.Drawing.Point(224, 896);
             this.pictureBox800.Name = "pictureBox800";
             this.pictureBox800.Size = new System.Drawing.Size(32, 32);
@@ -4088,8 +4154,8 @@ namespace MultiToolApplication
             // 
             // pictureBox801
             // 
-            this.pictureBox801.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox801.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox801.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCornerWide32x32;
             this.pictureBox801.Location = new System.Drawing.Point(224, 864);
             this.pictureBox801.Name = "pictureBox801";
             this.pictureBox801.Size = new System.Drawing.Size(32, 32);
@@ -4098,8 +4164,8 @@ namespace MultiToolApplication
             // 
             // pictureBox802
             // 
-            this.pictureBox802.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox802.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox802.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox802.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox802.Location = new System.Drawing.Point(224, 832);
             this.pictureBox802.Name = "pictureBox802";
             this.pictureBox802.Size = new System.Drawing.Size(32, 32);
@@ -4108,8 +4174,8 @@ namespace MultiToolApplication
             // 
             // pictureBox803
             // 
-            this.pictureBox803.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox803.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox803.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox803.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox803.Location = new System.Drawing.Point(192, 864);
             this.pictureBox803.Name = "pictureBox803";
             this.pictureBox803.Size = new System.Drawing.Size(32, 32);
@@ -4125,11 +4191,12 @@ namespace MultiToolApplication
             this.pictureBox804.Size = new System.Drawing.Size(32, 32);
             this.pictureBox804.TabIndex = 787;
             this.pictureBox804.TabStop = false;
+            this.pictureBox804.Tag = "Dot";
             // 
             // pictureBox805
             // 
-            this.pictureBox805.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox805.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox805.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox805.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox805.Location = new System.Drawing.Point(192, 896);
             this.pictureBox805.Name = "pictureBox805";
             this.pictureBox805.Size = new System.Drawing.Size(32, 32);
@@ -4138,8 +4205,8 @@ namespace MultiToolApplication
             // 
             // pictureBox774
             // 
-            this.pictureBox774.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox774.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox774.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox774.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox774.Location = new System.Drawing.Point(160, 896);
             this.pictureBox774.Name = "pictureBox774";
             this.pictureBox774.Size = new System.Drawing.Size(32, 32);
@@ -4148,8 +4215,8 @@ namespace MultiToolApplication
             // 
             // pictureBox775
             // 
-            this.pictureBox775.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox775.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox775.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox775.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox775.Location = new System.Drawing.Point(160, 864);
             this.pictureBox775.Name = "pictureBox775";
             this.pictureBox775.Size = new System.Drawing.Size(32, 32);
@@ -4165,6 +4232,7 @@ namespace MultiToolApplication
             this.pictureBox776.Size = new System.Drawing.Size(32, 32);
             this.pictureBox776.TabIndex = 783;
             this.pictureBox776.TabStop = false;
+            this.pictureBox776.Tag = "Dot";
             // 
             // pictureBox777
             // 
@@ -4175,6 +4243,7 @@ namespace MultiToolApplication
             this.pictureBox777.Size = new System.Drawing.Size(32, 32);
             this.pictureBox777.TabIndex = 782;
             this.pictureBox777.TabStop = false;
+            this.pictureBox777.Tag = "Dot";
             // 
             // pictureBox778
             // 
@@ -4185,6 +4254,7 @@ namespace MultiToolApplication
             this.pictureBox778.Size = new System.Drawing.Size(32, 32);
             this.pictureBox778.TabIndex = 781;
             this.pictureBox778.TabStop = false;
+            this.pictureBox778.Tag = "Dot";
             // 
             // pictureBox779
             // 
@@ -4195,6 +4265,7 @@ namespace MultiToolApplication
             this.pictureBox779.Size = new System.Drawing.Size(32, 32);
             this.pictureBox779.TabIndex = 780;
             this.pictureBox779.TabStop = false;
+            this.pictureBox779.Tag = "Dot";
             // 
             // pictureBox780
             // 
@@ -4205,11 +4276,12 @@ namespace MultiToolApplication
             this.pictureBox780.Size = new System.Drawing.Size(32, 32);
             this.pictureBox780.TabIndex = 779;
             this.pictureBox780.TabStop = false;
+            this.pictureBox780.Tag = "Dot";
             // 
             // pictureBox781
             // 
-            this.pictureBox781.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox781.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox781.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox781.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox781.Location = new System.Drawing.Point(128, 896);
             this.pictureBox781.Name = "pictureBox781";
             this.pictureBox781.Size = new System.Drawing.Size(32, 32);
@@ -4218,8 +4290,8 @@ namespace MultiToolApplication
             // 
             // pictureBox782
             // 
-            this.pictureBox782.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox782.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox782.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox782.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox782.Location = new System.Drawing.Point(128, 864);
             this.pictureBox782.Name = "pictureBox782";
             this.pictureBox782.Size = new System.Drawing.Size(32, 32);
@@ -4235,11 +4307,12 @@ namespace MultiToolApplication
             this.pictureBox783.Size = new System.Drawing.Size(32, 32);
             this.pictureBox783.TabIndex = 776;
             this.pictureBox783.TabStop = false;
+            this.pictureBox783.Tag = "Dot";
             // 
             // pictureBox784
             // 
-            this.pictureBox784.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox784.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox784.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox784.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox784.Location = new System.Drawing.Point(96, 896);
             this.pictureBox784.Name = "pictureBox784";
             this.pictureBox784.Size = new System.Drawing.Size(32, 32);
@@ -4248,8 +4321,8 @@ namespace MultiToolApplication
             // 
             // pictureBox785
             // 
-            this.pictureBox785.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox785.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox785.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox785.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox785.Location = new System.Drawing.Point(96, 864);
             this.pictureBox785.Name = "pictureBox785";
             this.pictureBox785.Size = new System.Drawing.Size(32, 32);
@@ -4265,11 +4338,12 @@ namespace MultiToolApplication
             this.pictureBox786.Size = new System.Drawing.Size(32, 32);
             this.pictureBox786.TabIndex = 773;
             this.pictureBox786.TabStop = false;
+            this.pictureBox786.Tag = "Dot";
             // 
             // pictureBox787
             // 
-            this.pictureBox787.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox787.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox787.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox787.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox787.Location = new System.Drawing.Point(64, 864);
             this.pictureBox787.Name = "pictureBox787";
             this.pictureBox787.Size = new System.Drawing.Size(32, 32);
@@ -4285,11 +4359,12 @@ namespace MultiToolApplication
             this.pictureBox788.Size = new System.Drawing.Size(32, 32);
             this.pictureBox788.TabIndex = 771;
             this.pictureBox788.TabStop = false;
+            this.pictureBox788.Tag = "Dot";
             // 
             // pictureBox789
             // 
-            this.pictureBox789.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox789.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox789.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox789.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox789.Location = new System.Drawing.Point(64, 896);
             this.pictureBox789.Name = "pictureBox789";
             this.pictureBox789.Size = new System.Drawing.Size(32, 32);
@@ -4298,8 +4373,8 @@ namespace MultiToolApplication
             // 
             // pictureBox758
             // 
-            this.pictureBox758.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox758.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox758.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox758.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox758.Location = new System.Drawing.Point(544, 768);
             this.pictureBox758.Name = "pictureBox758";
             this.pictureBox758.Size = new System.Drawing.Size(32, 32);
@@ -4315,11 +4390,12 @@ namespace MultiToolApplication
             this.pictureBox759.Size = new System.Drawing.Size(32, 32);
             this.pictureBox759.TabIndex = 768;
             this.pictureBox759.TabStop = false;
+            this.pictureBox759.Tag = "Dot";
             // 
             // pictureBox760
             // 
-            this.pictureBox760.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox760.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox760.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox760.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox760.Location = new System.Drawing.Point(544, 800);
             this.pictureBox760.Name = "pictureBox760";
             this.pictureBox760.Size = new System.Drawing.Size(32, 32);
@@ -4328,8 +4404,8 @@ namespace MultiToolApplication
             // 
             // pictureBox761
             // 
-            this.pictureBox761.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox761.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox761.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox761.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox761.Location = new System.Drawing.Point(512, 800);
             this.pictureBox761.Name = "pictureBox761";
             this.pictureBox761.Size = new System.Drawing.Size(32, 32);
@@ -4338,8 +4414,8 @@ namespace MultiToolApplication
             // 
             // pictureBox762
             // 
-            this.pictureBox762.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox762.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox762.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox762.Image = global::MultiToolApplication.Properties.Resources.InsideBottomRightCornerWide32x32;
             this.pictureBox762.Location = new System.Drawing.Point(448, 800);
             this.pictureBox762.Name = "pictureBox762";
             this.pictureBox762.Size = new System.Drawing.Size(32, 32);
@@ -4348,8 +4424,8 @@ namespace MultiToolApplication
             // 
             // pictureBox763
             // 
-            this.pictureBox763.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox763.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox763.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox763.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox763.Location = new System.Drawing.Point(480, 800);
             this.pictureBox763.Name = "pictureBox763";
             this.pictureBox763.Size = new System.Drawing.Size(32, 32);
@@ -4358,8 +4434,8 @@ namespace MultiToolApplication
             // 
             // pictureBox764
             // 
-            this.pictureBox764.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox764.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox764.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox764.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox764.Location = new System.Drawing.Point(544, 704);
             this.pictureBox764.Name = "pictureBox764";
             this.pictureBox764.Size = new System.Drawing.Size(32, 32);
@@ -4368,8 +4444,8 @@ namespace MultiToolApplication
             // 
             // pictureBox765
             // 
-            this.pictureBox765.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox765.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox765.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox765.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox765.Location = new System.Drawing.Point(512, 768);
             this.pictureBox765.Name = "pictureBox765";
             this.pictureBox765.Size = new System.Drawing.Size(32, 32);
@@ -4385,11 +4461,12 @@ namespace MultiToolApplication
             this.pictureBox766.Size = new System.Drawing.Size(32, 32);
             this.pictureBox766.TabIndex = 761;
             this.pictureBox766.TabStop = false;
+            this.pictureBox766.Tag = "Dot";
             // 
             // pictureBox767
             // 
-            this.pictureBox767.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox767.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox767.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox767.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox767.Location = new System.Drawing.Point(512, 704);
             this.pictureBox767.Name = "pictureBox767";
             this.pictureBox767.Size = new System.Drawing.Size(32, 32);
@@ -4398,23 +4475,13 @@ namespace MultiToolApplication
             // 
             // pictureBox768
             // 
-            this.pictureBox768.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox768.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox768.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox768.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox768.Location = new System.Drawing.Point(480, 768);
             this.pictureBox768.Name = "pictureBox768";
             this.pictureBox768.Size = new System.Drawing.Size(32, 32);
             this.pictureBox768.TabIndex = 759;
             this.pictureBox768.TabStop = false;
-            // 
-            // pictureBox769
-            // 
-            this.pictureBox769.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox769.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
-            this.pictureBox769.Location = new System.Drawing.Point(480, 736);
-            this.pictureBox769.Name = "pictureBox769";
-            this.pictureBox769.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox769.TabIndex = 758;
-            this.pictureBox769.TabStop = false;
             // 
             // pictureBox770
             // 
@@ -4425,21 +4492,12 @@ namespace MultiToolApplication
             this.pictureBox770.Size = new System.Drawing.Size(32, 32);
             this.pictureBox770.TabIndex = 757;
             this.pictureBox770.TabStop = false;
-            // 
-            // pictureBox771
-            // 
-            this.pictureBox771.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox771.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox771.Location = new System.Drawing.Point(448, 736);
-            this.pictureBox771.Name = "pictureBox771";
-            this.pictureBox771.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox771.TabIndex = 756;
-            this.pictureBox771.TabStop = false;
+            this.pictureBox770.Tag = "Dot";
             // 
             // pictureBox772
             // 
-            this.pictureBox772.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox772.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox772.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox772.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox772.Location = new System.Drawing.Point(448, 704);
             this.pictureBox772.Name = "pictureBox772";
             this.pictureBox772.Size = new System.Drawing.Size(32, 32);
@@ -4448,8 +4506,8 @@ namespace MultiToolApplication
             // 
             // pictureBox773
             // 
-            this.pictureBox773.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox773.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox773.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox773.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox773.Location = new System.Drawing.Point(448, 768);
             this.pictureBox773.Name = "pictureBox773";
             this.pictureBox773.Size = new System.Drawing.Size(32, 32);
@@ -4458,28 +4516,18 @@ namespace MultiToolApplication
             // 
             // pictureBox742
             // 
-            this.pictureBox742.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox742.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox742.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox742.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox742.Location = new System.Drawing.Point(416, 768);
             this.pictureBox742.Name = "pictureBox742";
             this.pictureBox742.Size = new System.Drawing.Size(32, 32);
             this.pictureBox742.TabIndex = 753;
             this.pictureBox742.TabStop = false;
             // 
-            // pictureBox743
-            // 
-            this.pictureBox743.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox743.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox743.Location = new System.Drawing.Point(416, 736);
-            this.pictureBox743.Name = "pictureBox743";
-            this.pictureBox743.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox743.TabIndex = 752;
-            this.pictureBox743.TabStop = false;
-            // 
             // pictureBox744
             // 
-            this.pictureBox744.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox744.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox744.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox744.Image = global::MultiToolApplication.Properties.Resources.InsideBottomLeftCornerWide32x32;
             this.pictureBox744.Location = new System.Drawing.Point(416, 800);
             this.pictureBox744.Name = "pictureBox744";
             this.pictureBox744.Size = new System.Drawing.Size(32, 32);
@@ -4488,8 +4536,8 @@ namespace MultiToolApplication
             // 
             // pictureBox745
             // 
-            this.pictureBox745.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox745.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox745.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox745.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox745.Location = new System.Drawing.Point(384, 800);
             this.pictureBox745.Name = "pictureBox745";
             this.pictureBox745.Size = new System.Drawing.Size(32, 32);
@@ -4498,8 +4546,8 @@ namespace MultiToolApplication
             // 
             // pictureBox746
             // 
-            this.pictureBox746.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox746.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox746.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox746.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox746.Location = new System.Drawing.Point(320, 800);
             this.pictureBox746.Name = "pictureBox746";
             this.pictureBox746.Size = new System.Drawing.Size(32, 32);
@@ -4508,8 +4556,8 @@ namespace MultiToolApplication
             // 
             // pictureBox747
             // 
-            this.pictureBox747.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox747.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox747.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox747.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox747.Location = new System.Drawing.Point(352, 800);
             this.pictureBox747.Name = "pictureBox747";
             this.pictureBox747.Size = new System.Drawing.Size(32, 32);
@@ -4518,8 +4566,8 @@ namespace MultiToolApplication
             // 
             // pictureBox748
             // 
-            this.pictureBox748.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox748.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox748.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox748.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox748.Location = new System.Drawing.Point(416, 704);
             this.pictureBox748.Name = "pictureBox748";
             this.pictureBox748.Size = new System.Drawing.Size(32, 32);
@@ -4528,8 +4576,8 @@ namespace MultiToolApplication
             // 
             // pictureBox749
             // 
-            this.pictureBox749.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox749.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox749.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox749.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox749.Location = new System.Drawing.Point(384, 768);
             this.pictureBox749.Name = "pictureBox749";
             this.pictureBox749.Size = new System.Drawing.Size(32, 32);
@@ -4545,6 +4593,7 @@ namespace MultiToolApplication
             this.pictureBox750.Size = new System.Drawing.Size(32, 32);
             this.pictureBox750.TabIndex = 745;
             this.pictureBox750.TabStop = false;
+            this.pictureBox750.Tag = "Dot";
             // 
             // pictureBox751
             // 
@@ -4555,11 +4604,12 @@ namespace MultiToolApplication
             this.pictureBox751.Size = new System.Drawing.Size(32, 32);
             this.pictureBox751.TabIndex = 744;
             this.pictureBox751.TabStop = false;
+            this.pictureBox751.Tag = "Dot";
             // 
             // pictureBox752
             // 
-            this.pictureBox752.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox752.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox752.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox752.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox752.Location = new System.Drawing.Point(352, 768);
             this.pictureBox752.Name = "pictureBox752";
             this.pictureBox752.Size = new System.Drawing.Size(32, 32);
@@ -4575,11 +4625,12 @@ namespace MultiToolApplication
             this.pictureBox753.Size = new System.Drawing.Size(32, 32);
             this.pictureBox753.TabIndex = 742;
             this.pictureBox753.TabStop = false;
+            this.pictureBox753.Tag = "Dot";
             // 
             // pictureBox754
             // 
-            this.pictureBox754.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox754.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox754.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox754.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox754.Location = new System.Drawing.Point(352, 704);
             this.pictureBox754.Name = "pictureBox754";
             this.pictureBox754.Size = new System.Drawing.Size(32, 32);
@@ -4595,11 +4646,12 @@ namespace MultiToolApplication
             this.pictureBox755.Size = new System.Drawing.Size(32, 32);
             this.pictureBox755.TabIndex = 740;
             this.pictureBox755.TabStop = false;
+            this.pictureBox755.Tag = "Dot";
             // 
             // pictureBox756
             // 
-            this.pictureBox756.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox756.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox756.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox756.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox756.Location = new System.Drawing.Point(320, 704);
             this.pictureBox756.Name = "pictureBox756";
             this.pictureBox756.Size = new System.Drawing.Size(32, 32);
@@ -4608,8 +4660,8 @@ namespace MultiToolApplication
             // 
             // pictureBox757
             // 
-            this.pictureBox757.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox757.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox757.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox757.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox757.Location = new System.Drawing.Point(320, 768);
             this.pictureBox757.Name = "pictureBox757";
             this.pictureBox757.Size = new System.Drawing.Size(32, 32);
@@ -4618,13 +4670,14 @@ namespace MultiToolApplication
             // 
             // pictureBox726
             // 
-            this.pictureBox726.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox726.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox726.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox726.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox726.Location = new System.Drawing.Point(288, 768);
             this.pictureBox726.Name = "pictureBox726";
             this.pictureBox726.Size = new System.Drawing.Size(32, 32);
             this.pictureBox726.TabIndex = 737;
             this.pictureBox726.TabStop = false;
+            this.pictureBox726.Tag = "Dot";
             // 
             // pictureBox727
             // 
@@ -4635,21 +4688,23 @@ namespace MultiToolApplication
             this.pictureBox727.Size = new System.Drawing.Size(32, 32);
             this.pictureBox727.TabIndex = 736;
             this.pictureBox727.TabStop = false;
+            this.pictureBox727.Tag = "Dot";
             // 
             // pictureBox728
             // 
-            this.pictureBox728.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox728.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox728.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox728.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox728.Location = new System.Drawing.Point(288, 800);
             this.pictureBox728.Name = "pictureBox728";
             this.pictureBox728.Size = new System.Drawing.Size(32, 32);
             this.pictureBox728.TabIndex = 735;
             this.pictureBox728.TabStop = false;
+            this.pictureBox728.Tag = "Dot";
             // 
             // pictureBox729
             // 
             this.pictureBox729.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox729.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox729.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox729.Location = new System.Drawing.Point(256, 800);
             this.pictureBox729.Name = "pictureBox729";
             this.pictureBox729.Size = new System.Drawing.Size(32, 32);
@@ -4665,11 +4720,12 @@ namespace MultiToolApplication
             this.pictureBox730.Size = new System.Drawing.Size(32, 32);
             this.pictureBox730.TabIndex = 733;
             this.pictureBox730.TabStop = false;
+            this.pictureBox730.Tag = "Dot";
             // 
             // pictureBox731
             // 
-            this.pictureBox731.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox731.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox731.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox731.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox731.Location = new System.Drawing.Point(224, 800);
             this.pictureBox731.Name = "pictureBox731";
             this.pictureBox731.Size = new System.Drawing.Size(32, 32);
@@ -4678,8 +4734,8 @@ namespace MultiToolApplication
             // 
             // pictureBox732
             // 
-            this.pictureBox732.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox732.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox732.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox732.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox732.Location = new System.Drawing.Point(288, 704);
             this.pictureBox732.Name = "pictureBox732";
             this.pictureBox732.Size = new System.Drawing.Size(32, 32);
@@ -4689,7 +4745,7 @@ namespace MultiToolApplication
             // pictureBox733
             // 
             this.pictureBox733.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox733.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox733.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox733.Location = new System.Drawing.Point(256, 768);
             this.pictureBox733.Name = "pictureBox733";
             this.pictureBox733.Size = new System.Drawing.Size(32, 32);
@@ -4705,11 +4761,12 @@ namespace MultiToolApplication
             this.pictureBox734.Size = new System.Drawing.Size(32, 32);
             this.pictureBox734.TabIndex = 729;
             this.pictureBox734.TabStop = false;
+            this.pictureBox734.Tag = "Dot";
             // 
             // pictureBox735
             // 
-            this.pictureBox735.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox735.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox735.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox735.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox735.Location = new System.Drawing.Point(256, 704);
             this.pictureBox735.Name = "pictureBox735";
             this.pictureBox735.Size = new System.Drawing.Size(32, 32);
@@ -4718,8 +4775,8 @@ namespace MultiToolApplication
             // 
             // pictureBox736
             // 
-            this.pictureBox736.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox736.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox736.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox736.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox736.Location = new System.Drawing.Point(224, 768);
             this.pictureBox736.Name = "pictureBox736";
             this.pictureBox736.Size = new System.Drawing.Size(32, 32);
@@ -4735,11 +4792,12 @@ namespace MultiToolApplication
             this.pictureBox737.Size = new System.Drawing.Size(32, 32);
             this.pictureBox737.TabIndex = 726;
             this.pictureBox737.TabStop = false;
+            this.pictureBox737.Tag = "Dot";
             // 
             // pictureBox738
             // 
-            this.pictureBox738.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox738.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox738.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox738.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox738.Location = new System.Drawing.Point(224, 704);
             this.pictureBox738.Name = "pictureBox738";
             this.pictureBox738.Size = new System.Drawing.Size(32, 32);
@@ -4755,6 +4813,7 @@ namespace MultiToolApplication
             this.pictureBox739.Size = new System.Drawing.Size(32, 32);
             this.pictureBox739.TabIndex = 724;
             this.pictureBox739.TabStop = false;
+            this.pictureBox739.Tag = "Dot";
             // 
             // pictureBox740
             // 
@@ -4765,6 +4824,7 @@ namespace MultiToolApplication
             this.pictureBox740.Size = new System.Drawing.Size(32, 32);
             this.pictureBox740.TabIndex = 723;
             this.pictureBox740.TabStop = false;
+            this.pictureBox740.Tag = "Dot";
             // 
             // pictureBox741
             // 
@@ -4775,11 +4835,12 @@ namespace MultiToolApplication
             this.pictureBox741.Size = new System.Drawing.Size(32, 32);
             this.pictureBox741.TabIndex = 722;
             this.pictureBox741.TabStop = false;
+            this.pictureBox741.Tag = "Dot";
             // 
             // pictureBox710
             // 
-            this.pictureBox710.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox710.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox710.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox710.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox710.Location = new System.Drawing.Point(160, 768);
             this.pictureBox710.Name = "pictureBox710";
             this.pictureBox710.Size = new System.Drawing.Size(32, 32);
@@ -4788,8 +4849,8 @@ namespace MultiToolApplication
             // 
             // pictureBox711
             // 
-            this.pictureBox711.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox711.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox711.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox711.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox711.Location = new System.Drawing.Point(160, 736);
             this.pictureBox711.Name = "pictureBox711";
             this.pictureBox711.Size = new System.Drawing.Size(32, 32);
@@ -4798,8 +4859,8 @@ namespace MultiToolApplication
             // 
             // pictureBox712
             // 
-            this.pictureBox712.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox712.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox712.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox712.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox712.Location = new System.Drawing.Point(160, 800);
             this.pictureBox712.Name = "pictureBox712";
             this.pictureBox712.Size = new System.Drawing.Size(32, 32);
@@ -4808,8 +4869,8 @@ namespace MultiToolApplication
             // 
             // pictureBox713
             // 
-            this.pictureBox713.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox713.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox713.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox713.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox713.Location = new System.Drawing.Point(128, 800);
             this.pictureBox713.Name = "pictureBox713";
             this.pictureBox713.Size = new System.Drawing.Size(32, 32);
@@ -4818,8 +4879,8 @@ namespace MultiToolApplication
             // 
             // pictureBox714
             // 
-            this.pictureBox714.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox714.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox714.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox714.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox714.Location = new System.Drawing.Point(64, 800);
             this.pictureBox714.Name = "pictureBox714";
             this.pictureBox714.Size = new System.Drawing.Size(32, 32);
@@ -4835,11 +4896,12 @@ namespace MultiToolApplication
             this.pictureBox715.Size = new System.Drawing.Size(32, 32);
             this.pictureBox715.TabIndex = 716;
             this.pictureBox715.TabStop = false;
+            this.pictureBox715.Tag = "Dot";
             // 
             // pictureBox716
             // 
-            this.pictureBox716.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox716.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox716.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox716.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox716.Location = new System.Drawing.Point(160, 704);
             this.pictureBox716.Name = "pictureBox716";
             this.pictureBox716.Size = new System.Drawing.Size(32, 32);
@@ -4848,8 +4910,8 @@ namespace MultiToolApplication
             // 
             // pictureBox717
             // 
-            this.pictureBox717.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox717.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox717.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox717.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox717.Location = new System.Drawing.Point(128, 768);
             this.pictureBox717.Name = "pictureBox717";
             this.pictureBox717.Size = new System.Drawing.Size(32, 32);
@@ -4858,8 +4920,8 @@ namespace MultiToolApplication
             // 
             // pictureBox718
             // 
-            this.pictureBox718.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox718.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox718.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox718.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox718.Location = new System.Drawing.Point(128, 736);
             this.pictureBox718.Name = "pictureBox718";
             this.pictureBox718.Size = new System.Drawing.Size(32, 32);
@@ -4868,8 +4930,8 @@ namespace MultiToolApplication
             // 
             // pictureBox719
             // 
-            this.pictureBox719.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox719.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox719.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox719.Image = global::MultiToolApplication.Properties.Resources.InsideBottomLeftCornerWide32x32;
             this.pictureBox719.Location = new System.Drawing.Point(128, 704);
             this.pictureBox719.Name = "pictureBox719";
             this.pictureBox719.Size = new System.Drawing.Size(32, 32);
@@ -4885,6 +4947,7 @@ namespace MultiToolApplication
             this.pictureBox720.Size = new System.Drawing.Size(32, 32);
             this.pictureBox720.TabIndex = 711;
             this.pictureBox720.TabStop = false;
+            this.pictureBox720.Tag = "Dot";
             // 
             // pictureBox721
             // 
@@ -4895,11 +4958,12 @@ namespace MultiToolApplication
             this.pictureBox721.Size = new System.Drawing.Size(32, 32);
             this.pictureBox721.TabIndex = 710;
             this.pictureBox721.TabStop = false;
+            this.pictureBox721.Tag = "Dot";
             // 
             // pictureBox722
             // 
-            this.pictureBox722.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox722.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox722.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox722.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox722.Location = new System.Drawing.Point(96, 704);
             this.pictureBox722.Name = "pictureBox722";
             this.pictureBox722.Size = new System.Drawing.Size(32, 32);
@@ -4915,11 +4979,12 @@ namespace MultiToolApplication
             this.pictureBox723.Size = new System.Drawing.Size(32, 32);
             this.pictureBox723.TabIndex = 708;
             this.pictureBox723.TabStop = false;
+            this.pictureBox723.Tag = "Dot";
             // 
             // pictureBox724
             // 
-            this.pictureBox724.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox724.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox724.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox724.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox724.Location = new System.Drawing.Point(64, 704);
             this.pictureBox724.Name = "pictureBox724";
             this.pictureBox724.Size = new System.Drawing.Size(32, 32);
@@ -4928,8 +4993,8 @@ namespace MultiToolApplication
             // 
             // pictureBox725
             // 
-            this.pictureBox725.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox725.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox725.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox725.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox725.Location = new System.Drawing.Point(64, 768);
             this.pictureBox725.Name = "pictureBox725";
             this.pictureBox725.Size = new System.Drawing.Size(32, 32);
@@ -4938,8 +5003,8 @@ namespace MultiToolApplication
             // 
             // pictureBox694
             // 
-            this.pictureBox694.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox694.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox694.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox694.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox694.Location = new System.Drawing.Point(416, 640);
             this.pictureBox694.Name = "pictureBox694";
             this.pictureBox694.Size = new System.Drawing.Size(32, 32);
@@ -4948,8 +5013,8 @@ namespace MultiToolApplication
             // 
             // pictureBox695
             // 
-            this.pictureBox695.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox695.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox695.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox695.Image = global::MultiToolApplication.Properties.Resources.InsideBottomLeftCornerWide32x32;
             this.pictureBox695.Location = new System.Drawing.Point(416, 608);
             this.pictureBox695.Name = "pictureBox695";
             this.pictureBox695.Size = new System.Drawing.Size(32, 32);
@@ -4958,8 +5023,8 @@ namespace MultiToolApplication
             // 
             // pictureBox696
             // 
-            this.pictureBox696.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox696.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox696.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox696.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox696.Location = new System.Drawing.Point(416, 672);
             this.pictureBox696.Name = "pictureBox696";
             this.pictureBox696.Size = new System.Drawing.Size(32, 32);
@@ -4975,11 +5040,12 @@ namespace MultiToolApplication
             this.pictureBox697.Size = new System.Drawing.Size(32, 32);
             this.pictureBox697.TabIndex = 702;
             this.pictureBox697.TabStop = false;
+            this.pictureBox697.Tag = "Dot";
             // 
             // pictureBox698
             // 
-            this.pictureBox698.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox698.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox698.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox698.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox698.Location = new System.Drawing.Point(320, 672);
             this.pictureBox698.Name = "pictureBox698";
             this.pictureBox698.Size = new System.Drawing.Size(32, 32);
@@ -4988,8 +5054,8 @@ namespace MultiToolApplication
             // 
             // pictureBox699
             // 
-            this.pictureBox699.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox699.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox699.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox699.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox699.Location = new System.Drawing.Point(352, 672);
             this.pictureBox699.Name = "pictureBox699";
             this.pictureBox699.Size = new System.Drawing.Size(32, 32);
@@ -4998,8 +5064,8 @@ namespace MultiToolApplication
             // 
             // pictureBox700
             // 
-            this.pictureBox700.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox700.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox700.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox700.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox700.Location = new System.Drawing.Point(416, 576);
             this.pictureBox700.Name = "pictureBox700";
             this.pictureBox700.Size = new System.Drawing.Size(32, 32);
@@ -5015,11 +5081,12 @@ namespace MultiToolApplication
             this.pictureBox701.Size = new System.Drawing.Size(32, 32);
             this.pictureBox701.TabIndex = 698;
             this.pictureBox701.TabStop = false;
+            this.pictureBox701.Tag = "Dot";
             // 
             // pictureBox702
             // 
-            this.pictureBox702.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox702.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox702.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox702.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox702.Location = new System.Drawing.Point(384, 608);
             this.pictureBox702.Name = "pictureBox702";
             this.pictureBox702.Size = new System.Drawing.Size(32, 32);
@@ -5028,8 +5095,8 @@ namespace MultiToolApplication
             // 
             // pictureBox703
             // 
-            this.pictureBox703.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox703.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox703.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox703.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox703.Location = new System.Drawing.Point(384, 576);
             this.pictureBox703.Name = "pictureBox703";
             this.pictureBox703.Size = new System.Drawing.Size(32, 32);
@@ -5045,11 +5112,12 @@ namespace MultiToolApplication
             this.pictureBox704.Size = new System.Drawing.Size(32, 32);
             this.pictureBox704.TabIndex = 695;
             this.pictureBox704.TabStop = false;
+            this.pictureBox704.Tag = "Dot";
             // 
             // pictureBox705
             // 
-            this.pictureBox705.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox705.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox705.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox705.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox705.Location = new System.Drawing.Point(352, 608);
             this.pictureBox705.Name = "pictureBox705";
             this.pictureBox705.Size = new System.Drawing.Size(32, 32);
@@ -5058,8 +5126,8 @@ namespace MultiToolApplication
             // 
             // pictureBox706
             // 
-            this.pictureBox706.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox706.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox706.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox706.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox706.Location = new System.Drawing.Point(352, 576);
             this.pictureBox706.Name = "pictureBox706";
             this.pictureBox706.Size = new System.Drawing.Size(32, 32);
@@ -5068,8 +5136,8 @@ namespace MultiToolApplication
             // 
             // pictureBox707
             // 
-            this.pictureBox707.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox707.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox707.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox707.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox707.Location = new System.Drawing.Point(320, 608);
             this.pictureBox707.Name = "pictureBox707";
             this.pictureBox707.Size = new System.Drawing.Size(32, 32);
@@ -5078,8 +5146,8 @@ namespace MultiToolApplication
             // 
             // pictureBox708
             // 
-            this.pictureBox708.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox708.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox708.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox708.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox708.Location = new System.Drawing.Point(320, 576);
             this.pictureBox708.Name = "pictureBox708";
             this.pictureBox708.Size = new System.Drawing.Size(32, 32);
@@ -5095,6 +5163,7 @@ namespace MultiToolApplication
             this.pictureBox709.Size = new System.Drawing.Size(32, 32);
             this.pictureBox709.TabIndex = 690;
             this.pictureBox709.TabStop = false;
+            this.pictureBox709.Tag = "Dot";
             // 
             // pictureBox678
             // 
@@ -5105,11 +5174,11 @@ namespace MultiToolApplication
             this.pictureBox678.Size = new System.Drawing.Size(32, 32);
             this.pictureBox678.TabIndex = 689;
             this.pictureBox678.TabStop = false;
+            this.pictureBox678.Tag = "Dot";
             // 
             // pictureBox679
             // 
-            this.pictureBox679.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox679.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox679.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox679.Location = new System.Drawing.Point(288, 608);
             this.pictureBox679.Name = "pictureBox679";
             this.pictureBox679.Size = new System.Drawing.Size(32, 32);
@@ -5118,8 +5187,8 @@ namespace MultiToolApplication
             // 
             // pictureBox680
             // 
-            this.pictureBox680.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox680.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox680.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox680.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox680.Location = new System.Drawing.Point(288, 672);
             this.pictureBox680.Name = "pictureBox680";
             this.pictureBox680.Size = new System.Drawing.Size(32, 32);
@@ -5128,8 +5197,8 @@ namespace MultiToolApplication
             // 
             // pictureBox681
             // 
-            this.pictureBox681.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox681.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox681.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox681.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox681.Location = new System.Drawing.Point(256, 672);
             this.pictureBox681.Name = "pictureBox681";
             this.pictureBox681.Size = new System.Drawing.Size(32, 32);
@@ -5145,11 +5214,12 @@ namespace MultiToolApplication
             this.pictureBox682.Size = new System.Drawing.Size(32, 32);
             this.pictureBox682.TabIndex = 685;
             this.pictureBox682.TabStop = false;
+            this.pictureBox682.Tag = "Dot";
             // 
             // pictureBox683
             // 
-            this.pictureBox683.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox683.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox683.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox683.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox683.Location = new System.Drawing.Point(224, 672);
             this.pictureBox683.Name = "pictureBox683";
             this.pictureBox683.Size = new System.Drawing.Size(32, 32);
@@ -5158,8 +5228,7 @@ namespace MultiToolApplication
             // 
             // pictureBox684
             // 
-            this.pictureBox684.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox684.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox684.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox684.Location = new System.Drawing.Point(288, 576);
             this.pictureBox684.Name = "pictureBox684";
             this.pictureBox684.Size = new System.Drawing.Size(32, 32);
@@ -5175,11 +5244,12 @@ namespace MultiToolApplication
             this.pictureBox685.Size = new System.Drawing.Size(32, 32);
             this.pictureBox685.TabIndex = 682;
             this.pictureBox685.TabStop = false;
+            this.pictureBox685.Tag = "Dot";
             // 
             // pictureBox686
             // 
-            this.pictureBox686.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox686.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox686.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox686.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox686.Location = new System.Drawing.Point(256, 608);
             this.pictureBox686.Name = "pictureBox686";
             this.pictureBox686.Size = new System.Drawing.Size(32, 32);
@@ -5188,8 +5258,8 @@ namespace MultiToolApplication
             // 
             // pictureBox687
             // 
-            this.pictureBox687.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox687.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox687.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox687.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox687.Location = new System.Drawing.Point(256, 576);
             this.pictureBox687.Name = "pictureBox687";
             this.pictureBox687.Size = new System.Drawing.Size(32, 32);
@@ -5205,11 +5275,12 @@ namespace MultiToolApplication
             this.pictureBox688.Size = new System.Drawing.Size(32, 32);
             this.pictureBox688.TabIndex = 679;
             this.pictureBox688.TabStop = false;
+            this.pictureBox688.Tag = "Dot";
             // 
             // pictureBox689
             // 
-            this.pictureBox689.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox689.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox689.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox689.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox689.Location = new System.Drawing.Point(224, 608);
             this.pictureBox689.Name = "pictureBox689";
             this.pictureBox689.Size = new System.Drawing.Size(32, 32);
@@ -5218,8 +5289,8 @@ namespace MultiToolApplication
             // 
             // pictureBox690
             // 
-            this.pictureBox690.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox690.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox690.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox690.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox690.Location = new System.Drawing.Point(224, 576);
             this.pictureBox690.Name = "pictureBox690";
             this.pictureBox690.Size = new System.Drawing.Size(32, 32);
@@ -5235,6 +5306,7 @@ namespace MultiToolApplication
             this.pictureBox691.Size = new System.Drawing.Size(32, 32);
             this.pictureBox691.TabIndex = 676;
             this.pictureBox691.TabStop = false;
+            this.pictureBox691.Tag = "Dot";
             // 
             // pictureBox692
             // 
@@ -5245,6 +5317,7 @@ namespace MultiToolApplication
             this.pictureBox692.Size = new System.Drawing.Size(32, 32);
             this.pictureBox692.TabIndex = 675;
             this.pictureBox692.TabStop = false;
+            this.pictureBox692.Tag = "Dot";
             // 
             // pictureBox693
             // 
@@ -5255,6 +5328,7 @@ namespace MultiToolApplication
             this.pictureBox693.Size = new System.Drawing.Size(32, 32);
             this.pictureBox693.TabIndex = 674;
             this.pictureBox693.TabStop = false;
+            this.pictureBox693.Tag = "Dot";
             // 
             // pictureBox662
             // 
@@ -5265,11 +5339,12 @@ namespace MultiToolApplication
             this.pictureBox662.Size = new System.Drawing.Size(32, 32);
             this.pictureBox662.TabIndex = 673;
             this.pictureBox662.TabStop = false;
+            this.pictureBox662.Tag = "Dot";
             // 
             // pictureBox663
             // 
-            this.pictureBox663.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox663.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox663.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox663.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox663.Location = new System.Drawing.Point(160, 608);
             this.pictureBox663.Name = "pictureBox663";
             this.pictureBox663.Size = new System.Drawing.Size(32, 32);
@@ -5278,8 +5353,8 @@ namespace MultiToolApplication
             // 
             // pictureBox664
             // 
-            this.pictureBox664.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox664.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox664.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox664.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox664.Location = new System.Drawing.Point(160, 672);
             this.pictureBox664.Name = "pictureBox664";
             this.pictureBox664.Size = new System.Drawing.Size(32, 32);
@@ -5288,8 +5363,8 @@ namespace MultiToolApplication
             // 
             // pictureBox665
             // 
-            this.pictureBox665.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox665.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox665.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox665.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox665.Location = new System.Drawing.Point(128, 672);
             this.pictureBox665.Name = "pictureBox665";
             this.pictureBox665.Size = new System.Drawing.Size(32, 32);
@@ -5298,8 +5373,8 @@ namespace MultiToolApplication
             // 
             // pictureBox666
             // 
-            this.pictureBox666.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox666.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox666.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox666.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox666.Location = new System.Drawing.Point(64, 672);
             this.pictureBox666.Name = "pictureBox666";
             this.pictureBox666.Size = new System.Drawing.Size(32, 32);
@@ -5308,8 +5383,8 @@ namespace MultiToolApplication
             // 
             // pictureBox667
             // 
-            this.pictureBox667.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox667.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox667.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox667.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox667.Location = new System.Drawing.Point(96, 672);
             this.pictureBox667.Name = "pictureBox667";
             this.pictureBox667.Size = new System.Drawing.Size(32, 32);
@@ -5318,8 +5393,8 @@ namespace MultiToolApplication
             // 
             // pictureBox668
             // 
-            this.pictureBox668.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox668.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox668.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox668.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox668.Location = new System.Drawing.Point(160, 576);
             this.pictureBox668.Name = "pictureBox668";
             this.pictureBox668.Size = new System.Drawing.Size(32, 32);
@@ -5335,11 +5410,12 @@ namespace MultiToolApplication
             this.pictureBox669.Size = new System.Drawing.Size(32, 32);
             this.pictureBox669.TabIndex = 666;
             this.pictureBox669.TabStop = false;
+            this.pictureBox669.Tag = "Dot";
             // 
             // pictureBox670
             // 
-            this.pictureBox670.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox670.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox670.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox670.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox670.Location = new System.Drawing.Point(128, 608);
             this.pictureBox670.Name = "pictureBox670";
             this.pictureBox670.Size = new System.Drawing.Size(32, 32);
@@ -5355,11 +5431,12 @@ namespace MultiToolApplication
             this.pictureBox672.Size = new System.Drawing.Size(32, 32);
             this.pictureBox672.TabIndex = 663;
             this.pictureBox672.TabStop = false;
+            this.pictureBox672.Tag = "Dot";
             // 
             // pictureBox673
             // 
-            this.pictureBox673.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox673.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox673.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox673.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox673.Location = new System.Drawing.Point(96, 608);
             this.pictureBox673.Name = "pictureBox673";
             this.pictureBox673.Size = new System.Drawing.Size(32, 32);
@@ -5368,8 +5445,8 @@ namespace MultiToolApplication
             // 
             // pictureBox675
             // 
-            this.pictureBox675.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox675.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox675.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox675.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox675.Location = new System.Drawing.Point(64, 608);
             this.pictureBox675.Name = "pictureBox675";
             this.pictureBox675.Size = new System.Drawing.Size(32, 32);
@@ -5385,11 +5462,12 @@ namespace MultiToolApplication
             this.pictureBox677.Size = new System.Drawing.Size(32, 32);
             this.pictureBox677.TabIndex = 658;
             this.pictureBox677.TabStop = false;
+            this.pictureBox677.Tag = "Dot";
             // 
             // pictureBox646
             // 
-            this.pictureBox646.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox646.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox646.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox646.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox646.Location = new System.Drawing.Point(864, 640);
             this.pictureBox646.Name = "pictureBox646";
             this.pictureBox646.Size = new System.Drawing.Size(32, 32);
@@ -5398,8 +5476,8 @@ namespace MultiToolApplication
             // 
             // pictureBox647
             // 
-            this.pictureBox647.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox647.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox647.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox647.Image = global::MultiToolApplication.Properties.Resources.OutsideTopRightCorner32x32;
             this.pictureBox647.Location = new System.Drawing.Point(864, 608);
             this.pictureBox647.Name = "pictureBox647";
             this.pictureBox647.Size = new System.Drawing.Size(32, 32);
@@ -5408,8 +5486,8 @@ namespace MultiToolApplication
             // 
             // pictureBox648
             // 
-            this.pictureBox648.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox648.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox648.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox648.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox648.Location = new System.Drawing.Point(864, 672);
             this.pictureBox648.Name = "pictureBox648";
             this.pictureBox648.Size = new System.Drawing.Size(32, 32);
@@ -5425,11 +5503,12 @@ namespace MultiToolApplication
             this.pictureBox649.Size = new System.Drawing.Size(32, 32);
             this.pictureBox649.TabIndex = 654;
             this.pictureBox649.TabStop = false;
+            this.pictureBox649.Tag = "Dot";
             // 
             // pictureBox650
             // 
-            this.pictureBox650.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox650.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox650.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox650.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox650.Location = new System.Drawing.Point(768, 672);
             this.pictureBox650.Name = "pictureBox650";
             this.pictureBox650.Size = new System.Drawing.Size(32, 32);
@@ -5438,8 +5517,8 @@ namespace MultiToolApplication
             // 
             // pictureBox651
             // 
-            this.pictureBox651.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox651.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox651.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox651.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox651.Location = new System.Drawing.Point(800, 672);
             this.pictureBox651.Name = "pictureBox651";
             this.pictureBox651.Size = new System.Drawing.Size(32, 32);
@@ -5455,11 +5534,12 @@ namespace MultiToolApplication
             this.pictureBox653.Size = new System.Drawing.Size(32, 32);
             this.pictureBox653.TabIndex = 650;
             this.pictureBox653.TabStop = false;
+            this.pictureBox653.Tag = "Dot";
             // 
             // pictureBox654
             // 
-            this.pictureBox654.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox654.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox654.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox654.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox654.Location = new System.Drawing.Point(832, 608);
             this.pictureBox654.Name = "pictureBox654";
             this.pictureBox654.Size = new System.Drawing.Size(32, 32);
@@ -5475,11 +5555,12 @@ namespace MultiToolApplication
             this.pictureBox656.Size = new System.Drawing.Size(32, 32);
             this.pictureBox656.TabIndex = 647;
             this.pictureBox656.TabStop = false;
+            this.pictureBox656.Tag = "Dot";
             // 
             // pictureBox657
             // 
-            this.pictureBox657.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox657.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox657.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox657.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox657.Location = new System.Drawing.Point(800, 608);
             this.pictureBox657.Name = "pictureBox657";
             this.pictureBox657.Size = new System.Drawing.Size(32, 32);
@@ -5488,8 +5569,8 @@ namespace MultiToolApplication
             // 
             // pictureBox659
             // 
-            this.pictureBox659.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox659.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox659.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox659.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox659.Location = new System.Drawing.Point(768, 608);
             this.pictureBox659.Name = "pictureBox659";
             this.pictureBox659.Size = new System.Drawing.Size(32, 32);
@@ -5505,11 +5586,12 @@ namespace MultiToolApplication
             this.pictureBox661.Size = new System.Drawing.Size(32, 32);
             this.pictureBox661.TabIndex = 642;
             this.pictureBox661.TabStop = false;
+            this.pictureBox661.Tag = "Dot";
             // 
             // pictureBox643
             // 
-            this.pictureBox643.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox643.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox643.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox643.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox643.Location = new System.Drawing.Point(864, 480);
             this.pictureBox643.Name = "pictureBox643";
             this.pictureBox643.Size = new System.Drawing.Size(32, 32);
@@ -5518,8 +5600,8 @@ namespace MultiToolApplication
             // 
             // pictureBox641
             // 
-            this.pictureBox641.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox641.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox641.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox641.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox641.Location = new System.Drawing.Point(704, 544);
             this.pictureBox641.Name = "pictureBox641";
             this.pictureBox641.Size = new System.Drawing.Size(32, 32);
@@ -5528,8 +5610,7 @@ namespace MultiToolApplication
             // 
             // pictureBox634
             // 
-            this.pictureBox634.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox634.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox634.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox634.Location = new System.Drawing.Point(352, 544);
             this.pictureBox634.Name = "pictureBox634";
             this.pictureBox634.Size = new System.Drawing.Size(32, 32);
@@ -5538,8 +5619,7 @@ namespace MultiToolApplication
             // 
             // pictureBox635
             // 
-            this.pictureBox635.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox635.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox635.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox635.Location = new System.Drawing.Point(320, 544);
             this.pictureBox635.Name = "pictureBox635";
             this.pictureBox635.Size = new System.Drawing.Size(32, 32);
@@ -5548,8 +5628,8 @@ namespace MultiToolApplication
             // 
             // pictureBox636
             // 
-            this.pictureBox636.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox636.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox636.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox636.Image = global::MultiToolApplication.Properties.Resources.TopRightCornerGhostBox32x32;
             this.pictureBox636.Location = new System.Drawing.Point(320, 512);
             this.pictureBox636.Name = "pictureBox636";
             this.pictureBox636.Size = new System.Drawing.Size(32, 32);
@@ -5558,8 +5638,7 @@ namespace MultiToolApplication
             // 
             // pictureBox637
             // 
-            this.pictureBox637.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox637.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox637.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox637.Location = new System.Drawing.Point(416, 544);
             this.pictureBox637.Name = "pictureBox637";
             this.pictureBox637.Size = new System.Drawing.Size(32, 32);
@@ -5568,8 +5647,7 @@ namespace MultiToolApplication
             // 
             // pictureBox638
             // 
-            this.pictureBox638.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox638.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox638.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox638.Location = new System.Drawing.Point(384, 544);
             this.pictureBox638.Name = "pictureBox638";
             this.pictureBox638.Size = new System.Drawing.Size(32, 32);
@@ -5578,8 +5656,8 @@ namespace MultiToolApplication
             // 
             // pictureBox639
             // 
-            this.pictureBox639.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox639.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox639.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox639.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox639.Location = new System.Drawing.Point(384, 512);
             this.pictureBox639.Name = "pictureBox639";
             this.pictureBox639.Size = new System.Drawing.Size(32, 32);
@@ -5588,8 +5666,8 @@ namespace MultiToolApplication
             // 
             // pictureBox640
             // 
-            this.pictureBox640.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox640.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox640.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox640.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox640.Location = new System.Drawing.Point(352, 512);
             this.pictureBox640.Name = "pictureBox640";
             this.pictureBox640.Size = new System.Drawing.Size(32, 32);
@@ -5598,8 +5676,8 @@ namespace MultiToolApplication
             // 
             // pictureBox623
             // 
-            this.pictureBox623.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox623.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox623.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox623.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox623.Location = new System.Drawing.Point(256, 512);
             this.pictureBox623.Name = "pictureBox623";
             this.pictureBox623.Size = new System.Drawing.Size(32, 32);
@@ -5608,8 +5686,8 @@ namespace MultiToolApplication
             // 
             // pictureBox624
             // 
-            this.pictureBox624.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox624.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox624.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox624.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox624.Location = new System.Drawing.Point(224, 512);
             this.pictureBox624.Name = "pictureBox624";
             this.pictureBox624.Size = new System.Drawing.Size(32, 32);
@@ -5618,8 +5696,8 @@ namespace MultiToolApplication
             // 
             // pictureBox625
             // 
-            this.pictureBox625.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox625.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox625.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox625.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox625.Location = new System.Drawing.Point(256, 544);
             this.pictureBox625.Name = "pictureBox625";
             this.pictureBox625.Size = new System.Drawing.Size(32, 32);
@@ -5628,8 +5706,8 @@ namespace MultiToolApplication
             // 
             // pictureBox626
             // 
-            this.pictureBox626.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox626.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox626.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox626.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox626.Location = new System.Drawing.Point(224, 544);
             this.pictureBox626.Name = "pictureBox626";
             this.pictureBox626.Size = new System.Drawing.Size(32, 32);
@@ -5638,8 +5716,7 @@ namespace MultiToolApplication
             // 
             // pictureBox627
             // 
-            this.pictureBox627.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox627.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox627.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox627.Location = new System.Drawing.Point(288, 544);
             this.pictureBox627.Name = "pictureBox627";
             this.pictureBox627.Size = new System.Drawing.Size(32, 32);
@@ -5655,6 +5732,7 @@ namespace MultiToolApplication
             this.pictureBox628.Size = new System.Drawing.Size(32, 32);
             this.pictureBox628.TabIndex = 624;
             this.pictureBox628.TabStop = false;
+            this.pictureBox628.Tag = "Dot";
             // 
             // pictureBox629
             // 
@@ -5665,11 +5743,12 @@ namespace MultiToolApplication
             this.pictureBox629.Size = new System.Drawing.Size(32, 32);
             this.pictureBox629.TabIndex = 623;
             this.pictureBox629.TabStop = false;
+            this.pictureBox629.Tag = "Dot";
             // 
             // pictureBox630
             // 
-            this.pictureBox630.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox630.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox630.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox630.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox630.Location = new System.Drawing.Point(160, 544);
             this.pictureBox630.Name = "pictureBox630";
             this.pictureBox630.Size = new System.Drawing.Size(32, 32);
@@ -5678,8 +5757,8 @@ namespace MultiToolApplication
             // 
             // pictureBox631
             // 
-            this.pictureBox631.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox631.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox631.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox631.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox631.Location = new System.Drawing.Point(160, 512);
             this.pictureBox631.Name = "pictureBox631";
             this.pictureBox631.Size = new System.Drawing.Size(32, 32);
@@ -5688,8 +5767,7 @@ namespace MultiToolApplication
             // 
             // pictureBox633
             // 
-            this.pictureBox633.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox633.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox633.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox633.Location = new System.Drawing.Point(288, 512);
             this.pictureBox633.Name = "pictureBox633";
             this.pictureBox633.Size = new System.Drawing.Size(32, 32);
@@ -5698,8 +5776,8 @@ namespace MultiToolApplication
             // 
             // pictureBox621
             // 
-            this.pictureBox621.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox621.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox621.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox621.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox621.Location = new System.Drawing.Point(160, 288);
             this.pictureBox621.Name = "pictureBox621";
             this.pictureBox621.Size = new System.Drawing.Size(32, 32);
@@ -5708,8 +5786,7 @@ namespace MultiToolApplication
             // 
             // pictureBox620
             // 
-            this.pictureBox620.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox620.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox620.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox620.Location = new System.Drawing.Point(448, 384);
             this.pictureBox620.Name = "pictureBox620";
             this.pictureBox620.Size = new System.Drawing.Size(32, 32);
@@ -5725,11 +5802,12 @@ namespace MultiToolApplication
             this.pictureBox618.Size = new System.Drawing.Size(32, 32);
             this.pictureBox618.TabIndex = 615;
             this.pictureBox618.TabStop = false;
+            this.pictureBox618.Tag = "Dot";
             // 
             // pictureBox619
             // 
-            this.pictureBox619.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox619.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox619.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox619.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox619.Location = new System.Drawing.Point(160, 320);
             this.pictureBox619.Name = "pictureBox619";
             this.pictureBox619.Size = new System.Drawing.Size(32, 32);
@@ -5745,6 +5823,7 @@ namespace MultiToolApplication
             this.pictureBox616.Size = new System.Drawing.Size(32, 32);
             this.pictureBox616.TabIndex = 613;
             this.pictureBox616.TabStop = false;
+            this.pictureBox616.Tag = "Dot";
             // 
             // pictureBox617
             // 
@@ -5755,11 +5834,12 @@ namespace MultiToolApplication
             this.pictureBox617.Size = new System.Drawing.Size(32, 32);
             this.pictureBox617.TabIndex = 612;
             this.pictureBox617.TabStop = false;
+            this.pictureBox617.Tag = "Dot";
             // 
             // pictureBox613
             // 
-            this.pictureBox613.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox613.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox613.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox613.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox613.Location = new System.Drawing.Point(224, 384);
             this.pictureBox613.Name = "pictureBox613";
             this.pictureBox613.Size = new System.Drawing.Size(32, 32);
@@ -5775,11 +5855,12 @@ namespace MultiToolApplication
             this.pictureBox614.Size = new System.Drawing.Size(32, 32);
             this.pictureBox614.TabIndex = 610;
             this.pictureBox614.TabStop = false;
+            this.pictureBox614.Tag = "Dot";
             // 
             // pictureBox615
             // 
-            this.pictureBox615.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox615.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox615.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox615.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox615.Location = new System.Drawing.Point(160, 384);
             this.pictureBox615.Name = "pictureBox615";
             this.pictureBox615.Size = new System.Drawing.Size(32, 32);
@@ -5788,8 +5869,7 @@ namespace MultiToolApplication
             // 
             // pictureBox610
             // 
-            this.pictureBox610.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox610.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox610.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox610.Location = new System.Drawing.Point(224, 448);
             this.pictureBox610.Name = "pictureBox610";
             this.pictureBox610.Size = new System.Drawing.Size(32, 32);
@@ -5805,11 +5885,11 @@ namespace MultiToolApplication
             this.pictureBox611.Size = new System.Drawing.Size(32, 32);
             this.pictureBox611.TabIndex = 607;
             this.pictureBox611.TabStop = false;
+            this.pictureBox611.Tag = "Dot";
             // 
             // pictureBox612
             // 
-            this.pictureBox612.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox612.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox612.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox612.Location = new System.Drawing.Point(160, 448);
             this.pictureBox612.Name = "pictureBox612";
             this.pictureBox612.Size = new System.Drawing.Size(32, 32);
@@ -5818,8 +5898,8 @@ namespace MultiToolApplication
             // 
             // pictureBox607
             // 
-            this.pictureBox607.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox607.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox607.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox607.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox607.Location = new System.Drawing.Point(864, 128);
             this.pictureBox607.Name = "pictureBox607";
             this.pictureBox607.Size = new System.Drawing.Size(32, 32);
@@ -5835,11 +5915,12 @@ namespace MultiToolApplication
             this.pictureBox608.Size = new System.Drawing.Size(32, 32);
             this.pictureBox608.TabIndex = 604;
             this.pictureBox608.TabStop = false;
+            this.pictureBox608.Tag = "Dot";
             // 
             // pictureBox609
             // 
-            this.pictureBox609.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox609.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox609.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox609.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox609.Location = new System.Drawing.Point(800, 128);
             this.pictureBox609.Name = "pictureBox609";
             this.pictureBox609.Size = new System.Drawing.Size(32, 32);
@@ -5848,8 +5929,8 @@ namespace MultiToolApplication
             // 
             // pictureBox598
             // 
-            this.pictureBox598.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox598.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox598.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox598.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox598.Location = new System.Drawing.Point(640, 544);
             this.pictureBox598.Name = "pictureBox598";
             this.pictureBox598.Size = new System.Drawing.Size(32, 32);
@@ -5858,8 +5939,8 @@ namespace MultiToolApplication
             // 
             // pictureBox599
             // 
-            this.pictureBox599.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox599.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox599.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox599.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox599.Location = new System.Drawing.Point(608, 544);
             this.pictureBox599.Name = "pictureBox599";
             this.pictureBox599.Size = new System.Drawing.Size(32, 32);
@@ -5875,6 +5956,7 @@ namespace MultiToolApplication
             this.pictureBox600.Size = new System.Drawing.Size(32, 32);
             this.pictureBox600.TabIndex = 594;
             this.pictureBox600.TabStop = false;
+            this.pictureBox600.Tag = "Dot";
             // 
             // pictureBox595
             // 
@@ -5885,11 +5967,12 @@ namespace MultiToolApplication
             this.pictureBox595.Size = new System.Drawing.Size(32, 32);
             this.pictureBox595.TabIndex = 593;
             this.pictureBox595.TabStop = false;
+            this.pictureBox595.Tag = "Dot";
             // 
             // pictureBox596
             // 
-            this.pictureBox596.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox596.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox596.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox596.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox596.Location = new System.Drawing.Point(160, 480);
             this.pictureBox596.Name = "pictureBox596";
             this.pictureBox596.Size = new System.Drawing.Size(32, 32);
@@ -5898,8 +5981,8 @@ namespace MultiToolApplication
             // 
             // pictureBox597
             // 
-            this.pictureBox597.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox597.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox597.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox597.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox597.Location = new System.Drawing.Point(224, 480);
             this.pictureBox597.Name = "pictureBox597";
             this.pictureBox597.Size = new System.Drawing.Size(32, 32);
@@ -5915,11 +5998,12 @@ namespace MultiToolApplication
             this.pictureBox592.Size = new System.Drawing.Size(32, 32);
             this.pictureBox592.TabIndex = 590;
             this.pictureBox592.TabStop = false;
+            this.pictureBox592.Tag = "Dot";
             // 
             // pictureBox593
             // 
-            this.pictureBox593.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox593.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox593.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox593.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox593.Location = new System.Drawing.Point(160, 416);
             this.pictureBox593.Name = "pictureBox593";
             this.pictureBox593.Size = new System.Drawing.Size(32, 32);
@@ -5928,8 +6012,8 @@ namespace MultiToolApplication
             // 
             // pictureBox594
             // 
-            this.pictureBox594.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox594.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox594.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox594.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox594.Location = new System.Drawing.Point(224, 416);
             this.pictureBox594.Name = "pictureBox594";
             this.pictureBox594.Size = new System.Drawing.Size(32, 32);
@@ -5945,11 +6029,12 @@ namespace MultiToolApplication
             this.pictureBox589.Size = new System.Drawing.Size(32, 32);
             this.pictureBox589.TabIndex = 587;
             this.pictureBox589.TabStop = false;
+            this.pictureBox589.Tag = "Dot";
             // 
             // pictureBox590
             // 
-            this.pictureBox590.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox590.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox590.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox590.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox590.Location = new System.Drawing.Point(160, 352);
             this.pictureBox590.Name = "pictureBox590";
             this.pictureBox590.Size = new System.Drawing.Size(32, 32);
@@ -5958,8 +6043,8 @@ namespace MultiToolApplication
             // 
             // pictureBox591
             // 
-            this.pictureBox591.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox591.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox591.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox591.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox591.Location = new System.Drawing.Point(224, 352);
             this.pictureBox591.Name = "pictureBox591";
             this.pictureBox591.Size = new System.Drawing.Size(32, 32);
@@ -5975,11 +6060,12 @@ namespace MultiToolApplication
             this.pictureBox586.Size = new System.Drawing.Size(32, 32);
             this.pictureBox586.TabIndex = 584;
             this.pictureBox586.TabStop = false;
+            this.pictureBox586.Tag = "Dot";
             // 
             // pictureBox587
             // 
-            this.pictureBox587.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox587.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox587.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox587.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox587.Location = new System.Drawing.Point(448, 256);
             this.pictureBox587.Name = "pictureBox587";
             this.pictureBox587.Size = new System.Drawing.Size(32, 32);
@@ -5995,11 +6081,12 @@ namespace MultiToolApplication
             this.pictureBox588.Size = new System.Drawing.Size(32, 32);
             this.pictureBox588.TabIndex = 582;
             this.pictureBox588.TabStop = false;
+            this.pictureBox588.Tag = "Dot";
             // 
             // pictureBox583
             // 
-            this.pictureBox583.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox583.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox583.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox583.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox583.Location = new System.Drawing.Point(864, 416);
             this.pictureBox583.Name = "pictureBox583";
             this.pictureBox583.Size = new System.Drawing.Size(32, 32);
@@ -6008,8 +6095,7 @@ namespace MultiToolApplication
             // 
             // pictureBox585
             // 
-            this.pictureBox585.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox585.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox585.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox585.Location = new System.Drawing.Point(864, 448);
             this.pictureBox585.Name = "pictureBox585";
             this.pictureBox585.Size = new System.Drawing.Size(32, 32);
@@ -6018,8 +6104,8 @@ namespace MultiToolApplication
             // 
             // pictureBox580
             // 
-            this.pictureBox580.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox580.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox580.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox580.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomRightCorner32x32;
             this.pictureBox580.Location = new System.Drawing.Point(864, 288);
             this.pictureBox580.Name = "pictureBox580";
             this.pictureBox580.Size = new System.Drawing.Size(32, 32);
@@ -6028,8 +6114,8 @@ namespace MultiToolApplication
             // 
             // pictureBox581
             // 
-            this.pictureBox581.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox581.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox581.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox581.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox581.Location = new System.Drawing.Point(864, 256);
             this.pictureBox581.Name = "pictureBox581";
             this.pictureBox581.Size = new System.Drawing.Size(32, 32);
@@ -6038,8 +6124,8 @@ namespace MultiToolApplication
             // 
             // pictureBox577
             // 
-            this.pictureBox577.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox577.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox577.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox577.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox577.Location = new System.Drawing.Point(448, 320);
             this.pictureBox577.Name = "pictureBox577";
             this.pictureBox577.Size = new System.Drawing.Size(32, 32);
@@ -6048,8 +6134,8 @@ namespace MultiToolApplication
             // 
             // pictureBox578
             // 
-            this.pictureBox578.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox578.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox578.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox578.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox578.Location = new System.Drawing.Point(448, 288);
             this.pictureBox578.Name = "pictureBox578";
             this.pictureBox578.Size = new System.Drawing.Size(32, 32);
@@ -6058,8 +6144,7 @@ namespace MultiToolApplication
             // 
             // pictureBox579
             // 
-            this.pictureBox579.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox579.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox579.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox579.Location = new System.Drawing.Point(448, 352);
             this.pictureBox579.Name = "pictureBox579";
             this.pictureBox579.Size = new System.Drawing.Size(32, 32);
@@ -6068,8 +6153,8 @@ namespace MultiToolApplication
             // 
             // pictureBox574
             // 
-            this.pictureBox574.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox574.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox574.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox574.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox574.Location = new System.Drawing.Point(384, 192);
             this.pictureBox574.Name = "pictureBox574";
             this.pictureBox574.Size = new System.Drawing.Size(32, 32);
@@ -6085,11 +6170,12 @@ namespace MultiToolApplication
             this.pictureBox575.Size = new System.Drawing.Size(32, 32);
             this.pictureBox575.TabIndex = 571;
             this.pictureBox575.TabStop = false;
+            this.pictureBox575.Tag = "Dot";
             // 
             // pictureBox576
             // 
-            this.pictureBox576.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox576.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox576.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox576.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox576.Location = new System.Drawing.Point(384, 224);
             this.pictureBox576.Name = "pictureBox576";
             this.pictureBox576.Size = new System.Drawing.Size(32, 32);
@@ -6098,8 +6184,8 @@ namespace MultiToolApplication
             // 
             // pictureBox571
             // 
-            this.pictureBox571.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox571.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox571.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox571.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox571.Location = new System.Drawing.Point(512, 192);
             this.pictureBox571.Name = "pictureBox571";
             this.pictureBox571.Size = new System.Drawing.Size(32, 32);
@@ -6115,11 +6201,12 @@ namespace MultiToolApplication
             this.pictureBox572.Size = new System.Drawing.Size(32, 32);
             this.pictureBox572.TabIndex = 568;
             this.pictureBox572.TabStop = false;
+            this.pictureBox572.Tag = "Dot";
             // 
             // pictureBox573
             // 
-            this.pictureBox573.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox573.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox573.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox573.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox573.Location = new System.Drawing.Point(512, 224);
             this.pictureBox573.Name = "pictureBox573";
             this.pictureBox573.Size = new System.Drawing.Size(32, 32);
@@ -6135,11 +6222,12 @@ namespace MultiToolApplication
             this.pictureBox562.Size = new System.Drawing.Size(32, 32);
             this.pictureBox562.TabIndex = 566;
             this.pictureBox562.TabStop = false;
+            this.pictureBox562.Tag = "Dot";
             // 
             // pictureBox563
             // 
-            this.pictureBox563.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox563.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox563.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox563.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox563.Location = new System.Drawing.Point(864, 192);
             this.pictureBox563.Name = "pictureBox563";
             this.pictureBox563.Size = new System.Drawing.Size(32, 32);
@@ -6148,8 +6236,8 @@ namespace MultiToolApplication
             // 
             // pictureBox564
             // 
-            this.pictureBox564.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox564.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox564.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox564.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox564.Location = new System.Drawing.Point(864, 160);
             this.pictureBox564.Name = "pictureBox564";
             this.pictureBox564.Size = new System.Drawing.Size(32, 32);
@@ -6165,11 +6253,12 @@ namespace MultiToolApplication
             this.pictureBox565.Size = new System.Drawing.Size(32, 32);
             this.pictureBox565.TabIndex = 563;
             this.pictureBox565.TabStop = false;
+            this.pictureBox565.Tag = "Dot";
             // 
             // pictureBox566
             // 
-            this.pictureBox566.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox566.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox566.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox566.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox566.Location = new System.Drawing.Point(864, 224);
             this.pictureBox566.Name = "pictureBox566";
             this.pictureBox566.Size = new System.Drawing.Size(32, 32);
@@ -6185,11 +6274,12 @@ namespace MultiToolApplication
             this.pictureBox567.Size = new System.Drawing.Size(32, 32);
             this.pictureBox567.TabIndex = 561;
             this.pictureBox567.TabStop = false;
+            this.pictureBox567.Tag = "Dot";
             // 
             // pictureBox568
             // 
-            this.pictureBox568.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox568.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox568.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox568.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox568.Location = new System.Drawing.Point(800, 224);
             this.pictureBox568.Name = "pictureBox568";
             this.pictureBox568.Size = new System.Drawing.Size(32, 32);
@@ -6198,8 +6288,8 @@ namespace MultiToolApplication
             // 
             // pictureBox569
             // 
-            this.pictureBox569.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox569.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox569.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox569.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox569.Location = new System.Drawing.Point(800, 192);
             this.pictureBox569.Name = "pictureBox569";
             this.pictureBox569.Size = new System.Drawing.Size(32, 32);
@@ -6215,6 +6305,7 @@ namespace MultiToolApplication
             this.pictureBox570.Size = new System.Drawing.Size(32, 32);
             this.pictureBox570.TabIndex = 558;
             this.pictureBox570.TabStop = false;
+            this.pictureBox570.Tag = "Dot";
             // 
             // pictureBox553
             // 
@@ -6225,11 +6316,12 @@ namespace MultiToolApplication
             this.pictureBox553.Size = new System.Drawing.Size(32, 32);
             this.pictureBox553.TabIndex = 557;
             this.pictureBox553.TabStop = false;
+            this.pictureBox553.Tag = "Dot";
             // 
             // pictureBox554
             // 
-            this.pictureBox554.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox554.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox554.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox554.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox554.Location = new System.Drawing.Point(864, 64);
             this.pictureBox554.Name = "pictureBox554";
             this.pictureBox554.Size = new System.Drawing.Size(32, 32);
@@ -6238,8 +6330,8 @@ namespace MultiToolApplication
             // 
             // pictureBox555
             // 
-            this.pictureBox555.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox555.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox555.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox555.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox555.Location = new System.Drawing.Point(864, 32);
             this.pictureBox555.Name = "pictureBox555";
             this.pictureBox555.Size = new System.Drawing.Size(32, 32);
@@ -6255,31 +6347,22 @@ namespace MultiToolApplication
             this.pictureBox556.Size = new System.Drawing.Size(32, 32);
             this.pictureBox556.TabIndex = 554;
             this.pictureBox556.TabStop = false;
+            this.pictureBox556.Tag = "Dot";
             // 
             // pictureBox557
             // 
-            this.pictureBox557.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox557.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox557.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox557.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox557.Location = new System.Drawing.Point(864, 96);
             this.pictureBox557.Name = "pictureBox557";
             this.pictureBox557.Size = new System.Drawing.Size(32, 32);
             this.pictureBox557.TabIndex = 553;
             this.pictureBox557.TabStop = false;
             // 
-            // pictureBox558
-            // 
-            this.pictureBox558.BackColor = System.Drawing.Color.Black;
-            this.pictureBox558.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
-            this.pictureBox558.Location = new System.Drawing.Point(832, 96);
-            this.pictureBox558.Name = "pictureBox558";
-            this.pictureBox558.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox558.TabIndex = 552;
-            this.pictureBox558.TabStop = false;
-            // 
             // pictureBox559
             // 
-            this.pictureBox559.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox559.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox559.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox559.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox559.Location = new System.Drawing.Point(800, 96);
             this.pictureBox559.Name = "pictureBox559";
             this.pictureBox559.Size = new System.Drawing.Size(32, 32);
@@ -6288,8 +6371,8 @@ namespace MultiToolApplication
             // 
             // pictureBox560
             // 
-            this.pictureBox560.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox560.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox560.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox560.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox560.Location = new System.Drawing.Point(800, 64);
             this.pictureBox560.Name = "pictureBox560";
             this.pictureBox560.Size = new System.Drawing.Size(32, 32);
@@ -6305,11 +6388,12 @@ namespace MultiToolApplication
             this.pictureBox561.Size = new System.Drawing.Size(32, 32);
             this.pictureBox561.TabIndex = 549;
             this.pictureBox561.TabStop = false;
+            this.pictureBox561.Tag = "Dot";
             // 
             // pictureBox544
             // 
-            this.pictureBox544.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox544.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox544.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox544.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox544.Location = new System.Drawing.Point(448, 192);
             this.pictureBox544.Name = "pictureBox544";
             this.pictureBox544.Size = new System.Drawing.Size(32, 32);
@@ -6318,8 +6402,8 @@ namespace MultiToolApplication
             // 
             // pictureBox545
             // 
-            this.pictureBox545.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox545.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox545.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox545.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox545.Location = new System.Drawing.Point(480, 192);
             this.pictureBox545.Name = "pictureBox545";
             this.pictureBox545.Size = new System.Drawing.Size(32, 32);
@@ -6335,6 +6419,7 @@ namespace MultiToolApplication
             this.pictureBox546.Size = new System.Drawing.Size(32, 32);
             this.pictureBox546.TabIndex = 546;
             this.pictureBox546.TabStop = false;
+            this.pictureBox546.Tag = "Dot";
             // 
             // pictureBox547
             // 
@@ -6345,11 +6430,12 @@ namespace MultiToolApplication
             this.pictureBox547.Size = new System.Drawing.Size(32, 32);
             this.pictureBox547.TabIndex = 545;
             this.pictureBox547.TabStop = false;
+            this.pictureBox547.Tag = "Dot";
             // 
             // pictureBox548
             // 
-            this.pictureBox548.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox548.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox548.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox548.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox548.Location = new System.Drawing.Point(480, 224);
             this.pictureBox548.Name = "pictureBox548";
             this.pictureBox548.Size = new System.Drawing.Size(32, 32);
@@ -6358,8 +6444,8 @@ namespace MultiToolApplication
             // 
             // pictureBox549
             // 
-            this.pictureBox549.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox549.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox549.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox549.Image = global::MultiToolApplication.Properties.Resources.InsideBottomRightCornerWide32x32;
             this.pictureBox549.Location = new System.Drawing.Point(448, 224);
             this.pictureBox549.Name = "pictureBox549";
             this.pictureBox549.Size = new System.Drawing.Size(32, 32);
@@ -6368,8 +6454,8 @@ namespace MultiToolApplication
             // 
             // pictureBox550
             // 
-            this.pictureBox550.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox550.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox550.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox550.Image = global::MultiToolApplication.Properties.Resources.InsideBottomLeftCornerWide32x32;
             this.pictureBox550.Location = new System.Drawing.Point(416, 224);
             this.pictureBox550.Name = "pictureBox550";
             this.pictureBox550.Size = new System.Drawing.Size(32, 32);
@@ -6378,8 +6464,8 @@ namespace MultiToolApplication
             // 
             // pictureBox551
             // 
-            this.pictureBox551.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox551.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox551.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox551.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox551.Location = new System.Drawing.Point(416, 192);
             this.pictureBox551.Name = "pictureBox551";
             this.pictureBox551.Size = new System.Drawing.Size(32, 32);
@@ -6395,11 +6481,12 @@ namespace MultiToolApplication
             this.pictureBox552.Size = new System.Drawing.Size(32, 32);
             this.pictureBox552.TabIndex = 540;
             this.pictureBox552.TabStop = false;
+            this.pictureBox552.Tag = "Dot";
             // 
             // pictureBox535
             // 
-            this.pictureBox535.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox535.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox535.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox535.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox535.Location = new System.Drawing.Point(320, 192);
             this.pictureBox535.Name = "pictureBox535";
             this.pictureBox535.Size = new System.Drawing.Size(32, 32);
@@ -6408,8 +6495,8 @@ namespace MultiToolApplication
             // 
             // pictureBox536
             // 
-            this.pictureBox536.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox536.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox536.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox536.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox536.Location = new System.Drawing.Point(352, 192);
             this.pictureBox536.Name = "pictureBox536";
             this.pictureBox536.Size = new System.Drawing.Size(32, 32);
@@ -6425,6 +6512,7 @@ namespace MultiToolApplication
             this.pictureBox537.Size = new System.Drawing.Size(32, 32);
             this.pictureBox537.TabIndex = 537;
             this.pictureBox537.TabStop = false;
+            this.pictureBox537.Tag = "Dot";
             // 
             // pictureBox538
             // 
@@ -6435,11 +6523,12 @@ namespace MultiToolApplication
             this.pictureBox538.Size = new System.Drawing.Size(32, 32);
             this.pictureBox538.TabIndex = 536;
             this.pictureBox538.TabStop = false;
+            this.pictureBox538.Tag = "Dot";
             // 
             // pictureBox539
             // 
-            this.pictureBox539.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox539.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox539.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox539.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox539.Location = new System.Drawing.Point(352, 224);
             this.pictureBox539.Name = "pictureBox539";
             this.pictureBox539.Size = new System.Drawing.Size(32, 32);
@@ -6448,8 +6537,8 @@ namespace MultiToolApplication
             // 
             // pictureBox540
             // 
-            this.pictureBox540.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox540.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox540.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox540.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox540.Location = new System.Drawing.Point(320, 224);
             this.pictureBox540.Name = "pictureBox540";
             this.pictureBox540.Size = new System.Drawing.Size(32, 32);
@@ -6465,6 +6554,7 @@ namespace MultiToolApplication
             this.pictureBox541.Size = new System.Drawing.Size(32, 32);
             this.pictureBox541.TabIndex = 533;
             this.pictureBox541.TabStop = false;
+            this.pictureBox541.Tag = "Dot";
             // 
             // pictureBox542
             // 
@@ -6475,6 +6565,7 @@ namespace MultiToolApplication
             this.pictureBox542.Size = new System.Drawing.Size(32, 32);
             this.pictureBox542.TabIndex = 532;
             this.pictureBox542.TabStop = false;
+            this.pictureBox542.Tag = "Dot";
             // 
             // pictureBox543
             // 
@@ -6485,6 +6576,7 @@ namespace MultiToolApplication
             this.pictureBox543.Size = new System.Drawing.Size(32, 32);
             this.pictureBox543.TabIndex = 531;
             this.pictureBox543.TabStop = false;
+            this.pictureBox543.Tag = "Dot";
             // 
             // pictureBox534
             // 
@@ -6495,6 +6587,7 @@ namespace MultiToolApplication
             this.pictureBox534.Size = new System.Drawing.Size(32, 32);
             this.pictureBox534.TabIndex = 530;
             this.pictureBox534.TabStop = false;
+            this.pictureBox534.Tag = "Dot";
             // 
             // pictureBox532
             // 
@@ -6505,11 +6598,12 @@ namespace MultiToolApplication
             this.pictureBox532.Size = new System.Drawing.Size(32, 32);
             this.pictureBox532.TabIndex = 529;
             this.pictureBox532.TabStop = false;
+            this.pictureBox532.Tag = "Dot";
             // 
             // pictureBox533
             // 
-            this.pictureBox533.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox533.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox533.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox533.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox533.Location = new System.Drawing.Point(256, 192);
             this.pictureBox533.Name = "pictureBox533";
             this.pictureBox533.Size = new System.Drawing.Size(32, 32);
@@ -6518,8 +6612,8 @@ namespace MultiToolApplication
             // 
             // pictureBox529
             // 
-            this.pictureBox529.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox529.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox529.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox529.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox529.Location = new System.Drawing.Point(256, 64);
             this.pictureBox529.Name = "pictureBox529";
             this.pictureBox529.Size = new System.Drawing.Size(32, 32);
@@ -6535,11 +6629,12 @@ namespace MultiToolApplication
             this.pictureBox530.Size = new System.Drawing.Size(32, 32);
             this.pictureBox530.TabIndex = 525;
             this.pictureBox530.TabStop = false;
+            this.pictureBox530.Tag = "Dot";
             // 
             // pictureBox531
             // 
-            this.pictureBox531.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox531.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox531.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox531.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox531.Location = new System.Drawing.Point(256, 128);
             this.pictureBox531.Name = "pictureBox531";
             this.pictureBox531.Size = new System.Drawing.Size(32, 32);
@@ -6548,8 +6643,8 @@ namespace MultiToolApplication
             // 
             // pictureBox512
             // 
-            this.pictureBox512.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox512.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox512.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox512.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox512.Location = new System.Drawing.Point(128, 416);
             this.pictureBox512.Name = "pictureBox512";
             this.pictureBox512.Size = new System.Drawing.Size(32, 32);
@@ -6558,8 +6653,8 @@ namespace MultiToolApplication
             // 
             // pictureBox514
             // 
-            this.pictureBox514.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox514.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox514.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox514.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox514.Location = new System.Drawing.Point(128, 480);
             this.pictureBox514.Name = "pictureBox514";
             this.pictureBox514.Size = new System.Drawing.Size(32, 32);
@@ -6568,8 +6663,7 @@ namespace MultiToolApplication
             // 
             // pictureBox515
             // 
-            this.pictureBox515.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox515.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox515.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox515.Location = new System.Drawing.Point(128, 448);
             this.pictureBox515.Name = "pictureBox515";
             this.pictureBox515.Size = new System.Drawing.Size(32, 32);
@@ -6578,8 +6672,8 @@ namespace MultiToolApplication
             // 
             // pictureBox517
             // 
-            this.pictureBox517.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox517.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox517.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox517.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox517.Location = new System.Drawing.Point(96, 480);
             this.pictureBox517.Name = "pictureBox517";
             this.pictureBox517.Size = new System.Drawing.Size(32, 32);
@@ -6588,8 +6682,7 @@ namespace MultiToolApplication
             // 
             // pictureBox518
             // 
-            this.pictureBox518.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox518.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox518.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox518.Location = new System.Drawing.Point(96, 448);
             this.pictureBox518.Name = "pictureBox518";
             this.pictureBox518.Size = new System.Drawing.Size(32, 32);
@@ -6598,8 +6691,8 @@ namespace MultiToolApplication
             // 
             // pictureBox519
             // 
-            this.pictureBox519.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox519.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox519.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox519.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox519.Location = new System.Drawing.Point(96, 416);
             this.pictureBox519.Name = "pictureBox519";
             this.pictureBox519.Size = new System.Drawing.Size(32, 32);
@@ -6608,8 +6701,8 @@ namespace MultiToolApplication
             // 
             // pictureBox520
             // 
-            this.pictureBox520.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox520.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox520.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox520.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox520.Location = new System.Drawing.Point(64, 480);
             this.pictureBox520.Name = "pictureBox520";
             this.pictureBox520.Size = new System.Drawing.Size(32, 32);
@@ -6618,8 +6711,7 @@ namespace MultiToolApplication
             // 
             // pictureBox521
             // 
-            this.pictureBox521.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox521.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox521.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox521.Location = new System.Drawing.Point(64, 448);
             this.pictureBox521.Name = "pictureBox521";
             this.pictureBox521.Size = new System.Drawing.Size(32, 32);
@@ -6628,8 +6720,8 @@ namespace MultiToolApplication
             // 
             // pictureBox522
             // 
-            this.pictureBox522.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox522.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox522.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox522.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox522.Location = new System.Drawing.Point(64, 416);
             this.pictureBox522.Name = "pictureBox522";
             this.pictureBox522.Size = new System.Drawing.Size(32, 32);
@@ -6638,8 +6730,7 @@ namespace MultiToolApplication
             // 
             // pictureBox523
             // 
-            this.pictureBox523.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox523.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox523.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox523.Location = new System.Drawing.Point(32, 448);
             this.pictureBox523.Name = "pictureBox523";
             this.pictureBox523.Size = new System.Drawing.Size(32, 32);
@@ -6648,8 +6739,8 @@ namespace MultiToolApplication
             // 
             // pictureBox524
             // 
-            this.pictureBox524.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox524.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox524.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox524.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox524.Location = new System.Drawing.Point(32, 416);
             this.pictureBox524.Name = "pictureBox524";
             this.pictureBox524.Size = new System.Drawing.Size(32, 32);
@@ -6658,8 +6749,8 @@ namespace MultiToolApplication
             // 
             // pictureBox527
             // 
-            this.pictureBox527.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox527.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox527.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox527.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox527.Location = new System.Drawing.Point(32, 480);
             this.pictureBox527.Name = "pictureBox527";
             this.pictureBox527.Size = new System.Drawing.Size(32, 32);
@@ -6668,8 +6759,8 @@ namespace MultiToolApplication
             // 
             // pictureBox496
             // 
-            this.pictureBox496.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox496.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox496.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox496.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox496.Location = new System.Drawing.Point(128, 288);
             this.pictureBox496.Name = "pictureBox496";
             this.pictureBox496.Size = new System.Drawing.Size(32, 32);
@@ -6678,8 +6769,8 @@ namespace MultiToolApplication
             // 
             // pictureBox503
             // 
-            this.pictureBox503.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox503.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox503.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox503.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox503.Location = new System.Drawing.Point(96, 288);
             this.pictureBox503.Name = "pictureBox503";
             this.pictureBox503.Size = new System.Drawing.Size(32, 32);
@@ -6688,8 +6779,8 @@ namespace MultiToolApplication
             // 
             // pictureBox506
             // 
-            this.pictureBox506.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox506.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox506.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox506.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox506.Location = new System.Drawing.Point(64, 288);
             this.pictureBox506.Name = "pictureBox506";
             this.pictureBox506.Size = new System.Drawing.Size(32, 32);
@@ -6698,8 +6789,8 @@ namespace MultiToolApplication
             // 
             // pictureBox508
             // 
-            this.pictureBox508.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox508.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox508.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox508.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox508.Location = new System.Drawing.Point(32, 288);
             this.pictureBox508.Name = "pictureBox508";
             this.pictureBox508.Size = new System.Drawing.Size(32, 32);
@@ -6708,8 +6799,8 @@ namespace MultiToolApplication
             // 
             // pictureBox480
             // 
-            this.pictureBox480.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox480.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox480.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox480.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox480.Location = new System.Drawing.Point(832, 416);
             this.pictureBox480.Name = "pictureBox480";
             this.pictureBox480.Size = new System.Drawing.Size(32, 32);
@@ -6718,8 +6809,8 @@ namespace MultiToolApplication
             // 
             // pictureBox482
             // 
-            this.pictureBox482.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox482.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox482.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox482.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox482.Location = new System.Drawing.Point(832, 480);
             this.pictureBox482.Name = "pictureBox482";
             this.pictureBox482.Size = new System.Drawing.Size(32, 32);
@@ -6728,8 +6819,7 @@ namespace MultiToolApplication
             // 
             // pictureBox483
             // 
-            this.pictureBox483.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox483.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox483.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox483.Location = new System.Drawing.Point(832, 448);
             this.pictureBox483.Name = "pictureBox483";
             this.pictureBox483.Size = new System.Drawing.Size(32, 32);
@@ -6738,8 +6828,8 @@ namespace MultiToolApplication
             // 
             // pictureBox485
             // 
-            this.pictureBox485.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox485.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox485.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox485.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox485.Location = new System.Drawing.Point(800, 480);
             this.pictureBox485.Name = "pictureBox485";
             this.pictureBox485.Size = new System.Drawing.Size(32, 32);
@@ -6748,8 +6838,7 @@ namespace MultiToolApplication
             // 
             // pictureBox486
             // 
-            this.pictureBox486.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox486.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox486.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox486.Location = new System.Drawing.Point(800, 448);
             this.pictureBox486.Name = "pictureBox486";
             this.pictureBox486.Size = new System.Drawing.Size(32, 32);
@@ -6758,8 +6847,8 @@ namespace MultiToolApplication
             // 
             // pictureBox487
             // 
-            this.pictureBox487.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox487.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox487.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox487.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox487.Location = new System.Drawing.Point(800, 416);
             this.pictureBox487.Name = "pictureBox487";
             this.pictureBox487.Size = new System.Drawing.Size(32, 32);
@@ -6768,8 +6857,8 @@ namespace MultiToolApplication
             // 
             // pictureBox488
             // 
-            this.pictureBox488.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox488.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox488.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox488.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox488.Location = new System.Drawing.Point(768, 480);
             this.pictureBox488.Name = "pictureBox488";
             this.pictureBox488.Size = new System.Drawing.Size(32, 32);
@@ -6778,8 +6867,7 @@ namespace MultiToolApplication
             // 
             // pictureBox489
             // 
-            this.pictureBox489.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox489.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox489.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox489.Location = new System.Drawing.Point(768, 448);
             this.pictureBox489.Name = "pictureBox489";
             this.pictureBox489.Size = new System.Drawing.Size(32, 32);
@@ -6788,8 +6876,8 @@ namespace MultiToolApplication
             // 
             // pictureBox490
             // 
-            this.pictureBox490.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox490.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox490.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox490.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox490.Location = new System.Drawing.Point(768, 416);
             this.pictureBox490.Name = "pictureBox490";
             this.pictureBox490.Size = new System.Drawing.Size(32, 32);
@@ -6798,8 +6886,7 @@ namespace MultiToolApplication
             // 
             // pictureBox491
             // 
-            this.pictureBox491.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox491.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox491.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox491.Location = new System.Drawing.Point(736, 448);
             this.pictureBox491.Name = "pictureBox491";
             this.pictureBox491.Size = new System.Drawing.Size(32, 32);
@@ -6808,8 +6895,8 @@ namespace MultiToolApplication
             // 
             // pictureBox492
             // 
-            this.pictureBox492.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox492.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox492.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox492.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox492.Location = new System.Drawing.Point(736, 416);
             this.pictureBox492.Name = "pictureBox492";
             this.pictureBox492.Size = new System.Drawing.Size(32, 32);
@@ -6818,8 +6905,8 @@ namespace MultiToolApplication
             // 
             // pictureBox495
             // 
-            this.pictureBox495.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox495.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox495.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox495.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox495.Location = new System.Drawing.Point(736, 480);
             this.pictureBox495.Name = "pictureBox495";
             this.pictureBox495.Size = new System.Drawing.Size(32, 32);
@@ -6828,8 +6915,8 @@ namespace MultiToolApplication
             // 
             // pictureBox464
             // 
-            this.pictureBox464.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox464.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox464.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox464.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox464.Location = new System.Drawing.Point(832, 288);
             this.pictureBox464.Name = "pictureBox464";
             this.pictureBox464.Size = new System.Drawing.Size(32, 32);
@@ -6838,8 +6925,8 @@ namespace MultiToolApplication
             // 
             // pictureBox471
             // 
-            this.pictureBox471.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox471.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox471.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox471.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox471.Location = new System.Drawing.Point(800, 288);
             this.pictureBox471.Name = "pictureBox471";
             this.pictureBox471.Size = new System.Drawing.Size(32, 32);
@@ -6848,8 +6935,8 @@ namespace MultiToolApplication
             // 
             // pictureBox474
             // 
-            this.pictureBox474.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox474.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox474.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox474.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox474.Location = new System.Drawing.Point(768, 288);
             this.pictureBox474.Name = "pictureBox474";
             this.pictureBox474.Size = new System.Drawing.Size(32, 32);
@@ -6858,8 +6945,8 @@ namespace MultiToolApplication
             // 
             // pictureBox476
             // 
-            this.pictureBox476.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox476.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox476.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox476.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox476.Location = new System.Drawing.Point(736, 288);
             this.pictureBox476.Name = "pictureBox476";
             this.pictureBox476.Size = new System.Drawing.Size(32, 32);
@@ -6868,8 +6955,8 @@ namespace MultiToolApplication
             // 
             // pictureBox448
             // 
-            this.pictureBox448.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox448.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox448.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox448.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox448.Location = new System.Drawing.Point(704, 416);
             this.pictureBox448.Name = "pictureBox448";
             this.pictureBox448.Size = new System.Drawing.Size(32, 32);
@@ -6878,8 +6965,8 @@ namespace MultiToolApplication
             // 
             // pictureBox449
             // 
-            this.pictureBox449.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox449.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox449.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox449.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox449.Location = new System.Drawing.Point(704, 512);
             this.pictureBox449.Name = "pictureBox449";
             this.pictureBox449.Size = new System.Drawing.Size(32, 32);
@@ -6888,8 +6975,8 @@ namespace MultiToolApplication
             // 
             // pictureBox450
             // 
-            this.pictureBox450.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox450.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox450.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox450.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox450.Location = new System.Drawing.Point(704, 480);
             this.pictureBox450.Name = "pictureBox450";
             this.pictureBox450.Size = new System.Drawing.Size(32, 32);
@@ -6898,8 +6985,7 @@ namespace MultiToolApplication
             // 
             // pictureBox451
             // 
-            this.pictureBox451.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox451.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox451.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox451.Location = new System.Drawing.Point(704, 448);
             this.pictureBox451.Name = "pictureBox451";
             this.pictureBox451.Size = new System.Drawing.Size(32, 32);
@@ -6915,6 +7001,7 @@ namespace MultiToolApplication
             this.pictureBox452.Size = new System.Drawing.Size(32, 32);
             this.pictureBox452.TabIndex = 455;
             this.pictureBox452.TabStop = false;
+            this.pictureBox452.Tag = "Dot";
             // 
             // pictureBox453
             // 
@@ -6925,6 +7012,7 @@ namespace MultiToolApplication
             this.pictureBox453.Size = new System.Drawing.Size(32, 32);
             this.pictureBox453.TabIndex = 454;
             this.pictureBox453.TabStop = false;
+            this.pictureBox453.Tag = "Dot";
             // 
             // pictureBox454
             // 
@@ -6935,6 +7023,7 @@ namespace MultiToolApplication
             this.pictureBox454.Size = new System.Drawing.Size(32, 32);
             this.pictureBox454.TabIndex = 453;
             this.pictureBox454.TabStop = false;
+            this.pictureBox454.Tag = "Dot";
             // 
             // pictureBox455
             // 
@@ -6945,11 +7034,12 @@ namespace MultiToolApplication
             this.pictureBox455.Size = new System.Drawing.Size(32, 32);
             this.pictureBox455.TabIndex = 452;
             this.pictureBox455.TabStop = false;
+            this.pictureBox455.Tag = "Dot";
             // 
             // pictureBox456
             // 
-            this.pictureBox456.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox456.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox456.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox456.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox456.Location = new System.Drawing.Point(640, 480);
             this.pictureBox456.Name = "pictureBox456";
             this.pictureBox456.Size = new System.Drawing.Size(32, 32);
@@ -6958,8 +7048,7 @@ namespace MultiToolApplication
             // 
             // pictureBox457
             // 
-            this.pictureBox457.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox457.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox457.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox457.Location = new System.Drawing.Point(640, 448);
             this.pictureBox457.Name = "pictureBox457";
             this.pictureBox457.Size = new System.Drawing.Size(32, 32);
@@ -6968,8 +7057,8 @@ namespace MultiToolApplication
             // 
             // pictureBox458
             // 
-            this.pictureBox458.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox458.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox458.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox458.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox458.Location = new System.Drawing.Point(640, 416);
             this.pictureBox458.Name = "pictureBox458";
             this.pictureBox458.Size = new System.Drawing.Size(32, 32);
@@ -6978,8 +7067,7 @@ namespace MultiToolApplication
             // 
             // pictureBox459
             // 
-            this.pictureBox459.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox459.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox459.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox459.Location = new System.Drawing.Point(608, 448);
             this.pictureBox459.Name = "pictureBox459";
             this.pictureBox459.Size = new System.Drawing.Size(32, 32);
@@ -6988,8 +7076,8 @@ namespace MultiToolApplication
             // 
             // pictureBox460
             // 
-            this.pictureBox460.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox460.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox460.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox460.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox460.Location = new System.Drawing.Point(608, 416);
             this.pictureBox460.Name = "pictureBox460";
             this.pictureBox460.Size = new System.Drawing.Size(32, 32);
@@ -6998,8 +7086,8 @@ namespace MultiToolApplication
             // 
             // pictureBox461
             // 
-            this.pictureBox461.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox461.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox461.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox461.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox461.Location = new System.Drawing.Point(640, 512);
             this.pictureBox461.Name = "pictureBox461";
             this.pictureBox461.Size = new System.Drawing.Size(32, 32);
@@ -7008,8 +7096,8 @@ namespace MultiToolApplication
             // 
             // pictureBox462
             // 
-            this.pictureBox462.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox462.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox462.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox462.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox462.Location = new System.Drawing.Point(608, 512);
             this.pictureBox462.Name = "pictureBox462";
             this.pictureBox462.Size = new System.Drawing.Size(32, 32);
@@ -7018,8 +7106,8 @@ namespace MultiToolApplication
             // 
             // pictureBox463
             // 
-            this.pictureBox463.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox463.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox463.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox463.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox463.Location = new System.Drawing.Point(608, 480);
             this.pictureBox463.Name = "pictureBox463";
             this.pictureBox463.Size = new System.Drawing.Size(32, 32);
@@ -7028,8 +7116,8 @@ namespace MultiToolApplication
             // 
             // pictureBox432
             // 
-            this.pictureBox432.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox432.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox432.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox432.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox432.Location = new System.Drawing.Point(704, 288);
             this.pictureBox432.Name = "pictureBox432";
             this.pictureBox432.Size = new System.Drawing.Size(32, 32);
@@ -7038,8 +7126,8 @@ namespace MultiToolApplication
             // 
             // pictureBox433
             // 
-            this.pictureBox433.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox433.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox433.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox433.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox433.Location = new System.Drawing.Point(704, 384);
             this.pictureBox433.Name = "pictureBox433";
             this.pictureBox433.Size = new System.Drawing.Size(32, 32);
@@ -7048,8 +7136,8 @@ namespace MultiToolApplication
             // 
             // pictureBox434
             // 
-            this.pictureBox434.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox434.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox434.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox434.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox434.Location = new System.Drawing.Point(704, 352);
             this.pictureBox434.Name = "pictureBox434";
             this.pictureBox434.Size = new System.Drawing.Size(32, 32);
@@ -7058,8 +7146,8 @@ namespace MultiToolApplication
             // 
             // pictureBox435
             // 
-            this.pictureBox435.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox435.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox435.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox435.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox435.Location = new System.Drawing.Point(704, 320);
             this.pictureBox435.Name = "pictureBox435";
             this.pictureBox435.Size = new System.Drawing.Size(32, 32);
@@ -7075,6 +7163,7 @@ namespace MultiToolApplication
             this.pictureBox436.Size = new System.Drawing.Size(32, 32);
             this.pictureBox436.TabIndex = 439;
             this.pictureBox436.TabStop = false;
+            this.pictureBox436.Tag = "Dot";
             // 
             // pictureBox437
             // 
@@ -7085,6 +7174,7 @@ namespace MultiToolApplication
             this.pictureBox437.Size = new System.Drawing.Size(32, 32);
             this.pictureBox437.TabIndex = 438;
             this.pictureBox437.TabStop = false;
+            this.pictureBox437.Tag = "Dot";
             // 
             // pictureBox438
             // 
@@ -7095,6 +7185,7 @@ namespace MultiToolApplication
             this.pictureBox438.Size = new System.Drawing.Size(32, 32);
             this.pictureBox438.TabIndex = 437;
             this.pictureBox438.TabStop = false;
+            this.pictureBox438.Tag = "Dot";
             // 
             // pictureBox439
             // 
@@ -7105,11 +7196,12 @@ namespace MultiToolApplication
             this.pictureBox439.Size = new System.Drawing.Size(32, 32);
             this.pictureBox439.TabIndex = 436;
             this.pictureBox439.TabStop = false;
+            this.pictureBox439.Tag = "Dot";
             // 
             // pictureBox440
             // 
-            this.pictureBox440.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox440.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox440.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox440.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox440.Location = new System.Drawing.Point(640, 352);
             this.pictureBox440.Name = "pictureBox440";
             this.pictureBox440.Size = new System.Drawing.Size(32, 32);
@@ -7118,8 +7210,8 @@ namespace MultiToolApplication
             // 
             // pictureBox441
             // 
-            this.pictureBox441.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox441.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox441.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox441.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox441.Location = new System.Drawing.Point(640, 320);
             this.pictureBox441.Name = "pictureBox441";
             this.pictureBox441.Size = new System.Drawing.Size(32, 32);
@@ -7128,8 +7220,8 @@ namespace MultiToolApplication
             // 
             // pictureBox442
             // 
-            this.pictureBox442.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox442.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox442.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox442.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox442.Location = new System.Drawing.Point(640, 288);
             this.pictureBox442.Name = "pictureBox442";
             this.pictureBox442.Size = new System.Drawing.Size(32, 32);
@@ -7138,8 +7230,8 @@ namespace MultiToolApplication
             // 
             // pictureBox443
             // 
-            this.pictureBox443.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox443.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox443.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox443.Image = global::MultiToolApplication.Properties.Resources.InsideBottomLeftCornerWide32x32;
             this.pictureBox443.Location = new System.Drawing.Point(608, 320);
             this.pictureBox443.Name = "pictureBox443";
             this.pictureBox443.Size = new System.Drawing.Size(32, 32);
@@ -7148,8 +7240,8 @@ namespace MultiToolApplication
             // 
             // pictureBox444
             // 
-            this.pictureBox444.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox444.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox444.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox444.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCornerWide32x32;
             this.pictureBox444.Location = new System.Drawing.Point(608, 288);
             this.pictureBox444.Name = "pictureBox444";
             this.pictureBox444.Size = new System.Drawing.Size(32, 32);
@@ -7158,8 +7250,8 @@ namespace MultiToolApplication
             // 
             // pictureBox445
             // 
-            this.pictureBox445.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox445.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox445.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox445.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox445.Location = new System.Drawing.Point(640, 384);
             this.pictureBox445.Name = "pictureBox445";
             this.pictureBox445.Size = new System.Drawing.Size(32, 32);
@@ -7168,8 +7260,8 @@ namespace MultiToolApplication
             // 
             // pictureBox446
             // 
-            this.pictureBox446.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox446.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox446.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox446.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox446.Location = new System.Drawing.Point(608, 384);
             this.pictureBox446.Name = "pictureBox446";
             this.pictureBox446.Size = new System.Drawing.Size(32, 32);
@@ -7178,8 +7270,8 @@ namespace MultiToolApplication
             // 
             // pictureBox447
             // 
-            this.pictureBox447.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox447.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox447.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox447.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox447.Location = new System.Drawing.Point(608, 352);
             this.pictureBox447.Name = "pictureBox447";
             this.pictureBox447.Size = new System.Drawing.Size(32, 32);
@@ -7188,8 +7280,8 @@ namespace MultiToolApplication
             // 
             // pictureBox416
             // 
-            this.pictureBox416.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox416.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox416.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox416.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox416.Location = new System.Drawing.Point(576, 288);
             this.pictureBox416.Name = "pictureBox416";
             this.pictureBox416.Size = new System.Drawing.Size(32, 32);
@@ -7198,8 +7290,7 @@ namespace MultiToolApplication
             // 
             // pictureBox417
             // 
-            this.pictureBox417.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox417.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox417.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox417.Location = new System.Drawing.Point(576, 384);
             this.pictureBox417.Name = "pictureBox417";
             this.pictureBox417.Size = new System.Drawing.Size(32, 32);
@@ -7208,8 +7299,7 @@ namespace MultiToolApplication
             // 
             // pictureBox418
             // 
-            this.pictureBox418.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox418.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox418.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox418.Location = new System.Drawing.Point(576, 352);
             this.pictureBox418.Name = "pictureBox418";
             this.pictureBox418.Size = new System.Drawing.Size(32, 32);
@@ -7218,8 +7308,8 @@ namespace MultiToolApplication
             // 
             // pictureBox419
             // 
-            this.pictureBox419.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox419.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox419.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox419.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox419.Location = new System.Drawing.Point(576, 320);
             this.pictureBox419.Name = "pictureBox419";
             this.pictureBox419.Size = new System.Drawing.Size(32, 32);
@@ -7228,8 +7318,8 @@ namespace MultiToolApplication
             // 
             // pictureBox420
             // 
-            this.pictureBox420.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox420.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox420.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox420.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCornerGhostBox32x32;
             this.pictureBox420.Location = new System.Drawing.Point(544, 384);
             this.pictureBox420.Name = "pictureBox420";
             this.pictureBox420.Size = new System.Drawing.Size(32, 32);
@@ -7238,8 +7328,7 @@ namespace MultiToolApplication
             // 
             // pictureBox421
             // 
-            this.pictureBox421.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox421.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox421.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox421.Location = new System.Drawing.Point(544, 352);
             this.pictureBox421.Name = "pictureBox421";
             this.pictureBox421.Size = new System.Drawing.Size(32, 32);
@@ -7248,8 +7337,8 @@ namespace MultiToolApplication
             // 
             // pictureBox422
             // 
-            this.pictureBox422.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox422.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox422.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox422.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox422.Location = new System.Drawing.Point(544, 320);
             this.pictureBox422.Name = "pictureBox422";
             this.pictureBox422.Size = new System.Drawing.Size(32, 32);
@@ -7258,8 +7347,8 @@ namespace MultiToolApplication
             // 
             // pictureBox423
             // 
-            this.pictureBox423.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox423.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox423.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox423.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox423.Location = new System.Drawing.Point(544, 288);
             this.pictureBox423.Name = "pictureBox423";
             this.pictureBox423.Size = new System.Drawing.Size(32, 32);
@@ -7268,8 +7357,7 @@ namespace MultiToolApplication
             // 
             // pictureBox424
             // 
-            this.pictureBox424.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox424.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox424.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox424.Location = new System.Drawing.Point(512, 352);
             this.pictureBox424.Name = "pictureBox424";
             this.pictureBox424.Size = new System.Drawing.Size(32, 32);
@@ -7278,8 +7366,8 @@ namespace MultiToolApplication
             // 
             // pictureBox425
             // 
-            this.pictureBox425.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox425.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox425.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox425.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox425.Location = new System.Drawing.Point(512, 320);
             this.pictureBox425.Name = "pictureBox425";
             this.pictureBox425.Size = new System.Drawing.Size(32, 32);
@@ -7288,8 +7376,8 @@ namespace MultiToolApplication
             // 
             // pictureBox426
             // 
-            this.pictureBox426.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox426.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox426.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox426.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox426.Location = new System.Drawing.Point(512, 288);
             this.pictureBox426.Name = "pictureBox426";
             this.pictureBox426.Size = new System.Drawing.Size(32, 32);
@@ -7298,8 +7386,7 @@ namespace MultiToolApplication
             // 
             // pictureBox427
             // 
-            this.pictureBox427.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox427.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox427.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox427.Location = new System.Drawing.Point(480, 320);
             this.pictureBox427.Name = "pictureBox427";
             this.pictureBox427.Size = new System.Drawing.Size(32, 32);
@@ -7308,8 +7395,7 @@ namespace MultiToolApplication
             // 
             // pictureBox428
             // 
-            this.pictureBox428.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox428.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox428.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox428.Location = new System.Drawing.Point(480, 288);
             this.pictureBox428.Name = "pictureBox428";
             this.pictureBox428.Size = new System.Drawing.Size(32, 32);
@@ -7318,8 +7404,8 @@ namespace MultiToolApplication
             // 
             // pictureBox429
             // 
-            this.pictureBox429.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox429.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox429.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox429.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox429.Location = new System.Drawing.Point(512, 384);
             this.pictureBox429.Name = "pictureBox429";
             this.pictureBox429.Size = new System.Drawing.Size(32, 32);
@@ -7328,8 +7414,8 @@ namespace MultiToolApplication
             // 
             // pictureBox430
             // 
-            this.pictureBox430.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox430.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox430.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox430.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox430.Location = new System.Drawing.Point(480, 384);
             this.pictureBox430.Name = "pictureBox430";
             this.pictureBox430.Size = new System.Drawing.Size(32, 32);
@@ -7338,8 +7424,7 @@ namespace MultiToolApplication
             // 
             // pictureBox431
             // 
-            this.pictureBox431.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox431.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox431.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox431.Location = new System.Drawing.Point(480, 352);
             this.pictureBox431.Name = "pictureBox431";
             this.pictureBox431.Size = new System.Drawing.Size(32, 32);
@@ -7355,11 +7440,12 @@ namespace MultiToolApplication
             this.pictureBox400.Size = new System.Drawing.Size(32, 32);
             this.pictureBox400.TabIndex = 411;
             this.pictureBox400.TabStop = false;
+            this.pictureBox400.Tag = "Dot";
             // 
             // pictureBox401
             // 
-            this.pictureBox401.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox401.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox401.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox401.Location = new System.Drawing.Point(640, 256);
             this.pictureBox401.Name = "pictureBox401";
             this.pictureBox401.Size = new System.Drawing.Size(32, 32);
@@ -7368,8 +7454,8 @@ namespace MultiToolApplication
             // 
             // pictureBox402
             // 
-            this.pictureBox402.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox402.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox402.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox402.Location = new System.Drawing.Point(640, 224);
             this.pictureBox402.Name = "pictureBox402";
             this.pictureBox402.Size = new System.Drawing.Size(32, 32);
@@ -7378,8 +7464,8 @@ namespace MultiToolApplication
             // 
             // pictureBox403
             // 
-            this.pictureBox403.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox403.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox403.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox403.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox403.Location = new System.Drawing.Point(640, 192);
             this.pictureBox403.Name = "pictureBox403";
             this.pictureBox403.Size = new System.Drawing.Size(32, 32);
@@ -7388,8 +7474,8 @@ namespace MultiToolApplication
             // 
             // pictureBox404
             // 
-            this.pictureBox404.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox404.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox404.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox404.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox404.Location = new System.Drawing.Point(608, 256);
             this.pictureBox404.Name = "pictureBox404";
             this.pictureBox404.Size = new System.Drawing.Size(32, 32);
@@ -7398,8 +7484,8 @@ namespace MultiToolApplication
             // 
             // pictureBox405
             // 
-            this.pictureBox405.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox405.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox405.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox405.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox405.Location = new System.Drawing.Point(608, 224);
             this.pictureBox405.Name = "pictureBox405";
             this.pictureBox405.Size = new System.Drawing.Size(32, 32);
@@ -7408,8 +7494,8 @@ namespace MultiToolApplication
             // 
             // pictureBox406
             // 
-            this.pictureBox406.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox406.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox406.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox406.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox406.Location = new System.Drawing.Point(608, 192);
             this.pictureBox406.Name = "pictureBox406";
             this.pictureBox406.Size = new System.Drawing.Size(32, 32);
@@ -7425,6 +7511,7 @@ namespace MultiToolApplication
             this.pictureBox407.Size = new System.Drawing.Size(32, 32);
             this.pictureBox407.TabIndex = 404;
             this.pictureBox407.TabStop = false;
+            this.pictureBox407.Tag = "Dot";
             // 
             // pictureBox408
             // 
@@ -7435,6 +7522,7 @@ namespace MultiToolApplication
             this.pictureBox408.Size = new System.Drawing.Size(32, 32);
             this.pictureBox408.TabIndex = 403;
             this.pictureBox408.TabStop = false;
+            this.pictureBox408.Tag = "Dot";
             // 
             // pictureBox409
             // 
@@ -7445,6 +7533,7 @@ namespace MultiToolApplication
             this.pictureBox409.Size = new System.Drawing.Size(32, 32);
             this.pictureBox409.TabIndex = 402;
             this.pictureBox409.TabStop = false;
+            this.pictureBox409.Tag = "Dot";
             // 
             // pictureBox410
             // 
@@ -7455,11 +7544,12 @@ namespace MultiToolApplication
             this.pictureBox410.Size = new System.Drawing.Size(32, 32);
             this.pictureBox410.TabIndex = 401;
             this.pictureBox410.TabStop = false;
+            this.pictureBox410.Tag = "Dot";
             // 
             // pictureBox411
             // 
-            this.pictureBox411.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox411.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox411.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox411.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox411.Location = new System.Drawing.Point(544, 192);
             this.pictureBox411.Name = "pictureBox411";
             this.pictureBox411.Size = new System.Drawing.Size(32, 32);
@@ -7475,6 +7565,7 @@ namespace MultiToolApplication
             this.pictureBox412.Size = new System.Drawing.Size(32, 32);
             this.pictureBox412.TabIndex = 399;
             this.pictureBox412.TabStop = false;
+            this.pictureBox412.Tag = "Dot";
             // 
             // pictureBox413
             // 
@@ -7485,6 +7576,7 @@ namespace MultiToolApplication
             this.pictureBox413.Size = new System.Drawing.Size(32, 32);
             this.pictureBox413.TabIndex = 398;
             this.pictureBox413.TabStop = false;
+            this.pictureBox413.Tag = "Dot";
             // 
             // pictureBox414
             // 
@@ -7495,11 +7587,12 @@ namespace MultiToolApplication
             this.pictureBox414.Size = new System.Drawing.Size(32, 32);
             this.pictureBox414.TabIndex = 397;
             this.pictureBox414.TabStop = false;
+            this.pictureBox414.Tag = "Dot";
             // 
             // pictureBox415
             // 
-            this.pictureBox415.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox415.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox415.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox415.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox415.Location = new System.Drawing.Point(544, 224);
             this.pictureBox415.Name = "pictureBox415";
             this.pictureBox415.Size = new System.Drawing.Size(32, 32);
@@ -7515,6 +7608,7 @@ namespace MultiToolApplication
             this.pictureBox384.Size = new System.Drawing.Size(32, 32);
             this.pictureBox384.TabIndex = 395;
             this.pictureBox384.TabStop = false;
+            this.pictureBox384.Tag = "Dot";
             // 
             // pictureBox385
             // 
@@ -7525,11 +7619,12 @@ namespace MultiToolApplication
             this.pictureBox385.Size = new System.Drawing.Size(32, 32);
             this.pictureBox385.TabIndex = 394;
             this.pictureBox385.TabStop = false;
+            this.pictureBox385.Tag = "Dot";
             // 
             // pictureBox386
             // 
-            this.pictureBox386.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox386.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox386.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox386.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox386.Location = new System.Drawing.Point(768, 224);
             this.pictureBox386.Name = "pictureBox386";
             this.pictureBox386.Size = new System.Drawing.Size(32, 32);
@@ -7538,8 +7633,8 @@ namespace MultiToolApplication
             // 
             // pictureBox387
             // 
-            this.pictureBox387.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox387.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox387.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox387.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox387.Location = new System.Drawing.Point(768, 192);
             this.pictureBox387.Name = "pictureBox387";
             this.pictureBox387.Size = new System.Drawing.Size(32, 32);
@@ -7555,11 +7650,12 @@ namespace MultiToolApplication
             this.pictureBox388.Size = new System.Drawing.Size(32, 32);
             this.pictureBox388.TabIndex = 391;
             this.pictureBox388.TabStop = false;
+            this.pictureBox388.Tag = "Dot";
             // 
             // pictureBox389
             // 
-            this.pictureBox389.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox389.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox389.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox389.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox389.Location = new System.Drawing.Point(736, 224);
             this.pictureBox389.Name = "pictureBox389";
             this.pictureBox389.Size = new System.Drawing.Size(32, 32);
@@ -7568,8 +7664,8 @@ namespace MultiToolApplication
             // 
             // pictureBox390
             // 
-            this.pictureBox390.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox390.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox390.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox390.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox390.Location = new System.Drawing.Point(736, 192);
             this.pictureBox390.Name = "pictureBox390";
             this.pictureBox390.Size = new System.Drawing.Size(32, 32);
@@ -7585,11 +7681,12 @@ namespace MultiToolApplication
             this.pictureBox391.Size = new System.Drawing.Size(32, 32);
             this.pictureBox391.TabIndex = 388;
             this.pictureBox391.TabStop = false;
+            this.pictureBox391.Tag = "Dot";
             // 
             // pictureBox392
             // 
-            this.pictureBox392.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox392.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox392.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox392.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox392.Location = new System.Drawing.Point(704, 224);
             this.pictureBox392.Name = "pictureBox392";
             this.pictureBox392.Size = new System.Drawing.Size(32, 32);
@@ -7598,8 +7695,8 @@ namespace MultiToolApplication
             // 
             // pictureBox393
             // 
-            this.pictureBox393.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox393.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox393.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox393.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox393.Location = new System.Drawing.Point(704, 192);
             this.pictureBox393.Name = "pictureBox393";
             this.pictureBox393.Size = new System.Drawing.Size(32, 32);
@@ -7615,6 +7712,7 @@ namespace MultiToolApplication
             this.pictureBox394.Size = new System.Drawing.Size(32, 32);
             this.pictureBox394.TabIndex = 385;
             this.pictureBox394.TabStop = false;
+            this.pictureBox394.Tag = "Dot";
             // 
             // pictureBox395
             // 
@@ -7625,6 +7723,7 @@ namespace MultiToolApplication
             this.pictureBox395.Size = new System.Drawing.Size(32, 32);
             this.pictureBox395.TabIndex = 384;
             this.pictureBox395.TabStop = false;
+            this.pictureBox395.Tag = "Dot";
             // 
             // pictureBox396
             // 
@@ -7635,6 +7734,7 @@ namespace MultiToolApplication
             this.pictureBox396.Size = new System.Drawing.Size(32, 32);
             this.pictureBox396.TabIndex = 383;
             this.pictureBox396.TabStop = false;
+            this.pictureBox396.Tag = "Dot";
             // 
             // pictureBox397
             // 
@@ -7645,6 +7745,7 @@ namespace MultiToolApplication
             this.pictureBox397.Size = new System.Drawing.Size(32, 32);
             this.pictureBox397.TabIndex = 382;
             this.pictureBox397.TabStop = false;
+            this.pictureBox397.Tag = "Dot";
             // 
             // pictureBox398
             // 
@@ -7655,6 +7756,7 @@ namespace MultiToolApplication
             this.pictureBox398.Size = new System.Drawing.Size(32, 32);
             this.pictureBox398.TabIndex = 381;
             this.pictureBox398.TabStop = false;
+            this.pictureBox398.Tag = "Dot";
             // 
             // pictureBox399
             // 
@@ -7665,6 +7767,7 @@ namespace MultiToolApplication
             this.pictureBox399.Size = new System.Drawing.Size(32, 32);
             this.pictureBox399.TabIndex = 380;
             this.pictureBox399.TabStop = false;
+            this.pictureBox399.Tag = "Dot";
             // 
             // pictureBox368
             // 
@@ -7675,11 +7778,12 @@ namespace MultiToolApplication
             this.pictureBox368.Size = new System.Drawing.Size(32, 32);
             this.pictureBox368.TabIndex = 379;
             this.pictureBox368.TabStop = false;
+            this.pictureBox368.Tag = "Dot";
             // 
             // pictureBox369
             // 
-            this.pictureBox369.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox369.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox369.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox369.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox369.Location = new System.Drawing.Point(768, 128);
             this.pictureBox369.Name = "pictureBox369";
             this.pictureBox369.Size = new System.Drawing.Size(32, 32);
@@ -7688,8 +7792,8 @@ namespace MultiToolApplication
             // 
             // pictureBox371
             // 
-            this.pictureBox371.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox371.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox371.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox371.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox371.Location = new System.Drawing.Point(768, 64);
             this.pictureBox371.Name = "pictureBox371";
             this.pictureBox371.Size = new System.Drawing.Size(32, 32);
@@ -7698,8 +7802,8 @@ namespace MultiToolApplication
             // 
             // pictureBox372
             // 
-            this.pictureBox372.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox372.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox372.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox372.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox372.Location = new System.Drawing.Point(736, 128);
             this.pictureBox372.Name = "pictureBox372";
             this.pictureBox372.Size = new System.Drawing.Size(32, 32);
@@ -7708,8 +7812,8 @@ namespace MultiToolApplication
             // 
             // pictureBox374
             // 
-            this.pictureBox374.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox374.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox374.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox374.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox374.Location = new System.Drawing.Point(736, 64);
             this.pictureBox374.Name = "pictureBox374";
             this.pictureBox374.Size = new System.Drawing.Size(32, 32);
@@ -7725,11 +7829,12 @@ namespace MultiToolApplication
             this.pictureBox375.Size = new System.Drawing.Size(32, 32);
             this.pictureBox375.TabIndex = 372;
             this.pictureBox375.TabStop = false;
+            this.pictureBox375.Tag = "Dot";
             // 
             // pictureBox376
             // 
-            this.pictureBox376.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox376.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox376.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox376.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox376.Location = new System.Drawing.Point(704, 96);
             this.pictureBox376.Name = "pictureBox376";
             this.pictureBox376.Size = new System.Drawing.Size(32, 32);
@@ -7738,8 +7843,8 @@ namespace MultiToolApplication
             // 
             // pictureBox377
             // 
-            this.pictureBox377.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox377.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox377.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox377.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox377.Location = new System.Drawing.Point(704, 64);
             this.pictureBox377.Name = "pictureBox377";
             this.pictureBox377.Size = new System.Drawing.Size(32, 32);
@@ -7755,6 +7860,7 @@ namespace MultiToolApplication
             this.pictureBox378.Size = new System.Drawing.Size(32, 32);
             this.pictureBox378.TabIndex = 369;
             this.pictureBox378.TabStop = false;
+            this.pictureBox378.Tag = "Dot";
             // 
             // pictureBox379
             // 
@@ -7765,6 +7871,7 @@ namespace MultiToolApplication
             this.pictureBox379.Size = new System.Drawing.Size(32, 32);
             this.pictureBox379.TabIndex = 368;
             this.pictureBox379.TabStop = false;
+            this.pictureBox379.Tag = "Dot";
             // 
             // pictureBox380
             // 
@@ -7775,11 +7882,12 @@ namespace MultiToolApplication
             this.pictureBox380.Size = new System.Drawing.Size(32, 32);
             this.pictureBox380.TabIndex = 367;
             this.pictureBox380.TabStop = false;
+            this.pictureBox380.Tag = "Dot";
             // 
             // pictureBox381
             // 
-            this.pictureBox381.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox381.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox381.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox381.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox381.Location = new System.Drawing.Point(704, 128);
             this.pictureBox381.Name = "pictureBox381";
             this.pictureBox381.Size = new System.Drawing.Size(32, 32);
@@ -7795,6 +7903,7 @@ namespace MultiToolApplication
             this.pictureBox382.Size = new System.Drawing.Size(32, 32);
             this.pictureBox382.TabIndex = 365;
             this.pictureBox382.TabStop = false;
+            this.pictureBox382.Tag = "Dot";
             // 
             // pictureBox383
             // 
@@ -7805,6 +7914,7 @@ namespace MultiToolApplication
             this.pictureBox383.Size = new System.Drawing.Size(32, 32);
             this.pictureBox383.TabIndex = 364;
             this.pictureBox383.TabStop = false;
+            this.pictureBox383.Tag = "Dot";
             // 
             // pictureBox352
             // 
@@ -7815,11 +7925,12 @@ namespace MultiToolApplication
             this.pictureBox352.Size = new System.Drawing.Size(32, 32);
             this.pictureBox352.TabIndex = 363;
             this.pictureBox352.TabStop = false;
+            this.pictureBox352.Tag = "Dot";
             // 
             // pictureBox353
             // 
-            this.pictureBox353.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox353.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox353.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox353.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox353.Location = new System.Drawing.Point(640, 128);
             this.pictureBox353.Name = "pictureBox353";
             this.pictureBox353.Size = new System.Drawing.Size(32, 32);
@@ -7828,8 +7939,8 @@ namespace MultiToolApplication
             // 
             // pictureBox354
             // 
-            this.pictureBox354.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox354.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox354.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox354.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox354.Location = new System.Drawing.Point(640, 96);
             this.pictureBox354.Name = "pictureBox354";
             this.pictureBox354.Size = new System.Drawing.Size(32, 32);
@@ -7838,8 +7949,8 @@ namespace MultiToolApplication
             // 
             // pictureBox355
             // 
-            this.pictureBox355.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox355.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox355.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox355.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox355.Location = new System.Drawing.Point(640, 64);
             this.pictureBox355.Name = "pictureBox355";
             this.pictureBox355.Size = new System.Drawing.Size(32, 32);
@@ -7848,8 +7959,8 @@ namespace MultiToolApplication
             // 
             // pictureBox356
             // 
-            this.pictureBox356.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox356.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox356.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox356.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox356.Location = new System.Drawing.Point(608, 128);
             this.pictureBox356.Name = "pictureBox356";
             this.pictureBox356.Size = new System.Drawing.Size(32, 32);
@@ -7858,8 +7969,8 @@ namespace MultiToolApplication
             // 
             // pictureBox358
             // 
-            this.pictureBox358.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox358.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox358.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox358.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox358.Location = new System.Drawing.Point(608, 64);
             this.pictureBox358.Name = "pictureBox358";
             this.pictureBox358.Size = new System.Drawing.Size(32, 32);
@@ -7875,11 +7986,12 @@ namespace MultiToolApplication
             this.pictureBox359.Size = new System.Drawing.Size(32, 32);
             this.pictureBox359.TabIndex = 356;
             this.pictureBox359.TabStop = false;
+            this.pictureBox359.Tag = "Dot";
             // 
             // pictureBox361
             // 
-            this.pictureBox361.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox361.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox361.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox361.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox361.Location = new System.Drawing.Point(576, 64);
             this.pictureBox361.Name = "pictureBox361";
             this.pictureBox361.Size = new System.Drawing.Size(32, 32);
@@ -7895,11 +8007,12 @@ namespace MultiToolApplication
             this.pictureBox362.Size = new System.Drawing.Size(32, 32);
             this.pictureBox362.TabIndex = 353;
             this.pictureBox362.TabStop = false;
+            this.pictureBox362.Tag = "Dot";
             // 
             // pictureBox363
             // 
-            this.pictureBox363.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox363.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox363.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox363.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox363.Location = new System.Drawing.Point(544, 64);
             this.pictureBox363.Name = "pictureBox363";
             this.pictureBox363.Size = new System.Drawing.Size(32, 32);
@@ -7915,11 +8028,12 @@ namespace MultiToolApplication
             this.pictureBox364.Size = new System.Drawing.Size(32, 32);
             this.pictureBox364.TabIndex = 351;
             this.pictureBox364.TabStop = false;
+            this.pictureBox364.Tag = "Dot";
             // 
             // pictureBox365
             // 
-            this.pictureBox365.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox365.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox365.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox365.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox365.Location = new System.Drawing.Point(576, 128);
             this.pictureBox365.Name = "pictureBox365";
             this.pictureBox365.Size = new System.Drawing.Size(32, 32);
@@ -7928,8 +8042,8 @@ namespace MultiToolApplication
             // 
             // pictureBox366
             // 
-            this.pictureBox366.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox366.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox366.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox366.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox366.Location = new System.Drawing.Point(544, 128);
             this.pictureBox366.Name = "pictureBox366";
             this.pictureBox366.Size = new System.Drawing.Size(32, 32);
@@ -7945,11 +8059,12 @@ namespace MultiToolApplication
             this.pictureBox336.Size = new System.Drawing.Size(32, 32);
             this.pictureBox336.TabIndex = 347;
             this.pictureBox336.TabStop = false;
+            this.pictureBox336.Tag = "Dot";
             // 
             // pictureBox337
             // 
-            this.pictureBox337.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox337.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox337.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox337.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox337.Location = new System.Drawing.Point(512, 128);
             this.pictureBox337.Name = "pictureBox337";
             this.pictureBox337.Size = new System.Drawing.Size(32, 32);
@@ -7958,8 +8073,8 @@ namespace MultiToolApplication
             // 
             // pictureBox338
             // 
-            this.pictureBox338.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox338.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox338.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox338.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox338.Location = new System.Drawing.Point(512, 96);
             this.pictureBox338.Name = "pictureBox338";
             this.pictureBox338.Size = new System.Drawing.Size(32, 32);
@@ -7968,8 +8083,8 @@ namespace MultiToolApplication
             // 
             // pictureBox339
             // 
-            this.pictureBox339.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox339.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox339.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox339.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox339.Location = new System.Drawing.Point(512, 64);
             this.pictureBox339.Name = "pictureBox339";
             this.pictureBox339.Size = new System.Drawing.Size(32, 32);
@@ -7985,6 +8100,7 @@ namespace MultiToolApplication
             this.pictureBox340.Size = new System.Drawing.Size(32, 32);
             this.pictureBox340.TabIndex = 343;
             this.pictureBox340.TabStop = false;
+            this.pictureBox340.Tag = "Dot";
             // 
             // pictureBox341
             // 
@@ -7995,6 +8111,7 @@ namespace MultiToolApplication
             this.pictureBox341.Size = new System.Drawing.Size(32, 32);
             this.pictureBox341.TabIndex = 342;
             this.pictureBox341.TabStop = false;
+            this.pictureBox341.Tag = "Dot";
             // 
             // pictureBox342
             // 
@@ -8005,6 +8122,7 @@ namespace MultiToolApplication
             this.pictureBox342.Size = new System.Drawing.Size(32, 32);
             this.pictureBox342.TabIndex = 341;
             this.pictureBox342.TabStop = false;
+            this.pictureBox342.Tag = "Dot";
             // 
             // pictureBox343
             // 
@@ -8015,11 +8133,12 @@ namespace MultiToolApplication
             this.pictureBox343.Size = new System.Drawing.Size(32, 32);
             this.pictureBox343.TabIndex = 340;
             this.pictureBox343.TabStop = false;
+            this.pictureBox343.Tag = "Dot";
             // 
             // pictureBox344
             // 
-            this.pictureBox344.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox344.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox344.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox344.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox344.Location = new System.Drawing.Point(448, 96);
             this.pictureBox344.Name = "pictureBox344";
             this.pictureBox344.Size = new System.Drawing.Size(32, 32);
@@ -8028,8 +8147,8 @@ namespace MultiToolApplication
             // 
             // pictureBox345
             // 
-            this.pictureBox345.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox345.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox345.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox345.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox345.Location = new System.Drawing.Point(448, 64);
             this.pictureBox345.Name = "pictureBox345";
             this.pictureBox345.Size = new System.Drawing.Size(32, 32);
@@ -8038,8 +8157,8 @@ namespace MultiToolApplication
             // 
             // pictureBox346
             // 
-            this.pictureBox346.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox346.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox346.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox346.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox346.Location = new System.Drawing.Point(448, 32);
             this.pictureBox346.Name = "pictureBox346";
             this.pictureBox346.Size = new System.Drawing.Size(32, 32);
@@ -8048,8 +8167,8 @@ namespace MultiToolApplication
             // 
             // pictureBox347
             // 
-            this.pictureBox347.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox347.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox347.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox347.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox347.Location = new System.Drawing.Point(416, 64);
             this.pictureBox347.Name = "pictureBox347";
             this.pictureBox347.Size = new System.Drawing.Size(32, 32);
@@ -8058,8 +8177,8 @@ namespace MultiToolApplication
             // 
             // pictureBox348
             // 
-            this.pictureBox348.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox348.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox348.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox348.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox348.Location = new System.Drawing.Point(416, 32);
             this.pictureBox348.Name = "pictureBox348";
             this.pictureBox348.Size = new System.Drawing.Size(32, 32);
@@ -8068,8 +8187,8 @@ namespace MultiToolApplication
             // 
             // pictureBox349
             // 
-            this.pictureBox349.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox349.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox349.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox349.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox349.Location = new System.Drawing.Point(448, 128);
             this.pictureBox349.Name = "pictureBox349";
             this.pictureBox349.Size = new System.Drawing.Size(32, 32);
@@ -8078,8 +8197,8 @@ namespace MultiToolApplication
             // 
             // pictureBox350
             // 
-            this.pictureBox350.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox350.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox350.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox350.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox350.Location = new System.Drawing.Point(416, 128);
             this.pictureBox350.Name = "pictureBox350";
             this.pictureBox350.Size = new System.Drawing.Size(32, 32);
@@ -8088,8 +8207,8 @@ namespace MultiToolApplication
             // 
             // pictureBox351
             // 
-            this.pictureBox351.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox351.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox351.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox351.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox351.Location = new System.Drawing.Point(416, 96);
             this.pictureBox351.Name = "pictureBox351";
             this.pictureBox351.Size = new System.Drawing.Size(32, 32);
@@ -8105,6 +8224,7 @@ namespace MultiToolApplication
             this.pictureBox320.Size = new System.Drawing.Size(32, 32);
             this.pictureBox320.TabIndex = 331;
             this.pictureBox320.TabStop = false;
+            this.pictureBox320.Tag = "Dot";
             // 
             // pictureBox321
             // 
@@ -8115,6 +8235,7 @@ namespace MultiToolApplication
             this.pictureBox321.Size = new System.Drawing.Size(32, 32);
             this.pictureBox321.TabIndex = 330;
             this.pictureBox321.TabStop = false;
+            this.pictureBox321.Tag = "Dot";
             // 
             // pictureBox322
             // 
@@ -8125,6 +8246,7 @@ namespace MultiToolApplication
             this.pictureBox322.Size = new System.Drawing.Size(32, 32);
             this.pictureBox322.TabIndex = 329;
             this.pictureBox322.TabStop = false;
+            this.pictureBox322.Tag = "Dot";
             // 
             // pictureBox323
             // 
@@ -8135,11 +8257,12 @@ namespace MultiToolApplication
             this.pictureBox323.Size = new System.Drawing.Size(32, 32);
             this.pictureBox323.TabIndex = 328;
             this.pictureBox323.TabStop = false;
+            this.pictureBox323.Tag = "Dot";
             // 
             // pictureBox324
             // 
-            this.pictureBox324.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox324.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox324.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox324.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox324.Location = new System.Drawing.Point(352, 128);
             this.pictureBox324.Name = "pictureBox324";
             this.pictureBox324.Size = new System.Drawing.Size(32, 32);
@@ -8148,8 +8271,8 @@ namespace MultiToolApplication
             // 
             // pictureBox325
             // 
-            this.pictureBox325.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox325.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox325.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox325.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox325.Location = new System.Drawing.Point(352, 96);
             this.pictureBox325.Name = "pictureBox325";
             this.pictureBox325.Size = new System.Drawing.Size(32, 32);
@@ -8158,8 +8281,8 @@ namespace MultiToolApplication
             // 
             // pictureBox326
             // 
-            this.pictureBox326.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox326.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox326.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox326.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox326.Location = new System.Drawing.Point(352, 64);
             this.pictureBox326.Name = "pictureBox326";
             this.pictureBox326.Size = new System.Drawing.Size(32, 32);
@@ -8175,11 +8298,12 @@ namespace MultiToolApplication
             this.pictureBox327.Size = new System.Drawing.Size(32, 32);
             this.pictureBox327.TabIndex = 324;
             this.pictureBox327.TabStop = false;
+            this.pictureBox327.Tag = "Dot";
             // 
             // pictureBox329
             // 
-            this.pictureBox329.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox329.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox329.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox329.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox329.Location = new System.Drawing.Point(320, 64);
             this.pictureBox329.Name = "pictureBox329";
             this.pictureBox329.Size = new System.Drawing.Size(32, 32);
@@ -8195,11 +8319,12 @@ namespace MultiToolApplication
             this.pictureBox330.Size = new System.Drawing.Size(32, 32);
             this.pictureBox330.TabIndex = 321;
             this.pictureBox330.TabStop = false;
+            this.pictureBox330.Tag = "Dot";
             // 
             // pictureBox331
             // 
-            this.pictureBox331.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox331.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox331.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox331.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox331.Location = new System.Drawing.Point(288, 64);
             this.pictureBox331.Name = "pictureBox331";
             this.pictureBox331.Size = new System.Drawing.Size(32, 32);
@@ -8215,11 +8340,12 @@ namespace MultiToolApplication
             this.pictureBox332.Size = new System.Drawing.Size(32, 32);
             this.pictureBox332.TabIndex = 319;
             this.pictureBox332.TabStop = false;
+            this.pictureBox332.Tag = "Dot";
             // 
             // pictureBox333
             // 
-            this.pictureBox333.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox333.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox333.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox333.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox333.Location = new System.Drawing.Point(320, 128);
             this.pictureBox333.Name = "pictureBox333";
             this.pictureBox333.Size = new System.Drawing.Size(32, 32);
@@ -8228,8 +8354,8 @@ namespace MultiToolApplication
             // 
             // pictureBox334
             // 
-            this.pictureBox334.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox334.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox334.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox334.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox334.Location = new System.Drawing.Point(288, 128);
             this.pictureBox334.Name = "pictureBox334";
             this.pictureBox334.Size = new System.Drawing.Size(32, 32);
@@ -8238,8 +8364,8 @@ namespace MultiToolApplication
             // 
             // pictureBox311
             // 
-            this.pictureBox311.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox311.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox311.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox311.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox311.Location = new System.Drawing.Point(320, 480);
             this.pictureBox311.Name = "pictureBox311";
             this.pictureBox311.Size = new System.Drawing.Size(32, 32);
@@ -8248,8 +8374,8 @@ namespace MultiToolApplication
             // 
             // pictureBox312
             // 
-            this.pictureBox312.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox312.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox312.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox312.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox312.Location = new System.Drawing.Point(320, 448);
             this.pictureBox312.Name = "pictureBox312";
             this.pictureBox312.Size = new System.Drawing.Size(32, 32);
@@ -8258,8 +8384,7 @@ namespace MultiToolApplication
             // 
             // pictureBox313
             // 
-            this.pictureBox313.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox313.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox313.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox313.Location = new System.Drawing.Point(288, 480);
             this.pictureBox313.Name = "pictureBox313";
             this.pictureBox313.Size = new System.Drawing.Size(32, 32);
@@ -8268,8 +8393,7 @@ namespace MultiToolApplication
             // 
             // pictureBox314
             // 
-            this.pictureBox314.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox314.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox314.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox314.Location = new System.Drawing.Point(288, 448);
             this.pictureBox314.Name = "pictureBox314";
             this.pictureBox314.Size = new System.Drawing.Size(32, 32);
@@ -8278,8 +8402,7 @@ namespace MultiToolApplication
             // 
             // pictureBox315
             // 
-            this.pictureBox315.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox315.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox315.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox315.Location = new System.Drawing.Point(288, 416);
             this.pictureBox315.Name = "pictureBox315";
             this.pictureBox315.Size = new System.Drawing.Size(32, 32);
@@ -8288,8 +8411,8 @@ namespace MultiToolApplication
             // 
             // pictureBox316
             // 
-            this.pictureBox316.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox316.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox316.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox316.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox316.Location = new System.Drawing.Point(256, 480);
             this.pictureBox316.Name = "pictureBox316";
             this.pictureBox316.Size = new System.Drawing.Size(32, 32);
@@ -8298,8 +8421,7 @@ namespace MultiToolApplication
             // 
             // pictureBox317
             // 
-            this.pictureBox317.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox317.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox317.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox317.Location = new System.Drawing.Point(256, 448);
             this.pictureBox317.Name = "pictureBox317";
             this.pictureBox317.Size = new System.Drawing.Size(32, 32);
@@ -8308,8 +8430,8 @@ namespace MultiToolApplication
             // 
             // pictureBox318
             // 
-            this.pictureBox318.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox318.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox318.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox318.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox318.Location = new System.Drawing.Point(256, 416);
             this.pictureBox318.Name = "pictureBox318";
             this.pictureBox318.Size = new System.Drawing.Size(32, 32);
@@ -8318,8 +8440,8 @@ namespace MultiToolApplication
             // 
             // pictureBox319
             // 
-            this.pictureBox319.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox319.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox319.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox319.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox319.Location = new System.Drawing.Point(256, 384);
             this.pictureBox319.Name = "pictureBox319";
             this.pictureBox319.Size = new System.Drawing.Size(32, 32);
@@ -8335,6 +8457,7 @@ namespace MultiToolApplication
             this.pictureBox304.Size = new System.Drawing.Size(32, 32);
             this.pictureBox304.TabIndex = 305;
             this.pictureBox304.TabStop = false;
+            this.pictureBox304.Tag = "Dot";
             // 
             // pictureBox305
             // 
@@ -8345,11 +8468,12 @@ namespace MultiToolApplication
             this.pictureBox305.Size = new System.Drawing.Size(32, 32);
             this.pictureBox305.TabIndex = 304;
             this.pictureBox305.TabStop = false;
+            this.pictureBox305.Tag = "Dot";
             // 
             // pictureBox306
             // 
-            this.pictureBox306.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox306.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox306.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox306.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox306.Location = new System.Drawing.Point(96, 224);
             this.pictureBox306.Name = "pictureBox306";
             this.pictureBox306.Size = new System.Drawing.Size(32, 32);
@@ -8365,11 +8489,12 @@ namespace MultiToolApplication
             this.pictureBox307.Size = new System.Drawing.Size(32, 32);
             this.pictureBox307.TabIndex = 302;
             this.pictureBox307.TabStop = false;
+            this.pictureBox307.Tag = "Dot";
             // 
             // pictureBox308
             // 
-            this.pictureBox308.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox308.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox308.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox308.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox308.Location = new System.Drawing.Point(64, 224);
             this.pictureBox308.Name = "pictureBox308";
             this.pictureBox308.Size = new System.Drawing.Size(32, 32);
@@ -8378,8 +8503,8 @@ namespace MultiToolApplication
             // 
             // pictureBox309
             // 
-            this.pictureBox309.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox309.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox309.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox309.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox309.Location = new System.Drawing.Point(64, 192);
             this.pictureBox309.Name = "pictureBox309";
             this.pictureBox309.Size = new System.Drawing.Size(32, 32);
@@ -8388,8 +8513,8 @@ namespace MultiToolApplication
             // 
             // pictureBox301
             // 
-            this.pictureBox301.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox301.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox301.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox301.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox301.Location = new System.Drawing.Point(224, 64);
             this.pictureBox301.Name = "pictureBox301";
             this.pictureBox301.Size = new System.Drawing.Size(32, 32);
@@ -8405,6 +8530,7 @@ namespace MultiToolApplication
             this.pictureBox302.Size = new System.Drawing.Size(32, 32);
             this.pictureBox302.TabIndex = 298;
             this.pictureBox302.TabStop = false;
+            this.pictureBox302.Tag = "Dot";
             // 
             // pictureBox303
             // 
@@ -8415,11 +8541,12 @@ namespace MultiToolApplication
             this.pictureBox303.Size = new System.Drawing.Size(32, 32);
             this.pictureBox303.TabIndex = 297;
             this.pictureBox303.TabStop = false;
+            this.pictureBox303.Tag = "Dot";
             // 
             // pictureBox296
             // 
-            this.pictureBox296.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox296.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox296.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox296.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox296.Location = new System.Drawing.Point(128, 64);
             this.pictureBox296.Name = "pictureBox296";
             this.pictureBox296.Size = new System.Drawing.Size(32, 32);
@@ -8435,11 +8562,12 @@ namespace MultiToolApplication
             this.pictureBox297.Size = new System.Drawing.Size(32, 32);
             this.pictureBox297.TabIndex = 294;
             this.pictureBox297.TabStop = false;
+            this.pictureBox297.Tag = "Dot";
             // 
             // pictureBox298
             // 
-            this.pictureBox298.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox298.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox298.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox298.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox298.Location = new System.Drawing.Point(96, 64);
             this.pictureBox298.Name = "pictureBox298";
             this.pictureBox298.Size = new System.Drawing.Size(32, 32);
@@ -8455,6 +8583,7 @@ namespace MultiToolApplication
             this.pictureBox299.Size = new System.Drawing.Size(32, 32);
             this.pictureBox299.TabIndex = 292;
             this.pictureBox299.TabStop = false;
+            this.pictureBox299.Tag = "Dot";
             // 
             // pictureBox300
             // 
@@ -8465,11 +8594,12 @@ namespace MultiToolApplication
             this.pictureBox300.Size = new System.Drawing.Size(32, 32);
             this.pictureBox300.TabIndex = 291;
             this.pictureBox300.TabStop = false;
+            this.pictureBox300.Tag = "Dot";
             // 
             // pictureBox281
             // 
-            this.pictureBox281.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox281.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox281.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox281.Image = global::MultiToolApplication.Properties.Resources.InsideBottomRightCornerWide32x32;
             this.pictureBox281.Location = new System.Drawing.Point(736, 704);
             this.pictureBox281.Name = "pictureBox281";
             this.pictureBox281.Size = new System.Drawing.Size(32, 32);
@@ -8478,8 +8608,8 @@ namespace MultiToolApplication
             // 
             // pictureBox282
             // 
-            this.pictureBox282.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox282.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox282.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox282.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox282.Location = new System.Drawing.Point(736, 672);
             this.pictureBox282.Name = "pictureBox282";
             this.pictureBox282.Size = new System.Drawing.Size(32, 32);
@@ -8495,11 +8625,12 @@ namespace MultiToolApplication
             this.pictureBox283.Size = new System.Drawing.Size(32, 32);
             this.pictureBox283.TabIndex = 287;
             this.pictureBox283.TabStop = false;
+            this.pictureBox283.Tag = "Dot";
             // 
             // pictureBox284
             // 
-            this.pictureBox284.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox284.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox284.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox284.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox284.Location = new System.Drawing.Point(736, 608);
             this.pictureBox284.Name = "pictureBox284";
             this.pictureBox284.Size = new System.Drawing.Size(32, 32);
@@ -8508,8 +8639,8 @@ namespace MultiToolApplication
             // 
             // pictureBox285
             // 
-            this.pictureBox285.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox285.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox285.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox285.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox285.Location = new System.Drawing.Point(704, 672);
             this.pictureBox285.Name = "pictureBox285";
             this.pictureBox285.Size = new System.Drawing.Size(32, 32);
@@ -8525,11 +8656,12 @@ namespace MultiToolApplication
             this.pictureBox286.Size = new System.Drawing.Size(32, 32);
             this.pictureBox286.TabIndex = 284;
             this.pictureBox286.TabStop = false;
+            this.pictureBox286.Tag = "Dot";
             // 
             // pictureBox287
             // 
-            this.pictureBox287.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox287.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox287.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox287.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox287.Location = new System.Drawing.Point(704, 608);
             this.pictureBox287.Name = "pictureBox287";
             this.pictureBox287.Size = new System.Drawing.Size(32, 32);
@@ -8538,8 +8670,8 @@ namespace MultiToolApplication
             // 
             // pictureBox288
             // 
-            this.pictureBox288.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox288.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox288.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox288.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox288.Location = new System.Drawing.Point(704, 576);
             this.pictureBox288.Name = "pictureBox288";
             this.pictureBox288.Size = new System.Drawing.Size(32, 32);
@@ -8555,6 +8687,7 @@ namespace MultiToolApplication
             this.pictureBox289.Size = new System.Drawing.Size(32, 32);
             this.pictureBox289.TabIndex = 281;
             this.pictureBox289.TabStop = false;
+            this.pictureBox289.Tag = "Dot";
             // 
             // pictureBox290
             // 
@@ -8565,6 +8698,7 @@ namespace MultiToolApplication
             this.pictureBox290.Size = new System.Drawing.Size(32, 32);
             this.pictureBox290.TabIndex = 280;
             this.pictureBox290.TabStop = false;
+            this.pictureBox290.Tag = "Dot";
             // 
             // pictureBox291
             // 
@@ -8575,11 +8709,12 @@ namespace MultiToolApplication
             this.pictureBox291.Size = new System.Drawing.Size(32, 32);
             this.pictureBox291.TabIndex = 279;
             this.pictureBox291.TabStop = false;
+            this.pictureBox291.Tag = "Dot";
             // 
             // pictureBox292
             // 
             this.pictureBox292.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox292.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox292.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox292.Location = new System.Drawing.Point(640, 608);
             this.pictureBox292.Name = "pictureBox292";
             this.pictureBox292.Size = new System.Drawing.Size(32, 32);
@@ -8588,8 +8723,8 @@ namespace MultiToolApplication
             // 
             // pictureBox293
             // 
-            this.pictureBox293.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox293.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox293.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox293.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox293.Location = new System.Drawing.Point(640, 576);
             this.pictureBox293.Name = "pictureBox293";
             this.pictureBox293.Size = new System.Drawing.Size(32, 32);
@@ -8598,8 +8733,8 @@ namespace MultiToolApplication
             // 
             // pictureBox294
             // 
-            this.pictureBox294.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox294.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox294.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox294.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox294.Location = new System.Drawing.Point(608, 576);
             this.pictureBox294.Name = "pictureBox294";
             this.pictureBox294.Size = new System.Drawing.Size(32, 32);
@@ -8608,8 +8743,7 @@ namespace MultiToolApplication
             // 
             // pictureBox265
             // 
-            this.pictureBox265.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox265.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox265.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox265.Location = new System.Drawing.Point(576, 416);
             this.pictureBox265.Name = "pictureBox265";
             this.pictureBox265.Size = new System.Drawing.Size(32, 32);
@@ -8618,8 +8752,7 @@ namespace MultiToolApplication
             // 
             // pictureBox266
             // 
-            this.pictureBox266.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox266.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox266.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox266.Location = new System.Drawing.Point(576, 544);
             this.pictureBox266.Name = "pictureBox266";
             this.pictureBox266.Size = new System.Drawing.Size(32, 32);
@@ -8628,8 +8761,7 @@ namespace MultiToolApplication
             // 
             // pictureBox267
             // 
-            this.pictureBox267.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox267.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox267.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox267.Location = new System.Drawing.Point(576, 512);
             this.pictureBox267.Name = "pictureBox267";
             this.pictureBox267.Size = new System.Drawing.Size(32, 32);
@@ -8638,8 +8770,7 @@ namespace MultiToolApplication
             // 
             // pictureBox268
             // 
-            this.pictureBox268.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox268.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox268.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox268.Location = new System.Drawing.Point(576, 480);
             this.pictureBox268.Name = "pictureBox268";
             this.pictureBox268.Size = new System.Drawing.Size(32, 32);
@@ -8648,8 +8779,7 @@ namespace MultiToolApplication
             // 
             // pictureBox269
             // 
-            this.pictureBox269.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox269.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox269.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox269.Location = new System.Drawing.Point(576, 448);
             this.pictureBox269.Name = "pictureBox269";
             this.pictureBox269.Size = new System.Drawing.Size(32, 32);
@@ -8659,7 +8789,7 @@ namespace MultiToolApplication
             // pictureBox270
             // 
             this.pictureBox270.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox270.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox270.Image = global::MultiToolApplication.Properties.Resources.TopLeftCornerGhostBox32x32;
             this.pictureBox270.Location = new System.Drawing.Point(544, 512);
             this.pictureBox270.Name = "pictureBox270";
             this.pictureBox270.Size = new System.Drawing.Size(32, 32);
@@ -8668,8 +8798,8 @@ namespace MultiToolApplication
             // 
             // pictureBox271
             // 
-            this.pictureBox271.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox271.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox271.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox271.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox271.Location = new System.Drawing.Point(544, 480);
             this.pictureBox271.Name = "pictureBox271";
             this.pictureBox271.Size = new System.Drawing.Size(32, 32);
@@ -8678,8 +8808,8 @@ namespace MultiToolApplication
             // 
             // pictureBox272
             // 
-            this.pictureBox272.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox272.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox272.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox272.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox272.Location = new System.Drawing.Point(544, 448);
             this.pictureBox272.Name = "pictureBox272";
             this.pictureBox272.Size = new System.Drawing.Size(32, 32);
@@ -8688,8 +8818,8 @@ namespace MultiToolApplication
             // 
             // pictureBox273
             // 
-            this.pictureBox273.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox273.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox273.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox273.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox273.Location = new System.Drawing.Point(544, 416);
             this.pictureBox273.Name = "pictureBox273";
             this.pictureBox273.Size = new System.Drawing.Size(32, 32);
@@ -8698,8 +8828,8 @@ namespace MultiToolApplication
             // 
             // pictureBox250
             // 
-            this.pictureBox250.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox250.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox250.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox250.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox250.Location = new System.Drawing.Point(416, 256);
             this.pictureBox250.Name = "pictureBox250";
             this.pictureBox250.Size = new System.Drawing.Size(32, 32);
@@ -8708,8 +8838,7 @@ namespace MultiToolApplication
             // 
             // pictureBox251
             // 
-            this.pictureBox251.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox251.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox251.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox251.Location = new System.Drawing.Point(416, 384);
             this.pictureBox251.Name = "pictureBox251";
             this.pictureBox251.Size = new System.Drawing.Size(32, 32);
@@ -8718,8 +8847,7 @@ namespace MultiToolApplication
             // 
             // pictureBox252
             // 
-            this.pictureBox252.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox252.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox252.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox252.Location = new System.Drawing.Point(416, 352);
             this.pictureBox252.Name = "pictureBox252";
             this.pictureBox252.Size = new System.Drawing.Size(32, 32);
@@ -8728,8 +8856,8 @@ namespace MultiToolApplication
             // 
             // pictureBox253
             // 
-            this.pictureBox253.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox253.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox253.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox253.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox253.Location = new System.Drawing.Point(416, 320);
             this.pictureBox253.Name = "pictureBox253";
             this.pictureBox253.Size = new System.Drawing.Size(32, 32);
@@ -8738,8 +8866,8 @@ namespace MultiToolApplication
             // 
             // pictureBox254
             // 
-            this.pictureBox254.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox254.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox254.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox254.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox254.Location = new System.Drawing.Point(416, 288);
             this.pictureBox254.Name = "pictureBox254";
             this.pictureBox254.Size = new System.Drawing.Size(32, 32);
@@ -8748,8 +8876,7 @@ namespace MultiToolApplication
             // 
             // pictureBox255
             // 
-            this.pictureBox255.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox255.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox255.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox255.Location = new System.Drawing.Point(384, 352);
             this.pictureBox255.Name = "pictureBox255";
             this.pictureBox255.Size = new System.Drawing.Size(32, 32);
@@ -8758,8 +8885,7 @@ namespace MultiToolApplication
             // 
             // pictureBox256
             // 
-            this.pictureBox256.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox256.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox256.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox256.Location = new System.Drawing.Point(384, 320);
             this.pictureBox256.Name = "pictureBox256";
             this.pictureBox256.Size = new System.Drawing.Size(32, 32);
@@ -8768,8 +8894,7 @@ namespace MultiToolApplication
             // 
             // pictureBox257
             // 
-            this.pictureBox257.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox257.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox257.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox257.Location = new System.Drawing.Point(384, 288);
             this.pictureBox257.Name = "pictureBox257";
             this.pictureBox257.Size = new System.Drawing.Size(32, 32);
@@ -8785,11 +8910,12 @@ namespace MultiToolApplication
             this.pictureBox258.Size = new System.Drawing.Size(32, 32);
             this.pictureBox258.TabIndex = 252;
             this.pictureBox258.TabStop = false;
+            this.pictureBox258.Tag = "Dot";
             // 
             // pictureBox259
             // 
-            this.pictureBox259.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox259.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox259.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox259.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox259.Location = new System.Drawing.Point(352, 320);
             this.pictureBox259.Name = "pictureBox259";
             this.pictureBox259.Size = new System.Drawing.Size(32, 32);
@@ -8798,8 +8924,8 @@ namespace MultiToolApplication
             // 
             // pictureBox260
             // 
-            this.pictureBox260.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox260.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox260.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox260.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox260.Location = new System.Drawing.Point(352, 288);
             this.pictureBox260.Name = "pictureBox260";
             this.pictureBox260.Size = new System.Drawing.Size(32, 32);
@@ -8815,11 +8941,12 @@ namespace MultiToolApplication
             this.pictureBox261.Size = new System.Drawing.Size(32, 32);
             this.pictureBox261.TabIndex = 249;
             this.pictureBox261.TabStop = false;
+            this.pictureBox261.Tag = "Dot";
             // 
             // pictureBox262
             // 
-            this.pictureBox262.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox262.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox262.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox262.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox262.Location = new System.Drawing.Point(320, 288);
             this.pictureBox262.Name = "pictureBox262";
             this.pictureBox262.Size = new System.Drawing.Size(32, 32);
@@ -8835,6 +8962,7 @@ namespace MultiToolApplication
             this.pictureBox263.Size = new System.Drawing.Size(32, 32);
             this.pictureBox263.TabIndex = 247;
             this.pictureBox263.TabStop = false;
+            this.pictureBox263.Tag = "Dot";
             // 
             // pictureBox264
             // 
@@ -8845,11 +8973,12 @@ namespace MultiToolApplication
             this.pictureBox264.Size = new System.Drawing.Size(32, 32);
             this.pictureBox264.TabIndex = 246;
             this.pictureBox264.TabStop = false;
+            this.pictureBox264.Tag = "Dot";
             // 
             // pictureBox249
             // 
-            this.pictureBox249.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox249.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox249.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox249.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox249.Location = new System.Drawing.Point(256, 224);
             this.pictureBox249.Name = "pictureBox249";
             this.pictureBox249.Size = new System.Drawing.Size(32, 32);
@@ -8858,8 +8987,8 @@ namespace MultiToolApplication
             // 
             // pictureBox237
             // 
-            this.pictureBox237.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox237.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox237.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox237.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox237.Location = new System.Drawing.Point(224, 192);
             this.pictureBox237.Name = "pictureBox237";
             this.pictureBox237.Size = new System.Drawing.Size(32, 32);
@@ -8868,18 +8997,19 @@ namespace MultiToolApplication
             // 
             // pictureBox238
             // 
-            this.pictureBox238.BackColor = System.Drawing.Color.Black;
+            this.pictureBox238.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox238.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox238.Location = new System.Drawing.Point(224, 160);
             this.pictureBox238.Name = "pictureBox238";
             this.pictureBox238.Size = new System.Drawing.Size(32, 32);
             this.pictureBox238.TabIndex = 243;
             this.pictureBox238.TabStop = false;
+            this.pictureBox238.Tag = "Dot";
             // 
             // pictureBox239
             // 
-            this.pictureBox239.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox239.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox239.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox239.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox239.Location = new System.Drawing.Point(224, 128);
             this.pictureBox239.Name = "pictureBox239";
             this.pictureBox239.Size = new System.Drawing.Size(32, 32);
@@ -8888,8 +9018,8 @@ namespace MultiToolApplication
             // 
             // pictureBox240
             // 
-            this.pictureBox240.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox240.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox240.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox240.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox240.Location = new System.Drawing.Point(224, 96);
             this.pictureBox240.Name = "pictureBox240";
             this.pictureBox240.Size = new System.Drawing.Size(32, 32);
@@ -8898,47 +9028,30 @@ namespace MultiToolApplication
             // 
             // pictureBox241
             // 
-            this.pictureBox241.BackColor = System.Drawing.Color.Black;
+            this.pictureBox241.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox241.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox241.Location = new System.Drawing.Point(192, 160);
             this.pictureBox241.Name = "pictureBox241";
             this.pictureBox241.Size = new System.Drawing.Size(32, 32);
             this.pictureBox241.TabIndex = 240;
             this.pictureBox241.TabStop = false;
-            // 
-            // pictureBox242
-            // 
-            this.pictureBox242.BackColor = System.Drawing.Color.Black;
-            this.pictureBox242.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
-            this.pictureBox242.Location = new System.Drawing.Point(192, 128);
-            this.pictureBox242.Name = "pictureBox242";
-            this.pictureBox242.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox242.TabIndex = 239;
-            this.pictureBox242.TabStop = false;
-            // 
-            // pictureBox243
-            // 
-            this.pictureBox243.BackColor = System.Drawing.Color.Black;
-            this.pictureBox243.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
-            this.pictureBox243.Location = new System.Drawing.Point(192, 96);
-            this.pictureBox243.Name = "pictureBox243";
-            this.pictureBox243.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox243.TabIndex = 238;
-            this.pictureBox243.TabStop = false;
+            this.pictureBox241.Tag = "Dot";
             // 
             // pictureBox244
             // 
-            this.pictureBox244.BackColor = System.Drawing.Color.Black;
+            this.pictureBox244.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox244.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox244.Location = new System.Drawing.Point(192, 64);
             this.pictureBox244.Name = "pictureBox244";
             this.pictureBox244.Size = new System.Drawing.Size(32, 32);
             this.pictureBox244.TabIndex = 237;
             this.pictureBox244.TabStop = false;
+            this.pictureBox244.Tag = "Dot";
             // 
             // pictureBox245
             // 
-            this.pictureBox245.BackColor = System.Drawing.Color.DimGray;
+            this.pictureBox245.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox245.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox245.Location = new System.Drawing.Point(160, 128);
             this.pictureBox245.Name = "pictureBox245";
             this.pictureBox245.Size = new System.Drawing.Size(32, 32);
@@ -8947,8 +9060,8 @@ namespace MultiToolApplication
             // 
             // pictureBox246
             // 
-            this.pictureBox246.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox246.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox246.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox246.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox246.Location = new System.Drawing.Point(160, 96);
             this.pictureBox246.Name = "pictureBox246";
             this.pictureBox246.Size = new System.Drawing.Size(32, 32);
@@ -8957,8 +9070,8 @@ namespace MultiToolApplication
             // 
             // pictureBox247
             // 
-            this.pictureBox247.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox247.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox247.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox247.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox247.Location = new System.Drawing.Point(160, 64);
             this.pictureBox247.Name = "pictureBox247";
             this.pictureBox247.Size = new System.Drawing.Size(32, 32);
@@ -8974,11 +9087,12 @@ namespace MultiToolApplication
             this.pictureBox248.Size = new System.Drawing.Size(32, 32);
             this.pictureBox248.TabIndex = 233;
             this.pictureBox248.TabStop = false;
+            this.pictureBox248.Tag = "Dot";
             // 
             // pictureBox233
             // 
-            this.pictureBox233.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox233.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox233.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox233.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomRightCorner32x32;
             this.pictureBox233.Location = new System.Drawing.Point(864, 960);
             this.pictureBox233.Name = "pictureBox233";
             this.pictureBox233.Size = new System.Drawing.Size(32, 32);
@@ -8987,8 +9101,8 @@ namespace MultiToolApplication
             // 
             // pictureBox234
             // 
-            this.pictureBox234.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox234.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox234.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox234.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox234.Location = new System.Drawing.Point(864, 928);
             this.pictureBox234.Name = "pictureBox234";
             this.pictureBox234.Size = new System.Drawing.Size(32, 32);
@@ -8997,8 +9111,8 @@ namespace MultiToolApplication
             // 
             // pictureBox235
             // 
-            this.pictureBox235.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox235.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox235.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox235.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox235.Location = new System.Drawing.Point(864, 896);
             this.pictureBox235.Name = "pictureBox235";
             this.pictureBox235.Size = new System.Drawing.Size(32, 32);
@@ -9007,8 +9121,8 @@ namespace MultiToolApplication
             // 
             // pictureBox236
             // 
-            this.pictureBox236.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox236.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox236.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox236.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox236.Location = new System.Drawing.Point(864, 864);
             this.pictureBox236.Name = "pictureBox236";
             this.pictureBox236.Size = new System.Drawing.Size(32, 32);
@@ -9024,6 +9138,7 @@ namespace MultiToolApplication
             this.pictureBox229.Size = new System.Drawing.Size(32, 32);
             this.pictureBox229.TabIndex = 228;
             this.pictureBox229.TabStop = false;
+            this.pictureBox229.Tag = "Dot";
             // 
             // pictureBox230
             // 
@@ -9034,6 +9149,7 @@ namespace MultiToolApplication
             this.pictureBox230.Size = new System.Drawing.Size(32, 32);
             this.pictureBox230.TabIndex = 227;
             this.pictureBox230.TabStop = false;
+            this.pictureBox230.Tag = "Dot";
             // 
             // pictureBox231
             // 
@@ -9044,6 +9160,7 @@ namespace MultiToolApplication
             this.pictureBox231.Size = new System.Drawing.Size(32, 32);
             this.pictureBox231.TabIndex = 226;
             this.pictureBox231.TabStop = false;
+            this.pictureBox231.Tag = "Dot";
             // 
             // pictureBox232
             // 
@@ -9054,11 +9171,12 @@ namespace MultiToolApplication
             this.pictureBox232.Size = new System.Drawing.Size(32, 32);
             this.pictureBox232.TabIndex = 225;
             this.pictureBox232.TabStop = false;
+            this.pictureBox232.Tag = "Dot";
             // 
             // pictureBox225
             // 
-            this.pictureBox225.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox225.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox225.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox225.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox225.Location = new System.Drawing.Point(800, 896);
             this.pictureBox225.Name = "pictureBox225";
             this.pictureBox225.Size = new System.Drawing.Size(32, 32);
@@ -9067,8 +9185,8 @@ namespace MultiToolApplication
             // 
             // pictureBox226
             // 
-            this.pictureBox226.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox226.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox226.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox226.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox226.Location = new System.Drawing.Point(800, 864);
             this.pictureBox226.Name = "pictureBox226";
             this.pictureBox226.Size = new System.Drawing.Size(32, 32);
@@ -9084,11 +9202,12 @@ namespace MultiToolApplication
             this.pictureBox227.Size = new System.Drawing.Size(32, 32);
             this.pictureBox227.TabIndex = 222;
             this.pictureBox227.TabStop = false;
+            this.pictureBox227.Tag = "Dot";
             // 
             // pictureBox228
             // 
-            this.pictureBox228.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox228.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox228.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox228.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox228.Location = new System.Drawing.Point(800, 800);
             this.pictureBox228.Name = "pictureBox228";
             this.pictureBox228.Size = new System.Drawing.Size(32, 32);
@@ -9097,8 +9216,8 @@ namespace MultiToolApplication
             // 
             // pictureBox221
             // 
-            this.pictureBox221.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox221.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox221.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox221.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox221.Location = new System.Drawing.Point(768, 864);
             this.pictureBox221.Name = "pictureBox221";
             this.pictureBox221.Size = new System.Drawing.Size(32, 32);
@@ -9114,6 +9233,7 @@ namespace MultiToolApplication
             this.pictureBox222.Size = new System.Drawing.Size(32, 32);
             this.pictureBox222.TabIndex = 219;
             this.pictureBox222.TabStop = false;
+            this.pictureBox222.Tag = "Dot";
             // 
             // pictureBox223
             // 
@@ -9124,6 +9244,7 @@ namespace MultiToolApplication
             this.pictureBox223.Size = new System.Drawing.Size(32, 32);
             this.pictureBox223.TabIndex = 218;
             this.pictureBox223.TabStop = false;
+            this.pictureBox223.Tag = "Dot";
             // 
             // pictureBox224
             // 
@@ -9134,6 +9255,7 @@ namespace MultiToolApplication
             this.pictureBox224.Size = new System.Drawing.Size(32, 32);
             this.pictureBox224.TabIndex = 217;
             this.pictureBox224.TabStop = false;
+            this.pictureBox224.Tag = "Dot";
             // 
             // pictureBox217
             // 
@@ -9144,11 +9266,12 @@ namespace MultiToolApplication
             this.pictureBox217.Size = new System.Drawing.Size(32, 32);
             this.pictureBox217.TabIndex = 216;
             this.pictureBox217.TabStop = false;
+            this.pictureBox217.Tag = "Dot";
             // 
             // pictureBox218
             // 
-            this.pictureBox218.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox218.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox218.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox218.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox218.Location = new System.Drawing.Point(736, 800);
             this.pictureBox218.Name = "pictureBox218";
             this.pictureBox218.Size = new System.Drawing.Size(32, 32);
@@ -9157,8 +9280,8 @@ namespace MultiToolApplication
             // 
             // pictureBox219
             // 
-            this.pictureBox219.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox219.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox219.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox219.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox219.Location = new System.Drawing.Point(736, 768);
             this.pictureBox219.Name = "pictureBox219";
             this.pictureBox219.Size = new System.Drawing.Size(32, 32);
@@ -9167,8 +9290,8 @@ namespace MultiToolApplication
             // 
             // pictureBox220
             // 
-            this.pictureBox220.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox220.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox220.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox220.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox220.Location = new System.Drawing.Point(736, 736);
             this.pictureBox220.Name = "pictureBox220";
             this.pictureBox220.Size = new System.Drawing.Size(32, 32);
@@ -9177,8 +9300,8 @@ namespace MultiToolApplication
             // 
             // pictureBox213
             // 
-            this.pictureBox213.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox213.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox213.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox213.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox213.Location = new System.Drawing.Point(704, 800);
             this.pictureBox213.Name = "pictureBox213";
             this.pictureBox213.Size = new System.Drawing.Size(32, 32);
@@ -9187,8 +9310,8 @@ namespace MultiToolApplication
             // 
             // pictureBox214
             // 
-            this.pictureBox214.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox214.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox214.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox214.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox214.Location = new System.Drawing.Point(704, 768);
             this.pictureBox214.Name = "pictureBox214";
             this.pictureBox214.Size = new System.Drawing.Size(32, 32);
@@ -9197,8 +9320,8 @@ namespace MultiToolApplication
             // 
             // pictureBox215
             // 
-            this.pictureBox215.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox215.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox215.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox215.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox215.Location = new System.Drawing.Point(704, 736);
             this.pictureBox215.Name = "pictureBox215";
             this.pictureBox215.Size = new System.Drawing.Size(32, 32);
@@ -9207,8 +9330,8 @@ namespace MultiToolApplication
             // 
             // pictureBox216
             // 
-            this.pictureBox216.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox216.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox216.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox216.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox216.Location = new System.Drawing.Point(704, 704);
             this.pictureBox216.Name = "pictureBox216";
             this.pictureBox216.Size = new System.Drawing.Size(32, 32);
@@ -9224,6 +9347,7 @@ namespace MultiToolApplication
             this.pictureBox209.Size = new System.Drawing.Size(32, 32);
             this.pictureBox209.TabIndex = 208;
             this.pictureBox209.TabStop = false;
+            this.pictureBox209.Tag = "Dot";
             // 
             // pictureBox210
             // 
@@ -9234,6 +9358,7 @@ namespace MultiToolApplication
             this.pictureBox210.Size = new System.Drawing.Size(32, 32);
             this.pictureBox210.TabIndex = 207;
             this.pictureBox210.TabStop = false;
+            this.pictureBox210.Tag = "Dot";
             // 
             // pictureBox211
             // 
@@ -9244,6 +9369,7 @@ namespace MultiToolApplication
             this.pictureBox211.Size = new System.Drawing.Size(32, 32);
             this.pictureBox211.TabIndex = 206;
             this.pictureBox211.TabStop = false;
+            this.pictureBox211.Tag = "Dot";
             // 
             // pictureBox212
             // 
@@ -9254,6 +9380,7 @@ namespace MultiToolApplication
             this.pictureBox212.Size = new System.Drawing.Size(32, 32);
             this.pictureBox212.TabIndex = 205;
             this.pictureBox212.TabStop = false;
+            this.pictureBox212.Tag = "Dot";
             // 
             // pictureBox205
             // 
@@ -9264,11 +9391,12 @@ namespace MultiToolApplication
             this.pictureBox205.Size = new System.Drawing.Size(32, 32);
             this.pictureBox205.TabIndex = 204;
             this.pictureBox205.TabStop = false;
+            this.pictureBox205.Tag = "Dot";
             // 
             // pictureBox206
             // 
-            this.pictureBox206.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox206.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox206.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox206.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox206.Location = new System.Drawing.Point(640, 704);
             this.pictureBox206.Name = "pictureBox206";
             this.pictureBox206.Size = new System.Drawing.Size(32, 32);
@@ -9277,8 +9405,8 @@ namespace MultiToolApplication
             // 
             // pictureBox207
             // 
-            this.pictureBox207.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox207.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox207.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox207.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox207.Location = new System.Drawing.Point(640, 672);
             this.pictureBox207.Name = "pictureBox207";
             this.pictureBox207.Size = new System.Drawing.Size(32, 32);
@@ -9294,11 +9422,12 @@ namespace MultiToolApplication
             this.pictureBox208.Size = new System.Drawing.Size(32, 32);
             this.pictureBox208.TabIndex = 201;
             this.pictureBox208.TabStop = false;
+            this.pictureBox208.Tag = "Dot";
             // 
             // pictureBox201
             // 
-            this.pictureBox201.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox201.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox201.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox201.Location = new System.Drawing.Point(608, 704);
             this.pictureBox201.Name = "pictureBox201";
             this.pictureBox201.Size = new System.Drawing.Size(32, 32);
@@ -9307,8 +9436,8 @@ namespace MultiToolApplication
             // 
             // pictureBox202
             // 
-            this.pictureBox202.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox202.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox202.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox202.Location = new System.Drawing.Point(608, 672);
             this.pictureBox202.Name = "pictureBox202";
             this.pictureBox202.Size = new System.Drawing.Size(32, 32);
@@ -9324,11 +9453,12 @@ namespace MultiToolApplication
             this.pictureBox203.Size = new System.Drawing.Size(32, 32);
             this.pictureBox203.TabIndex = 198;
             this.pictureBox203.TabStop = false;
+            this.pictureBox203.Tag = "Dot";
             // 
             // pictureBox204
             // 
-            this.pictureBox204.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox204.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox204.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox204.Location = new System.Drawing.Point(608, 608);
             this.pictureBox204.Name = "pictureBox204";
             this.pictureBox204.Size = new System.Drawing.Size(32, 32);
@@ -9337,8 +9467,8 @@ namespace MultiToolApplication
             // 
             // pictureBox197
             // 
-            this.pictureBox197.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox197.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox197.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox197.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox197.Location = new System.Drawing.Point(576, 672);
             this.pictureBox197.Name = "pictureBox197";
             this.pictureBox197.Size = new System.Drawing.Size(32, 32);
@@ -9354,11 +9484,11 @@ namespace MultiToolApplication
             this.pictureBox198.Size = new System.Drawing.Size(32, 32);
             this.pictureBox198.TabIndex = 195;
             this.pictureBox198.TabStop = false;
+            this.pictureBox198.Tag = "Dot";
             // 
             // pictureBox199
             // 
-            this.pictureBox199.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox199.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox199.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox199.Location = new System.Drawing.Point(576, 608);
             this.pictureBox199.Name = "pictureBox199";
             this.pictureBox199.Size = new System.Drawing.Size(32, 32);
@@ -9367,8 +9497,7 @@ namespace MultiToolApplication
             // 
             // pictureBox200
             // 
-            this.pictureBox200.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox200.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox200.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox200.Location = new System.Drawing.Point(576, 576);
             this.pictureBox200.Name = "pictureBox200";
             this.pictureBox200.Size = new System.Drawing.Size(32, 32);
@@ -9384,11 +9513,12 @@ namespace MultiToolApplication
             this.pictureBox193.Size = new System.Drawing.Size(32, 32);
             this.pictureBox193.TabIndex = 192;
             this.pictureBox193.TabStop = false;
+            this.pictureBox193.Tag = "Dot";
             // 
             // pictureBox194
             // 
-            this.pictureBox194.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox194.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox194.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox194.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox194.Location = new System.Drawing.Point(544, 608);
             this.pictureBox194.Name = "pictureBox194";
             this.pictureBox194.Size = new System.Drawing.Size(32, 32);
@@ -9397,8 +9527,8 @@ namespace MultiToolApplication
             // 
             // pictureBox195
             // 
-            this.pictureBox195.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox195.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox195.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox195.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox195.Location = new System.Drawing.Point(544, 576);
             this.pictureBox195.Name = "pictureBox195";
             this.pictureBox195.Size = new System.Drawing.Size(32, 32);
@@ -9407,8 +9537,7 @@ namespace MultiToolApplication
             // 
             // pictureBox196
             // 
-            this.pictureBox196.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox196.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox196.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox196.Location = new System.Drawing.Point(544, 544);
             this.pictureBox196.Name = "pictureBox196";
             this.pictureBox196.Size = new System.Drawing.Size(32, 32);
@@ -9417,8 +9546,8 @@ namespace MultiToolApplication
             // 
             // pictureBox189
             // 
-            this.pictureBox189.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox189.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox189.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox189.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox189.Location = new System.Drawing.Point(512, 608);
             this.pictureBox189.Name = "pictureBox189";
             this.pictureBox189.Size = new System.Drawing.Size(32, 32);
@@ -9427,8 +9556,8 @@ namespace MultiToolApplication
             // 
             // pictureBox190
             // 
-            this.pictureBox190.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox190.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox190.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox190.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox190.Location = new System.Drawing.Point(512, 576);
             this.pictureBox190.Name = "pictureBox190";
             this.pictureBox190.Size = new System.Drawing.Size(32, 32);
@@ -9437,8 +9566,7 @@ namespace MultiToolApplication
             // 
             // pictureBox191
             // 
-            this.pictureBox191.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox191.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox191.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox191.Location = new System.Drawing.Point(512, 544);
             this.pictureBox191.Name = "pictureBox191";
             this.pictureBox191.Size = new System.Drawing.Size(32, 32);
@@ -9447,8 +9575,8 @@ namespace MultiToolApplication
             // 
             // pictureBox192
             // 
-            this.pictureBox192.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox192.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox192.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox192.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox192.Location = new System.Drawing.Point(512, 512);
             this.pictureBox192.Name = "pictureBox192";
             this.pictureBox192.Size = new System.Drawing.Size(32, 32);
@@ -9457,8 +9585,8 @@ namespace MultiToolApplication
             // 
             // pictureBox185
             // 
-            this.pictureBox185.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox185.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox185.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox185.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox185.Location = new System.Drawing.Point(480, 576);
             this.pictureBox185.Name = "pictureBox185";
             this.pictureBox185.Size = new System.Drawing.Size(32, 32);
@@ -9467,8 +9595,7 @@ namespace MultiToolApplication
             // 
             // pictureBox186
             // 
-            this.pictureBox186.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox186.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox186.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox186.Location = new System.Drawing.Point(480, 544);
             this.pictureBox186.Name = "pictureBox186";
             this.pictureBox186.Size = new System.Drawing.Size(32, 32);
@@ -9477,8 +9604,8 @@ namespace MultiToolApplication
             // 
             // pictureBox187
             // 
-            this.pictureBox187.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox187.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox187.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox187.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox187.Location = new System.Drawing.Point(480, 512);
             this.pictureBox187.Name = "pictureBox187";
             this.pictureBox187.Size = new System.Drawing.Size(32, 32);
@@ -9487,8 +9614,7 @@ namespace MultiToolApplication
             // 
             // pictureBox181
             // 
-            this.pictureBox181.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox181.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox181.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox181.Location = new System.Drawing.Point(448, 544);
             this.pictureBox181.Name = "pictureBox181";
             this.pictureBox181.Size = new System.Drawing.Size(32, 32);
@@ -9497,8 +9623,8 @@ namespace MultiToolApplication
             // 
             // pictureBox182
             // 
-            this.pictureBox182.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox182.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox182.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox182.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox182.Location = new System.Drawing.Point(448, 512);
             this.pictureBox182.Name = "pictureBox182";
             this.pictureBox182.Size = new System.Drawing.Size(32, 32);
@@ -9507,8 +9633,8 @@ namespace MultiToolApplication
             // 
             // pictureBox177
             // 
-            this.pictureBox177.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox177.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox177.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox177.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox177.Location = new System.Drawing.Point(416, 512);
             this.pictureBox177.Name = "pictureBox177";
             this.pictureBox177.Size = new System.Drawing.Size(32, 32);
@@ -9517,8 +9643,8 @@ namespace MultiToolApplication
             // 
             // pictureBox176
             // 
-            this.pictureBox176.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox176.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox176.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox176.Image = global::MultiToolApplication.Properties.Resources.BottomRightDoorGhostBox32x32;
             this.pictureBox176.Location = new System.Drawing.Point(384, 384);
             this.pictureBox176.Name = "pictureBox176";
             this.pictureBox176.Size = new System.Drawing.Size(32, 32);
@@ -9527,8 +9653,8 @@ namespace MultiToolApplication
             // 
             // pictureBox171
             // 
-            this.pictureBox171.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox171.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox171.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox171.Location = new System.Drawing.Point(352, 384);
             this.pictureBox171.Name = "pictureBox171";
             this.pictureBox171.Size = new System.Drawing.Size(32, 32);
@@ -9537,8 +9663,7 @@ namespace MultiToolApplication
             // 
             // pictureBox172
             // 
-            this.pictureBox172.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox172.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox172.Location = new System.Drawing.Point(352, 352);
             this.pictureBox172.Name = "pictureBox172";
             this.pictureBox172.Size = new System.Drawing.Size(32, 32);
@@ -9547,8 +9672,8 @@ namespace MultiToolApplication
             // 
             // pictureBox165
             // 
-            this.pictureBox165.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox165.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox165.Image = global::MultiToolApplication.Properties.Resources.OutsideRightWall32x32;
             this.pictureBox165.Location = new System.Drawing.Point(320, 416);
             this.pictureBox165.Name = "pictureBox165";
             this.pictureBox165.Size = new System.Drawing.Size(32, 32);
@@ -9558,7 +9683,7 @@ namespace MultiToolApplication
             // pictureBox166
             // 
             this.pictureBox166.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox166.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox166.Image = global::MultiToolApplication.Properties.Resources.BottomRightCornerGhostBox32x32;
             this.pictureBox166.Location = new System.Drawing.Point(320, 384);
             this.pictureBox166.Name = "pictureBox166";
             this.pictureBox166.Size = new System.Drawing.Size(32, 32);
@@ -9567,8 +9692,7 @@ namespace MultiToolApplication
             // 
             // pictureBox167
             // 
-            this.pictureBox167.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox167.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox167.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox167.Location = new System.Drawing.Point(320, 352);
             this.pictureBox167.Name = "pictureBox167";
             this.pictureBox167.Size = new System.Drawing.Size(32, 32);
@@ -9577,8 +9701,8 @@ namespace MultiToolApplication
             // 
             // pictureBox168
             // 
-            this.pictureBox168.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox168.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox168.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox168.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox168.Location = new System.Drawing.Point(320, 320);
             this.pictureBox168.Name = "pictureBox168";
             this.pictureBox168.Size = new System.Drawing.Size(32, 32);
@@ -9587,8 +9711,7 @@ namespace MultiToolApplication
             // 
             // pictureBox161
             // 
-            this.pictureBox161.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox161.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox161.Location = new System.Drawing.Point(288, 384);
             this.pictureBox161.Name = "pictureBox161";
             this.pictureBox161.Size = new System.Drawing.Size(32, 32);
@@ -9597,8 +9720,7 @@ namespace MultiToolApplication
             // 
             // pictureBox162
             // 
-            this.pictureBox162.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox162.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox162.Location = new System.Drawing.Point(288, 352);
             this.pictureBox162.Name = "pictureBox162";
             this.pictureBox162.Size = new System.Drawing.Size(32, 32);
@@ -9607,8 +9729,8 @@ namespace MultiToolApplication
             // 
             // pictureBox163
             // 
-            this.pictureBox163.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox163.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox163.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox163.Location = new System.Drawing.Point(288, 320);
             this.pictureBox163.Name = "pictureBox163";
             this.pictureBox163.Size = new System.Drawing.Size(32, 32);
@@ -9617,8 +9739,8 @@ namespace MultiToolApplication
             // 
             // pictureBox164
             // 
-            this.pictureBox164.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox164.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox164.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox164.Location = new System.Drawing.Point(288, 288);
             this.pictureBox164.Name = "pictureBox164";
             this.pictureBox164.Size = new System.Drawing.Size(32, 32);
@@ -9627,8 +9749,8 @@ namespace MultiToolApplication
             // 
             // pictureBox157
             // 
-            this.pictureBox157.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox157.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox157.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox157.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox157.Location = new System.Drawing.Point(256, 352);
             this.pictureBox157.Name = "pictureBox157";
             this.pictureBox157.Size = new System.Drawing.Size(32, 32);
@@ -9637,8 +9759,8 @@ namespace MultiToolApplication
             // 
             // pictureBox158
             // 
-            this.pictureBox158.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox158.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox158.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox158.Image = global::MultiToolApplication.Properties.Resources.InsideBottomRightCornerWide32x32;
             this.pictureBox158.Location = new System.Drawing.Point(256, 320);
             this.pictureBox158.Name = "pictureBox158";
             this.pictureBox158.Size = new System.Drawing.Size(32, 32);
@@ -9647,8 +9769,8 @@ namespace MultiToolApplication
             // 
             // pictureBox159
             // 
-            this.pictureBox159.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox159.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox159.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox159.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCornerWide32x32;
             this.pictureBox159.Location = new System.Drawing.Point(256, 288);
             this.pictureBox159.Name = "pictureBox159";
             this.pictureBox159.Size = new System.Drawing.Size(32, 32);
@@ -9657,8 +9779,8 @@ namespace MultiToolApplication
             // 
             // pictureBox160
             // 
-            this.pictureBox160.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox160.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox160.Image = global::MultiToolApplication.Properties.Resources.InsideLeftWall32x32;
             this.pictureBox160.Location = new System.Drawing.Point(256, 256);
             this.pictureBox160.Name = "pictureBox160";
             this.pictureBox160.Size = new System.Drawing.Size(32, 32);
@@ -9667,8 +9789,8 @@ namespace MultiToolApplication
             // 
             // pictureBox153
             // 
-            this.pictureBox153.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox153.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox153.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox153.Location = new System.Drawing.Point(224, 320);
             this.pictureBox153.Name = "pictureBox153";
             this.pictureBox153.Size = new System.Drawing.Size(32, 32);
@@ -9677,8 +9799,8 @@ namespace MultiToolApplication
             // 
             // pictureBox154
             // 
-            this.pictureBox154.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox154.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox154.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox154.Location = new System.Drawing.Point(224, 288);
             this.pictureBox154.Name = "pictureBox154";
             this.pictureBox154.Size = new System.Drawing.Size(32, 32);
@@ -9687,8 +9809,8 @@ namespace MultiToolApplication
             // 
             // pictureBox155
             // 
-            this.pictureBox155.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox155.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox155.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox155.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox155.Location = new System.Drawing.Point(224, 256);
             this.pictureBox155.Name = "pictureBox155";
             this.pictureBox155.Size = new System.Drawing.Size(32, 32);
@@ -9697,8 +9819,8 @@ namespace MultiToolApplication
             // 
             // pictureBox156
             // 
-            this.pictureBox156.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox156.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox156.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox156.Location = new System.Drawing.Point(224, 224);
             this.pictureBox156.Name = "pictureBox156";
             this.pictureBox156.Size = new System.Drawing.Size(32, 32);
@@ -9714,6 +9836,7 @@ namespace MultiToolApplication
             this.pictureBox149.Size = new System.Drawing.Size(32, 32);
             this.pictureBox149.TabIndex = 148;
             this.pictureBox149.TabStop = false;
+            this.pictureBox149.Tag = "Dot";
             // 
             // pictureBox150
             // 
@@ -9724,6 +9847,7 @@ namespace MultiToolApplication
             this.pictureBox150.Size = new System.Drawing.Size(32, 32);
             this.pictureBox150.TabIndex = 147;
             this.pictureBox150.TabStop = false;
+            this.pictureBox150.Tag = "Dot";
             // 
             // pictureBox151
             // 
@@ -9734,16 +9858,7 @@ namespace MultiToolApplication
             this.pictureBox151.Size = new System.Drawing.Size(32, 32);
             this.pictureBox151.TabIndex = 146;
             this.pictureBox151.TabStop = false;
-            // 
-            // pictureBox152
-            // 
-            this.pictureBox152.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox152.Location = new System.Drawing.Point(166, 128);
-            this.pictureBox152.Name = "pictureBox152";
-            this.pictureBox152.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox152.TabIndex = 145;
-            this.pictureBox152.TabStop = false;
+            this.pictureBox151.Tag = "Dot";
             // 
             // pictureBox145
             // 
@@ -9754,11 +9869,12 @@ namespace MultiToolApplication
             this.pictureBox145.Size = new System.Drawing.Size(32, 32);
             this.pictureBox145.TabIndex = 144;
             this.pictureBox145.TabStop = false;
+            this.pictureBox145.Tag = "Dot";
             // 
             // pictureBox146
             // 
-            this.pictureBox146.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox146.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox146.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox146.Image = global::MultiToolApplication.Properties.Resources.InsideTopLeftCorner32x32;
             this.pictureBox146.Location = new System.Drawing.Point(160, 224);
             this.pictureBox146.Name = "pictureBox146";
             this.pictureBox146.Size = new System.Drawing.Size(32, 32);
@@ -9767,8 +9883,8 @@ namespace MultiToolApplication
             // 
             // pictureBox147
             // 
-            this.pictureBox147.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox147.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox147.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox147.Image = global::MultiToolApplication.Properties.Resources.BottomLeftCorner32x32;
             this.pictureBox147.Location = new System.Drawing.Point(160, 192);
             this.pictureBox147.Name = "pictureBox147";
             this.pictureBox147.Size = new System.Drawing.Size(32, 32);
@@ -9777,18 +9893,19 @@ namespace MultiToolApplication
             // 
             // pictureBox148
             // 
-            this.pictureBox148.BackColor = System.Drawing.Color.Black;
+            this.pictureBox148.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox148.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox148.Location = new System.Drawing.Point(160, 160);
             this.pictureBox148.Name = "pictureBox148";
             this.pictureBox148.Size = new System.Drawing.Size(32, 32);
             this.pictureBox148.TabIndex = 141;
             this.pictureBox148.TabStop = false;
+            this.pictureBox148.Tag = "Dot";
             // 
             // pictureBox141
             // 
-            this.pictureBox141.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox141.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox141.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox141.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox141.Location = new System.Drawing.Point(128, 224);
             this.pictureBox141.Name = "pictureBox141";
             this.pictureBox141.Size = new System.Drawing.Size(32, 32);
@@ -9797,8 +9914,8 @@ namespace MultiToolApplication
             // 
             // pictureBox142
             // 
-            this.pictureBox142.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox142.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox142.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox142.Location = new System.Drawing.Point(128, 192);
             this.pictureBox142.Name = "pictureBox142";
             this.pictureBox142.Size = new System.Drawing.Size(32, 32);
@@ -9807,18 +9924,19 @@ namespace MultiToolApplication
             // 
             // pictureBox143
             // 
-            this.pictureBox143.BackColor = System.Drawing.Color.Black;
+            this.pictureBox143.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox143.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
             this.pictureBox143.Location = new System.Drawing.Point(128, 160);
             this.pictureBox143.Name = "pictureBox143";
             this.pictureBox143.Size = new System.Drawing.Size(32, 32);
             this.pictureBox143.TabIndex = 138;
             this.pictureBox143.TabStop = false;
+            this.pictureBox143.Tag = "Dot";
             // 
             // pictureBox144
             // 
-            this.pictureBox144.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox144.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox144.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox144.Location = new System.Drawing.Point(128, 128);
             this.pictureBox144.Name = "pictureBox144";
             this.pictureBox144.Size = new System.Drawing.Size(32, 32);
@@ -9827,8 +9945,8 @@ namespace MultiToolApplication
             // 
             // pictureBox137
             // 
-            this.pictureBox137.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox137.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox137.Image = global::MultiToolApplication.Properties.Resources.InsideBottomWall32x32;
             this.pictureBox137.Location = new System.Drawing.Point(96, 192);
             this.pictureBox137.Name = "pictureBox137";
             this.pictureBox137.Size = new System.Drawing.Size(32, 32);
@@ -9844,11 +9962,12 @@ namespace MultiToolApplication
             this.pictureBox138.Size = new System.Drawing.Size(32, 32);
             this.pictureBox138.TabIndex = 135;
             this.pictureBox138.TabStop = false;
+            this.pictureBox138.Tag = "Dot";
             // 
             // pictureBox139
             // 
-            this.pictureBox139.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox139.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox139.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox139.Image = global::MultiToolApplication.Properties.Resources.InsideTopWall32x32;
             this.pictureBox139.Location = new System.Drawing.Point(96, 128);
             this.pictureBox139.Name = "pictureBox139";
             this.pictureBox139.Size = new System.Drawing.Size(32, 32);
@@ -9864,11 +9983,12 @@ namespace MultiToolApplication
             this.pictureBox133.Size = new System.Drawing.Size(32, 32);
             this.pictureBox133.TabIndex = 132;
             this.pictureBox133.TabStop = false;
+            this.pictureBox133.Tag = "Dot";
             // 
             // pictureBox134
             // 
-            this.pictureBox134.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox134.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox134.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox134.Image = global::MultiToolApplication.Properties.Resources.InsideTopRightCorner32x32;
             this.pictureBox134.Location = new System.Drawing.Point(64, 128);
             this.pictureBox134.Name = "pictureBox134";
             this.pictureBox134.Size = new System.Drawing.Size(32, 32);
@@ -9877,8 +9997,8 @@ namespace MultiToolApplication
             // 
             // pictureBox135
             // 
-            this.pictureBox135.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox135.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox135.Image = global::MultiToolApplication.Properties.Resources.InsideRightWall32x32;
             this.pictureBox135.Location = new System.Drawing.Point(64, 96);
             this.pictureBox135.Name = "pictureBox135";
             this.pictureBox135.Size = new System.Drawing.Size(32, 32);
@@ -9887,8 +10007,8 @@ namespace MultiToolApplication
             // 
             // pictureBox136
             // 
-            this.pictureBox136.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox136.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox136.Image = global::MultiToolApplication.Properties.Resources.InsideBottomeRightCornerTight32x32;
             this.pictureBox136.Location = new System.Drawing.Point(64, 64);
             this.pictureBox136.Name = "pictureBox136";
             this.pictureBox136.Size = new System.Drawing.Size(32, 32);
@@ -9904,6 +10024,7 @@ namespace MultiToolApplication
             this.pictureBox129.Size = new System.Drawing.Size(32, 32);
             this.pictureBox129.TabIndex = 128;
             this.pictureBox129.TabStop = false;
+            this.pictureBox129.Tag = "Dot";
             // 
             // pictureBox130
             // 
@@ -9914,6 +10035,7 @@ namespace MultiToolApplication
             this.pictureBox130.Size = new System.Drawing.Size(32, 32);
             this.pictureBox130.TabIndex = 127;
             this.pictureBox130.TabStop = false;
+            this.pictureBox130.Tag = "Dot";
             // 
             // pictureBox131
             // 
@@ -9924,6 +10046,7 @@ namespace MultiToolApplication
             this.pictureBox131.Size = new System.Drawing.Size(32, 32);
             this.pictureBox131.TabIndex = 126;
             this.pictureBox131.TabStop = false;
+            this.pictureBox131.Tag = "Dot";
             // 
             // pictureBox132
             // 
@@ -9934,15 +10057,18 @@ namespace MultiToolApplication
             this.pictureBox132.Size = new System.Drawing.Size(32, 32);
             this.pictureBox132.TabIndex = 125;
             this.pictureBox132.TabStop = false;
+            this.pictureBox132.Tag = "Dot";
             // 
             // pictureBox128
             // 
             this.pictureBox128.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox128.Image = global::MultiToolApplication.Properties.Resources.PelletBlinkGif;
             this.pictureBox128.Location = new System.Drawing.Point(32, 96);
             this.pictureBox128.Name = "pictureBox128";
             this.pictureBox128.Size = new System.Drawing.Size(32, 32);
             this.pictureBox128.TabIndex = 123;
             this.pictureBox128.TabStop = false;
+            this.pictureBox128.Tag = "Pellet";
             // 
             // pictureBox126
             // 
@@ -9953,11 +10079,12 @@ namespace MultiToolApplication
             this.pictureBox126.Size = new System.Drawing.Size(32, 32);
             this.pictureBox126.TabIndex = 122;
             this.pictureBox126.TabStop = false;
+            this.pictureBox126.Tag = "Dot";
             // 
             // pictureBox125
             // 
-            this.pictureBox125.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox125.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox125.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomLeftCorner32x32;
             this.pictureBox125.Location = new System.Drawing.Point(0, 960);
             this.pictureBox125.Name = "pictureBox125";
             this.pictureBox125.Size = new System.Drawing.Size(32, 32);
@@ -9966,8 +10093,8 @@ namespace MultiToolApplication
             // 
             // pictureBox117
             // 
-            this.pictureBox117.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox117.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox117.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox117.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox117.Location = new System.Drawing.Point(0, 928);
             this.pictureBox117.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox117.Name = "pictureBox117";
@@ -9977,8 +10104,8 @@ namespace MultiToolApplication
             // 
             // pictureBox118
             // 
-            this.pictureBox118.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox118.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox118.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox118.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox118.Location = new System.Drawing.Point(0, 896);
             this.pictureBox118.Name = "pictureBox118";
             this.pictureBox118.Size = new System.Drawing.Size(32, 32);
@@ -9987,8 +10114,8 @@ namespace MultiToolApplication
             // 
             // pictureBox119
             // 
-            this.pictureBox119.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox119.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox119.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox119.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox119.Location = new System.Drawing.Point(0, 864);
             this.pictureBox119.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox119.Name = "pictureBox119";
@@ -9998,8 +10125,8 @@ namespace MultiToolApplication
             // 
             // pictureBox120
             // 
-            this.pictureBox120.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox120.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox120.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox120.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox120.Location = new System.Drawing.Point(0, 832);
             this.pictureBox120.Name = "pictureBox120";
             this.pictureBox120.Size = new System.Drawing.Size(32, 32);
@@ -10008,8 +10135,8 @@ namespace MultiToolApplication
             // 
             // pictureBox121
             // 
-            this.pictureBox121.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox121.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox121.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox121.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomRightCornerWall32x32;
             this.pictureBox121.Location = new System.Drawing.Point(0, 800);
             this.pictureBox121.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox121.Name = "pictureBox121";
@@ -10019,8 +10146,8 @@ namespace MultiToolApplication
             // 
             // pictureBox122
             // 
-            this.pictureBox122.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox122.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox122.Image = global::MultiToolApplication.Properties.Resources.OutsideTopRightCornerWall32x32;
             this.pictureBox122.Location = new System.Drawing.Point(0, 768);
             this.pictureBox122.Name = "pictureBox122";
             this.pictureBox122.Size = new System.Drawing.Size(32, 32);
@@ -10029,8 +10156,8 @@ namespace MultiToolApplication
             // 
             // pictureBox123
             // 
-            this.pictureBox123.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox123.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox123.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox123.Location = new System.Drawing.Point(0, 736);
             this.pictureBox123.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox123.Name = "pictureBox123";
@@ -10040,8 +10167,8 @@ namespace MultiToolApplication
             // 
             // pictureBox124
             // 
-            this.pictureBox124.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox124.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox124.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox124.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox124.Location = new System.Drawing.Point(0, 704);
             this.pictureBox124.Name = "pictureBox124";
             this.pictureBox124.Size = new System.Drawing.Size(32, 32);
@@ -10050,8 +10177,8 @@ namespace MultiToolApplication
             // 
             // pictureBox113
             // 
-            this.pictureBox113.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox113.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox113.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox113.Location = new System.Drawing.Point(0, 672);
             this.pictureBox113.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox113.Name = "pictureBox113";
@@ -10061,8 +10188,8 @@ namespace MultiToolApplication
             // 
             // pictureBox114
             // 
-            this.pictureBox114.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox114.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox114.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox114.Location = new System.Drawing.Point(0, 640);
             this.pictureBox114.Name = "pictureBox114";
             this.pictureBox114.Size = new System.Drawing.Size(32, 32);
@@ -10071,8 +10198,8 @@ namespace MultiToolApplication
             // 
             // pictureBox115
             // 
-            this.pictureBox115.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox115.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox115.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox115.Image = global::MultiToolApplication.Properties.Resources.OutsideTopLeftCorner32x32;
             this.pictureBox115.Location = new System.Drawing.Point(0, 608);
             this.pictureBox115.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox115.Name = "pictureBox115";
@@ -10082,8 +10209,8 @@ namespace MultiToolApplication
             // 
             // pictureBox111
             // 
-            this.pictureBox111.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox111.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox111.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomWall32x32;
             this.pictureBox111.Location = new System.Drawing.Point(0, 480);
             this.pictureBox111.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox111.Name = "pictureBox111";
@@ -10093,8 +10220,7 @@ namespace MultiToolApplication
             // 
             // pictureBox112
             // 
-            this.pictureBox112.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox112.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox112.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox112.Location = new System.Drawing.Point(0, 448);
             this.pictureBox112.Name = "pictureBox112";
             this.pictureBox112.Size = new System.Drawing.Size(32, 32);
@@ -10103,8 +10229,8 @@ namespace MultiToolApplication
             // 
             // pictureBox105
             // 
-            this.pictureBox105.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox105.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox105.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox105.Location = new System.Drawing.Point(0, 416);
             this.pictureBox105.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox105.Name = "pictureBox105";
@@ -10114,8 +10240,8 @@ namespace MultiToolApplication
             // 
             // pictureBox104
             // 
-            this.pictureBox104.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox104.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox104.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomLeftCorner32x32;
             this.pictureBox104.Location = new System.Drawing.Point(0, 288);
             this.pictureBox104.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox104.Name = "pictureBox104";
@@ -10125,8 +10251,8 @@ namespace MultiToolApplication
             // 
             // pictureBox103
             // 
-            this.pictureBox103.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox103.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox103.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox103.Location = new System.Drawing.Point(0, 256);
             this.pictureBox103.Name = "pictureBox103";
             this.pictureBox103.Size = new System.Drawing.Size(32, 32);
@@ -10135,8 +10261,8 @@ namespace MultiToolApplication
             // 
             // pictureBox102
             // 
-            this.pictureBox102.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox102.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox102.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox102.Location = new System.Drawing.Point(0, 224);
             this.pictureBox102.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox102.Name = "pictureBox102";
@@ -10146,8 +10272,8 @@ namespace MultiToolApplication
             // 
             // pictureBox101
             // 
-            this.pictureBox101.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox101.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox101.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox101.Location = new System.Drawing.Point(0, 192);
             this.pictureBox101.Name = "pictureBox101";
             this.pictureBox101.Size = new System.Drawing.Size(32, 32);
@@ -10156,8 +10282,8 @@ namespace MultiToolApplication
             // 
             // pictureBox100
             // 
-            this.pictureBox100.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox100.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox100.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox100.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox100.Location = new System.Drawing.Point(0, 160);
             this.pictureBox100.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox100.Name = "pictureBox100";
@@ -10167,8 +10293,8 @@ namespace MultiToolApplication
             // 
             // pictureBox99
             // 
-            this.pictureBox99.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox99.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox99.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox99.Location = new System.Drawing.Point(0, 128);
             this.pictureBox99.Name = "pictureBox99";
             this.pictureBox99.Size = new System.Drawing.Size(32, 32);
@@ -10177,8 +10303,8 @@ namespace MultiToolApplication
             // 
             // pictureBox98
             // 
-            this.pictureBox98.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox98.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox98.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox98.Location = new System.Drawing.Point(0, 96);
             this.pictureBox98.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox98.Name = "pictureBox98";
@@ -10195,11 +10321,12 @@ namespace MultiToolApplication
             this.pictureBox97.Size = new System.Drawing.Size(32, 32);
             this.pictureBox97.TabIndex = 93;
             this.pictureBox97.TabStop = false;
+            this.pictureBox97.Tag = "Dot";
             // 
             // pictureBox96
             // 
-            this.pictureBox96.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox96.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox96.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox96.Location = new System.Drawing.Point(0, 64);
             this.pictureBox96.Name = "pictureBox96";
             this.pictureBox96.Size = new System.Drawing.Size(32, 32);
@@ -10208,8 +10335,8 @@ namespace MultiToolApplication
             // 
             // pictureBox95
             // 
-            this.pictureBox95.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox95.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox95.Image = global::MultiToolApplication.Properties.Resources.OutsideLeftWall32x32;
             this.pictureBox95.Location = new System.Drawing.Point(0, 32);
             this.pictureBox95.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox95.Name = "pictureBox95";
@@ -10829,8 +10956,8 @@ namespace MultiToolApplication
             // 
             // pictureBox30
             // 
-            this.pictureBox30.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox30.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox30.Location = new System.Drawing.Point(832, 0);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(32, 32);
@@ -10839,8 +10966,8 @@ namespace MultiToolApplication
             // 
             // pictureBox31
             // 
-            this.pictureBox31.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox31.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox31.Image = global::MultiToolApplication.Properties.Resources.OutsideTopRightCorner32x32;
             this.pictureBox31.Location = new System.Drawing.Point(864, 0);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(32, 32);
@@ -10849,8 +10976,8 @@ namespace MultiToolApplication
             // 
             // pictureBox32
             // 
-            this.pictureBox32.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox32.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox32.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox32.Location = new System.Drawing.Point(800, 0);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(32, 32);
@@ -10859,8 +10986,8 @@ namespace MultiToolApplication
             // 
             // pictureBox33
             // 
-            this.pictureBox33.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox33.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox33.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox33.Location = new System.Drawing.Point(768, 0);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(32, 32);
@@ -10869,8 +10996,8 @@ namespace MultiToolApplication
             // 
             // pictureBox22
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox22.Location = new System.Drawing.Point(704, 0);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(32, 32);
@@ -10879,8 +11006,8 @@ namespace MultiToolApplication
             // 
             // pictureBox23
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox23.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox23.Location = new System.Drawing.Point(736, 0);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(32, 32);
@@ -10889,8 +11016,8 @@ namespace MultiToolApplication
             // 
             // pictureBox24
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox24.Location = new System.Drawing.Point(672, 0);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(32, 32);
@@ -10899,8 +11026,8 @@ namespace MultiToolApplication
             // 
             // pictureBox25
             // 
-            this.pictureBox25.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox25.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox25.Location = new System.Drawing.Point(640, 0);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(32, 32);
@@ -10909,8 +11036,8 @@ namespace MultiToolApplication
             // 
             // pictureBox26
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox26.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox26.Location = new System.Drawing.Point(576, 0);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(32, 32);
@@ -10919,8 +11046,8 @@ namespace MultiToolApplication
             // 
             // pictureBox27
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox27.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox27.Location = new System.Drawing.Point(608, 0);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(32, 32);
@@ -10929,8 +11056,8 @@ namespace MultiToolApplication
             // 
             // pictureBox28
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox28.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox28.Location = new System.Drawing.Point(544, 0);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(32, 32);
@@ -10939,8 +11066,8 @@ namespace MultiToolApplication
             // 
             // pictureBox29
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox29.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox29.Location = new System.Drawing.Point(512, 0);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(32, 32);
@@ -10949,8 +11076,8 @@ namespace MultiToolApplication
             // 
             // pictureBox14
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox14.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomRightCornerWallTop32x32;
             this.pictureBox14.Location = new System.Drawing.Point(448, 0);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(32, 32);
@@ -10959,8 +11086,8 @@ namespace MultiToolApplication
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox15.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox15.Location = new System.Drawing.Point(480, 0);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(32, 32);
@@ -10969,8 +11096,8 @@ namespace MultiToolApplication
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Image = global::MultiToolApplication.Properties.Resources.OutsideBottomLeftCornerWallTop32x32;
             this.pictureBox16.Location = new System.Drawing.Point(416, 0);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(32, 32);
@@ -10979,8 +11106,8 @@ namespace MultiToolApplication
             // 
             // pictureBox17
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox17.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox17.Location = new System.Drawing.Point(384, 0);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(32, 32);
@@ -10989,8 +11116,8 @@ namespace MultiToolApplication
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox18.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox18.Location = new System.Drawing.Point(320, 0);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(32, 32);
@@ -10999,8 +11126,8 @@ namespace MultiToolApplication
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox19.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox19.Location = new System.Drawing.Point(352, 0);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(32, 32);
@@ -11009,8 +11136,8 @@ namespace MultiToolApplication
             // 
             // pictureBox20
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox20.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox20.Location = new System.Drawing.Point(288, 0);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(32, 32);
@@ -11019,8 +11146,8 @@ namespace MultiToolApplication
             // 
             // pictureBox21
             // 
-            this.pictureBox21.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox21.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox21.Location = new System.Drawing.Point(256, 0);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(32, 32);
@@ -11029,8 +11156,8 @@ namespace MultiToolApplication
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox5.Location = new System.Drawing.Point(192, 0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(32, 32);
@@ -11039,8 +11166,8 @@ namespace MultiToolApplication
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox11.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox11.Location = new System.Drawing.Point(224, 0);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(32, 32);
@@ -11049,8 +11176,8 @@ namespace MultiToolApplication
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox12.Location = new System.Drawing.Point(160, 0);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(32, 32);
@@ -11059,8 +11186,8 @@ namespace MultiToolApplication
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox13.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox13.Location = new System.Drawing.Point(128, 0);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(32, 32);
@@ -11069,8 +11196,8 @@ namespace MultiToolApplication
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox2.Location = new System.Drawing.Point(64, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(32, 32);
@@ -11079,8 +11206,8 @@ namespace MultiToolApplication
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox3.Location = new System.Drawing.Point(96, 0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(32, 32);
@@ -11089,8 +11216,8 @@ namespace MultiToolApplication
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::MultiToolApplication.Properties.Resources.OutsideTopWall32x32;
             this.pictureBox1.Location = new System.Drawing.Point(32, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 32);
@@ -11099,13 +11226,74 @@ namespace MultiToolApplication
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::MultiToolApplication.Properties.Resources.OutsideTopLeftCorner32x32;
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(32, 32);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
+            // 
+            // hiddenPacMan
+            // 
+            this.hiddenPacMan.BackColor = System.Drawing.Color.White;
+            this.hiddenPacMan.Location = new System.Drawing.Point(64, 544);
+            this.hiddenPacMan.Name = "hiddenPacMan";
+            this.hiddenPacMan.Size = new System.Drawing.Size(8, 8);
+            this.hiddenPacMan.TabIndex = 934;
+            this.hiddenPacMan.TabStop = false;
+            this.hiddenPacMan.Visible = false;
+            // 
+            // pictureBox110
+            // 
+            this.pictureBox110.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox110.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox110.Location = new System.Drawing.Point(192, 128);
+            this.pictureBox110.Name = "pictureBox110";
+            this.pictureBox110.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox110.TabIndex = 937;
+            this.pictureBox110.TabStop = false;
+            this.pictureBox110.Tag = "Dot";
+            // 
+            // pictureBox116
+            // 
+            this.pictureBox116.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox116.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox116.Location = new System.Drawing.Point(192, 96);
+            this.pictureBox116.Name = "pictureBox116";
+            this.pictureBox116.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox116.TabIndex = 936;
+            this.pictureBox116.TabStop = false;
+            this.pictureBox116.Tag = "Dot";
+            // 
+            // pictureBox109
+            // 
+            this.pictureBox109.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox109.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox109.Location = new System.Drawing.Point(480, 736);
+            this.pictureBox109.Name = "pictureBox109";
+            this.pictureBox109.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox109.TabIndex = 938;
+            this.pictureBox109.TabStop = false;
+            this.pictureBox109.Tag = "Dot";
+            // 
+            // pictureBox127
+            // 
+            this.pictureBox127.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox127.Location = new System.Drawing.Point(448, 736);
+            this.pictureBox127.Name = "pictureBox127";
+            this.pictureBox127.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox127.TabIndex = 940;
+            this.pictureBox127.TabStop = false;
+            // 
+            // pictureBox140
+            // 
+            this.pictureBox140.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox140.Location = new System.Drawing.Point(416, 736);
+            this.pictureBox140.Name = "pictureBox140";
+            this.pictureBox140.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox140.TabIndex = 939;
+            this.pictureBox140.TabStop = false;
             // 
             // PacManForm
             // 
@@ -11129,6 +11317,7 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox911)).EndInit();
@@ -11302,13 +11491,10 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox766)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox767)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox768)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox769)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox770)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox771)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox772)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox773)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox742)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox743)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox744)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox745)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox746)).EndInit();
@@ -11488,7 +11674,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox555)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox556)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox557)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox558)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox559)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox560)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox561)).EndInit();
@@ -11752,8 +11937,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox239)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox240)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox241)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox242)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox243)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox244)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox245)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox246)).EndInit();
@@ -11835,7 +12018,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox149)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox150)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox151)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox152)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox145)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox146)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox147)).EndInit();
@@ -11971,6 +12153,12 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -12155,7 +12343,6 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox pictureBox149;
         private System.Windows.Forms.PictureBox pictureBox150;
         private System.Windows.Forms.PictureBox pictureBox151;
-        private System.Windows.Forms.PictureBox pictureBox152;
         private System.Windows.Forms.PictureBox pictureBox145;
         private System.Windows.Forms.PictureBox pictureBox146;
         private System.Windows.Forms.PictureBox pictureBox147;
@@ -12371,13 +12558,10 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox pictureBox766;
         private System.Windows.Forms.PictureBox pictureBox767;
         private System.Windows.Forms.PictureBox pictureBox768;
-        private System.Windows.Forms.PictureBox pictureBox769;
         private System.Windows.Forms.PictureBox pictureBox770;
-        private System.Windows.Forms.PictureBox pictureBox771;
         private System.Windows.Forms.PictureBox pictureBox772;
         private System.Windows.Forms.PictureBox pictureBox773;
         private System.Windows.Forms.PictureBox pictureBox742;
-        private System.Windows.Forms.PictureBox pictureBox743;
         private System.Windows.Forms.PictureBox pictureBox744;
         private System.Windows.Forms.PictureBox pictureBox745;
         private System.Windows.Forms.PictureBox pictureBox746;
@@ -12557,7 +12741,6 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox pictureBox555;
         private System.Windows.Forms.PictureBox pictureBox556;
         private System.Windows.Forms.PictureBox pictureBox557;
-        private System.Windows.Forms.PictureBox pictureBox558;
         private System.Windows.Forms.PictureBox pictureBox559;
         private System.Windows.Forms.PictureBox pictureBox560;
         private System.Windows.Forms.PictureBox pictureBox561;
@@ -12821,8 +13004,6 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox pictureBox239;
         private System.Windows.Forms.PictureBox pictureBox240;
         private System.Windows.Forms.PictureBox pictureBox241;
-        private System.Windows.Forms.PictureBox pictureBox242;
-        private System.Windows.Forms.PictureBox pictureBox243;
         private System.Windows.Forms.PictureBox pictureBox244;
         private System.Windows.Forms.PictureBox pictureBox245;
         private System.Windows.Forms.PictureBox pictureBox246;
@@ -12830,5 +13011,13 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox pictureBox248;
         private System.Windows.Forms.PictureBox pictureBox107;
         private System.Windows.Forms.PictureBox pictureBox106;
+        private System.Windows.Forms.PictureBox pictureBox108;
+        private System.Windows.Forms.PictureBox Hi;
+        private System.Windows.Forms.PictureBox hiddenPacMan;
+        private System.Windows.Forms.PictureBox pictureBox127;
+        private System.Windows.Forms.PictureBox pictureBox140;
+        private System.Windows.Forms.PictureBox pictureBox109;
+        private System.Windows.Forms.PictureBox pictureBox110;
+        private System.Windows.Forms.PictureBox pictureBox116;
     }
 }
