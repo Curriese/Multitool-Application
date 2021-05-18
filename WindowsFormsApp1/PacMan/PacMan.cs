@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Threading;
 
 namespace MultiToolApplication
 {
@@ -132,7 +133,6 @@ namespace MultiToolApplication
                             {
                                 grid[i][j].changeEmpty();
                                 grid[i][j].setItem('D');
-                                dotsLeft++;
                                 break;
                             }
                         }
@@ -143,7 +143,7 @@ namespace MultiToolApplication
             } 
             else
             {
-                
+                Thread.Sleep(2000);
                 for(int i = 0; i < 31; i++)
                 {
                     for (int j = 0; j < 32; j++)
@@ -153,8 +153,6 @@ namespace MultiToolApplication
                         if (grid[i][j].getItem() == 'E')
                         {
                             grid[i][j].setItem('D');
-                            dotsLeft++;
-                            break;
                         }
                     }
                 }
@@ -168,6 +166,7 @@ namespace MultiToolApplication
             grid[27][4].changeEmpty();
             grid[27][24].setItem('P');
             grid[27][24].changeEmpty();
+            dotsLeft = 246;
         }
 
 
@@ -364,12 +363,14 @@ namespace MultiToolApplication
                     score += 10;
                     dotsLeft -= 1;
                     grid[player.getXLocation()][player.getYLocation()].removeItem();
+                    grid[player.getXLocation()][player.getYLocation()].setItem('E');
                 }
                 if (grid[player.getXLocation()][player.getYLocation()].getItem() == 'P')
                 {
                     score += 50;
                     dotsLeft -= 1;
                     grid[player.getXLocation()][player.getYLocation()].removeItem();
+                    grid[player.getXLocation()][player.getYLocation()].setItem('E');
                 }
             }
         }
@@ -445,20 +446,6 @@ namespace MultiToolApplication
                 nextDirection = '-';
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         public int getDotsLeft()
         {

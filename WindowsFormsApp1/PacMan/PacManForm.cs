@@ -125,8 +125,8 @@ namespace MultiToolApplication
                 for (int i = 0; i < 32; i++)
                 {
                     pacmanchar.Top -= pacmanGame.getPlayerSpeed();
-                    hiddenPacMan.Top -= pacmanGame.getPlayerSpeed();
                 }
+                hiddenPacMan.Top -= pacmanGame.getPlayerSpeed() * 32;
             }
             if (pacmanGame.getDirection() == 'D')
             {
@@ -134,9 +134,9 @@ namespace MultiToolApplication
                 for (int i = 0; i < 32; i++)
                 {
                     pacmanchar.Top += pacmanGame.getPlayerSpeed();
-                    hiddenPacMan.Top += pacmanGame.getPlayerSpeed();
 
                 }
+                hiddenPacMan.Top += pacmanGame.getPlayerSpeed() * 32;
             }
             if (pacmanGame.getDirection() == 'R')
             {
@@ -145,8 +145,8 @@ namespace MultiToolApplication
                 for (int i = 0; i < 32; i++)
                 {
                     pacmanchar.Left += pacmanGame.getPlayerSpeed();
-                    hiddenPacMan.Left += pacmanGame.getPlayerSpeed();
                 }
+                hiddenPacMan.Left += pacmanGame.getPlayerSpeed() * 32;
             }
             if (pacmanGame.getDirection() == 'L')
             {
@@ -154,8 +154,8 @@ namespace MultiToolApplication
                 for(int i = 0; i < 32; i++)
                 {
                     pacmanchar.Left -= pacmanGame.getPlayerSpeed();
-                    hiddenPacMan.Left -= pacmanGame.getPlayerSpeed();
                 }
+                hiddenPacMan.Left -= pacmanGame.getPlayerSpeed() * 32;
             }
             pacmanGame.setSpeed(0);
 

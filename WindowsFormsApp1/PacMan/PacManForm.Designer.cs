@@ -40,6 +40,9 @@ namespace MultiToolApplication
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox109 = new System.Windows.Forms.PictureBox();
+            this.pictureBox110 = new System.Windows.Forms.PictureBox();
+            this.pictureBox116 = new System.Windows.Forms.PictureBox();
             this.pictureBox108 = new System.Windows.Forms.PictureBox();
             this.pictureBox107 = new System.Windows.Forms.PictureBox();
             this.pictureBox106 = new System.Windows.Forms.PictureBox();
@@ -876,12 +879,9 @@ namespace MultiToolApplication
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.hiddenPacMan = new System.Windows.Forms.PictureBox();
-            this.pictureBox110 = new System.Windows.Forms.PictureBox();
-            this.pictureBox116 = new System.Windows.Forms.PictureBox();
-            this.pictureBox109 = new System.Windows.Forms.PictureBox();
             this.pictureBox127 = new System.Windows.Forms.PictureBox();
             this.pictureBox140 = new System.Windows.Forms.PictureBox();
+            this.hiddenPacMan = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pacmanchar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -889,6 +889,9 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).BeginInit();
@@ -1725,12 +1728,9 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).BeginInit();
             this.SuspendLayout();
             // 
             // scoreLabel
@@ -1825,12 +1825,11 @@ namespace MultiToolApplication
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.pictureBox127);
-            this.panel1.Controls.Add(this.pictureBox140);
+            this.panel1.Controls.Add(this.pacmanchar);
+            this.panel1.Controls.Add(this.hiddenPacMan);
             this.panel1.Controls.Add(this.pictureBox109);
             this.panel1.Controls.Add(this.pictureBox110);
             this.panel1.Controls.Add(this.pictureBox116);
-            this.panel1.Controls.Add(this.pacmanchar);
             this.panel1.Controls.Add(this.pictureBox108);
             this.panel1.Controls.Add(this.pictureBox107);
             this.panel1.Controls.Add(this.scoreLabel);
@@ -2668,13 +2667,47 @@ namespace MultiToolApplication
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.hiddenPacMan);
-            this.panel1.Location = new System.Drawing.Point(12, 11);
+            this.panel1.Controls.Add(this.pictureBox127);
+            this.panel1.Controls.Add(this.pictureBox140);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.MaximumSize = new System.Drawing.Size(896, 992);
             this.panel1.MinimumSize = new System.Drawing.Size(896, 992);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(896, 992);
             this.panel1.TabIndex = 3;
+            // 
+            // pictureBox109
+            // 
+            this.pictureBox109.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox109.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox109.Location = new System.Drawing.Point(480, 736);
+            this.pictureBox109.Name = "pictureBox109";
+            this.pictureBox109.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox109.TabIndex = 938;
+            this.pictureBox109.TabStop = false;
+            this.pictureBox109.Tag = "Dot";
+            // 
+            // pictureBox110
+            // 
+            this.pictureBox110.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox110.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox110.Location = new System.Drawing.Point(192, 128);
+            this.pictureBox110.Name = "pictureBox110";
+            this.pictureBox110.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox110.TabIndex = 937;
+            this.pictureBox110.TabStop = false;
+            this.pictureBox110.Tag = "Dot";
+            // 
+            // pictureBox116
+            // 
+            this.pictureBox116.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox116.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
+            this.pictureBox116.Location = new System.Drawing.Point(192, 96);
+            this.pictureBox116.Name = "pictureBox116";
+            this.pictureBox116.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox116.TabIndex = 936;
+            this.pictureBox116.TabStop = false;
+            this.pictureBox116.Tag = "Dot";
             // 
             // pictureBox108
             // 
@@ -11234,49 +11267,6 @@ namespace MultiToolApplication
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
             // 
-            // hiddenPacMan
-            // 
-            this.hiddenPacMan.BackColor = System.Drawing.Color.White;
-            this.hiddenPacMan.Location = new System.Drawing.Point(64, 544);
-            this.hiddenPacMan.Name = "hiddenPacMan";
-            this.hiddenPacMan.Size = new System.Drawing.Size(8, 8);
-            this.hiddenPacMan.TabIndex = 934;
-            this.hiddenPacMan.TabStop = false;
-            this.hiddenPacMan.Visible = false;
-            // 
-            // pictureBox110
-            // 
-            this.pictureBox110.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox110.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
-            this.pictureBox110.Location = new System.Drawing.Point(192, 128);
-            this.pictureBox110.Name = "pictureBox110";
-            this.pictureBox110.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox110.TabIndex = 937;
-            this.pictureBox110.TabStop = false;
-            this.pictureBox110.Tag = "Dot";
-            // 
-            // pictureBox116
-            // 
-            this.pictureBox116.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox116.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
-            this.pictureBox116.Location = new System.Drawing.Point(192, 96);
-            this.pictureBox116.Name = "pictureBox116";
-            this.pictureBox116.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox116.TabIndex = 936;
-            this.pictureBox116.TabStop = false;
-            this.pictureBox116.Tag = "Dot";
-            // 
-            // pictureBox109
-            // 
-            this.pictureBox109.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox109.Image = global::MultiToolApplication.Properties.Resources.Dot32x32;
-            this.pictureBox109.Location = new System.Drawing.Point(480, 736);
-            this.pictureBox109.Name = "pictureBox109";
-            this.pictureBox109.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox109.TabIndex = 938;
-            this.pictureBox109.TabStop = false;
-            this.pictureBox109.Tag = "Dot";
-            // 
             // pictureBox127
             // 
             this.pictureBox127.BackColor = System.Drawing.Color.Transparent;
@@ -11294,6 +11284,16 @@ namespace MultiToolApplication
             this.pictureBox140.Size = new System.Drawing.Size(32, 32);
             this.pictureBox140.TabIndex = 939;
             this.pictureBox140.TabStop = false;
+            // 
+            // hiddenPacMan
+            // 
+            this.hiddenPacMan.BackColor = System.Drawing.Color.White;
+            this.hiddenPacMan.Location = new System.Drawing.Point(41, 544);
+            this.hiddenPacMan.Name = "hiddenPacMan";
+            this.hiddenPacMan.Size = new System.Drawing.Size(8, 8);
+            this.hiddenPacMan.TabIndex = 934;
+            this.hiddenPacMan.TabStop = false;
+            this.hiddenPacMan.Visible = false;
             // 
             // PacManForm
             // 
@@ -11317,6 +11317,9 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).EndInit();
@@ -12153,12 +12156,9 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -13012,12 +13012,11 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox pictureBox107;
         private System.Windows.Forms.PictureBox pictureBox106;
         private System.Windows.Forms.PictureBox pictureBox108;
-        private System.Windows.Forms.PictureBox Hi;
         private System.Windows.Forms.PictureBox hiddenPacMan;
-        private System.Windows.Forms.PictureBox pictureBox127;
-        private System.Windows.Forms.PictureBox pictureBox140;
         private System.Windows.Forms.PictureBox pictureBox109;
         private System.Windows.Forms.PictureBox pictureBox110;
         private System.Windows.Forms.PictureBox pictureBox116;
+        private System.Windows.Forms.PictureBox pictureBox127;
+        private System.Windows.Forms.PictureBox pictureBox140;
     }
 }
