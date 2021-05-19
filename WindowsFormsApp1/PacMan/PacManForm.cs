@@ -40,6 +40,8 @@ namespace MultiToolApplication
             pacmanchar.Top = 728;
             hiddenPacMan.Left = 448;
             hiddenPacMan.Top = 736;
+            hiddenPacMan.Width = 1;
+            hiddenPacMan.Height = 1;
             foreach (Control x in panel1.Controls)
             {
                 if( x is PictureBox)
@@ -101,10 +103,7 @@ namespace MultiToolApplication
 
         private void mainGameTimer(object sender, EventArgs e)
         {
-            if (pacmanGame.getDotsLeft() == 0)
-            {
-                resetGame();
-            }
+            
             /*
             if(pacmanGame.atStart == true)
             {
@@ -196,6 +195,12 @@ namespace MultiToolApplication
             }
 
             Debug.WriteLine("Dots Left " + pacmanGame.getDotsLeft());
+
+
+            if (pacmanGame.getDotsLeft() == 0)
+            {
+                resetGame();
+            }
 
         }
 

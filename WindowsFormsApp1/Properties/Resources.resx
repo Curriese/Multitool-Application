@@ -241,4 +241,61 @@
   <data name="PelletBlinkGif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PelletBlinkGif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GhostBoxDoor32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GhostBoxDoor32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifBlue.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifCyanDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifCyanDown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifCyanLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifCyanLeft.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifCyanRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifCyanRight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifCyanUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifCyanUp.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifOrangeDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifOrangeDown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifOrangeLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifOrangeLeft.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifOrangeRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifOrangeRight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifOrangeUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifOrangeUp.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifPinkDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifPinkDown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifPinkLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifPinkLeft.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifPinkRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifPinkRight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifPinkUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifPinkUp.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifRedDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifRedDown.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifRedLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifRedLeft.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifRedRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifRedRight.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifRedUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifRedUp.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GifWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GifWhite.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -115,7 +115,7 @@ namespace MultiToolApplication
                 TextReader dotLocation = File.OpenText("C:\\Users\\Spenser\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\PacMan\\Dotlocations.txt");
 
 
-                for (int k = 0; k < 247; k++)
+                for (int k = 0; k < 245; k++)
                 {
                     //read in the tiles dot locations and update the tiles in the grid
 
@@ -128,12 +128,15 @@ namespace MultiToolApplication
                         for (int j = 0; j <= 32; j++)
                         {
 
+
                             //Update where items are on the grid
-                            if (i == xDot && j == yDot)
+                            if ((i == xDot && j == yDot) && grid[i][j].isTileEmpty() == true)
                             {
                                 grid[i][j].changeEmpty();
                                 grid[i][j].setItem('D');
+                                Debug.WriteLine("Added dot at: " + i + " , " + j);
                                 break;
+                                //Dots (2,8) and (,) are added twice
                             }
                         }
                     }
@@ -143,7 +146,7 @@ namespace MultiToolApplication
             } 
             else
             {
-                Thread.Sleep(2000);
+                Thread.Sleep(3000);
                 for(int i = 0; i < 31; i++)
                 {
                     for (int j = 0; j < 32; j++)
@@ -166,7 +169,8 @@ namespace MultiToolApplication
             grid[27][4].changeEmpty();
             grid[27][24].setItem('P');
             grid[27][24].changeEmpty();
-            dotsLeft = 246;
+            dotsLeft = 244;
+            dotsLeft = 244;
         }
 
 

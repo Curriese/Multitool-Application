@@ -40,6 +40,11 @@ namespace MultiToolApplication
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox169 = new System.Windows.Forms.PictureBox();
+            this.ghostCyan = new System.Windows.Forms.PictureBox();
+            this.ghostPink = new System.Windows.Forms.PictureBox();
+            this.ghostRed = new System.Windows.Forms.PictureBox();
+            this.hiddenPacMan = new System.Windows.Forms.PictureBox();
             this.pictureBox109 = new System.Windows.Forms.PictureBox();
             this.pictureBox110 = new System.Windows.Forms.PictureBox();
             this.pictureBox116 = new System.Windows.Forms.PictureBox();
@@ -881,7 +886,6 @@ namespace MultiToolApplication
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox127 = new System.Windows.Forms.PictureBox();
             this.pictureBox140 = new System.Windows.Forms.PictureBox();
-            this.hiddenPacMan = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pacmanchar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -889,6 +893,11 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox169)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostCyan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostPink)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostRed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
@@ -1730,7 +1739,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).BeginInit();
             this.SuspendLayout();
             // 
             // scoreLabel
@@ -1746,6 +1754,7 @@ namespace MultiToolApplication
             // 
             // gameTimer
             // 
+            this.gameTimer.Enabled = true;
             this.gameTimer.Interval = 20;
             this.gameTimer.Tag = "";
             this.gameTimer.Tick += new System.EventHandler(this.mainGameTimer);
@@ -1755,7 +1764,7 @@ namespace MultiToolApplication
             this.pacmanchar.BackColor = System.Drawing.Color.Transparent;
             this.pacmanchar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pacmanchar.Image = global::MultiToolApplication.Properties.Resources.PacmanRightGif;
-            this.pacmanchar.Location = new System.Drawing.Point(480, 448);
+            this.pacmanchar.Location = new System.Drawing.Point(800, 544);
             this.pacmanchar.Name = "pacmanchar";
             this.pacmanchar.Size = new System.Drawing.Size(50, 50);
             this.pacmanchar.TabIndex = 2;
@@ -1825,6 +1834,10 @@ namespace MultiToolApplication
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.pictureBox169);
+            this.panel1.Controls.Add(this.ghostCyan);
+            this.panel1.Controls.Add(this.ghostPink);
+            this.panel1.Controls.Add(this.ghostRed);
             this.panel1.Controls.Add(this.pacmanchar);
             this.panel1.Controls.Add(this.hiddenPacMan);
             this.panel1.Controls.Add(this.pictureBox109);
@@ -2675,6 +2688,65 @@ namespace MultiToolApplication
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(896, 992);
             this.panel1.TabIndex = 3;
+            // 
+            // pictureBox169
+            // 
+            this.pictureBox169.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox169.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox169.Image = global::MultiToolApplication.Properties.Resources.GifOrangeUp;
+            this.pictureBox169.Location = new System.Drawing.Point(488, 439);
+            this.pictureBox169.Name = "pictureBox169";
+            this.pictureBox169.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox169.TabIndex = 944;
+            this.pictureBox169.TabStop = false;
+            this.pictureBox169.Tag = "";
+            // 
+            // ghostCyan
+            // 
+            this.ghostCyan.BackColor = System.Drawing.Color.Transparent;
+            this.ghostCyan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ghostCyan.Image = global::MultiToolApplication.Properties.Resources.GifCyanDown;
+            this.ghostCyan.Location = new System.Drawing.Point(358, 439);
+            this.ghostCyan.Name = "ghostCyan";
+            this.ghostCyan.Size = new System.Drawing.Size(50, 50);
+            this.ghostCyan.TabIndex = 943;
+            this.ghostCyan.TabStop = false;
+            this.ghostCyan.Tag = "";
+            // 
+            // ghostPink
+            // 
+            this.ghostPink.BackColor = System.Drawing.Color.Transparent;
+            this.ghostPink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ghostPink.Image = global::MultiToolApplication.Properties.Resources.GifPinkUp;
+            this.ghostPink.Location = new System.Drawing.Point(422, 439);
+            this.ghostPink.Name = "ghostPink";
+            this.ghostPink.Size = new System.Drawing.Size(50, 50);
+            this.ghostPink.TabIndex = 942;
+            this.ghostPink.TabStop = false;
+            this.ghostPink.Tag = "";
+            // 
+            // ghostRed
+            // 
+            this.ghostRed.BackColor = System.Drawing.Color.Transparent;
+            this.ghostRed.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ghostRed.Image = global::MultiToolApplication.Properties.Resources.GifRedLeft;
+            this.ghostRed.Location = new System.Drawing.Point(422, 343);
+            this.ghostRed.Name = "ghostRed";
+            this.ghostRed.Size = new System.Drawing.Size(50, 50);
+            this.ghostRed.TabIndex = 941;
+            this.ghostRed.TabStop = false;
+            this.ghostRed.Tag = "";
+            // 
+            // hiddenPacMan
+            // 
+            this.hiddenPacMan.BackColor = System.Drawing.Color.White;
+            this.hiddenPacMan.Enabled = false;
+            this.hiddenPacMan.Location = new System.Drawing.Point(41, 544);
+            this.hiddenPacMan.Name = "hiddenPacMan";
+            this.hiddenPacMan.Size = new System.Drawing.Size(8, 8);
+            this.hiddenPacMan.TabIndex = 934;
+            this.hiddenPacMan.TabStop = false;
+            this.hiddenPacMan.Visible = false;
             // 
             // pictureBox109
             // 
@@ -5820,6 +5892,7 @@ namespace MultiToolApplication
             // pictureBox620
             // 
             this.pictureBox620.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox620.Image = global::MultiToolApplication.Properties.Resources.GhostBoxDoor32x32;
             this.pictureBox620.Location = new System.Drawing.Point(448, 384);
             this.pictureBox620.Name = "pictureBox620";
             this.pictureBox620.Size = new System.Drawing.Size(32, 32);
@@ -8872,6 +8945,7 @@ namespace MultiToolApplication
             // pictureBox251
             // 
             this.pictureBox251.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox251.Image = global::MultiToolApplication.Properties.Resources.GhostBoxDoor32x32;
             this.pictureBox251.Location = new System.Drawing.Point(416, 384);
             this.pictureBox251.Name = "pictureBox251";
             this.pictureBox251.Size = new System.Drawing.Size(32, 32);
@@ -11285,16 +11359,6 @@ namespace MultiToolApplication
             this.pictureBox140.TabIndex = 939;
             this.pictureBox140.TabStop = false;
             // 
-            // hiddenPacMan
-            // 
-            this.hiddenPacMan.BackColor = System.Drawing.Color.White;
-            this.hiddenPacMan.Location = new System.Drawing.Point(41, 544);
-            this.hiddenPacMan.Name = "hiddenPacMan";
-            this.hiddenPacMan.Size = new System.Drawing.Size(8, 8);
-            this.hiddenPacMan.TabIndex = 934;
-            this.hiddenPacMan.TabStop = false;
-            this.hiddenPacMan.Visible = false;
-            // 
             // PacManForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -11317,6 +11381,11 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox169)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostCyan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostPink)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostRed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
@@ -12158,7 +12227,6 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox140)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hiddenPacMan)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -13018,5 +13086,10 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox pictureBox116;
         private System.Windows.Forms.PictureBox pictureBox127;
         private System.Windows.Forms.PictureBox pictureBox140;
+        private System.Windows.Forms.PictureBox ghostRed;
+        private System.Windows.Forms.PictureBox ghostPink;
+        private System.Windows.Forms.PictureBox pictureBox152;
+        private System.Windows.Forms.PictureBox ghostCyan;
+        private System.Windows.Forms.PictureBox pictureBox169;
     }
 }

@@ -56,6 +56,11 @@ namespace MultiToolApplication.PacMan
                 isEmpty = true;
             }
         }
+        public bool isTileEmpty()
+        {
+            return isEmpty;
+        }
+
 
         public void setImage(string imagePath)
         {
