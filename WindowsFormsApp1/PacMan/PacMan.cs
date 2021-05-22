@@ -24,6 +24,7 @@ namespace MultiToolApplication
         
 
         private PackManPlayer player;
+        private Ghost redGhost, pinkGhost, cyanGhost, orangeGhost;
         private Tile[][] grid = new Tile[31][];
         //private ArrayList xTiles = new ArrayList();
         //private ArrayList yTiles = new ArrayList();
@@ -52,6 +53,10 @@ namespace MultiToolApplication
             setUpMaze();
             populateMaze();
             player = new PackManPlayer(15, 24);
+            redGhost = new Ghost(14, 12, "Blinky");
+            pinkGhost = new Ghost(15, 15, "Pinky");
+            cyanGhost = new Ghost(13, 15, "Inky");
+            orangeGhost = new Ghost(17, 15, "Cylde");
             //grid[15][24].setOccupied('P');
             direction = 'R';
 
@@ -98,6 +103,7 @@ namespace MultiToolApplication
                         if (i == xPath && j == yPath)
                         {
                             grid[i][j].changePathTrue();
+                            Debug.WriteLine("Pathable Location: " + i + " , " + j);
                         }
                     }
                 }
@@ -134,9 +140,8 @@ namespace MultiToolApplication
                             {
                                 grid[i][j].changeEmpty();
                                 grid[i][j].setItem('D');
-                                Debug.WriteLine("Added dot at: " + i + " , " + j);
+                                ///Debug.WriteLine("Added dot at: " + i + " , " + j);
                                 break;
-                                //Dots (2,8) and (,) are added twice
                             }
                         }
                     }
@@ -384,6 +389,8 @@ namespace MultiToolApplication
         {
             if(grid[player.getXLocation()][player.getYLocation() - 1].getPathable() == true)
             {
+                Debug.WriteLine("Check Up true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + player.getXLocation() + " " + (player.getYLocation() - 1) );
                 return true;
             }
             else
@@ -396,6 +403,8 @@ namespace MultiToolApplication
         {
             if (grid[player.getXLocation()][player.getYLocation() + 1].getPathable() == true)
             {
+                Debug.WriteLine("Check Down true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + player.getXLocation() + " " + (player.getYLocation() + 1));
                 return true;
             }
             else
@@ -408,6 +417,8 @@ namespace MultiToolApplication
         {
             if (grid[player.getXLocation() - 1][player.getYLocation()].getPathable() == true)
             {
+                Debug.WriteLine("Check Left true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + (player.getXLocation() -1) + " " + player.getYLocation() );
                 return true;
             }
             else
@@ -420,6 +431,49 @@ namespace MultiToolApplication
         {
             if (grid[player.getXLocation() + 1][player.getYLocation()].getPathable() == true)
             {
+                Debug.WriteLine("Check Right true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + (player.getXLocation() + 1) + " " + player.getYLocation());
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+        public bool checkGhostCollision()
+        {
+            if(grid[player.getXLocation()][player.getYLocation()] == grid[redGhost.getX()][redGhost.getY()])
+            {
+                lives -= 1;
+                return true;
+            }
+            else if (grid[player.getXLocation()][player.getYLocation()] == grid[pinkGhost.getX()][pinkGhost.getY()])
+            {
+                lives -= 1;
+                return true;
+            }
+            else if (grid[player.getXLocation()][player.getYLocation()] == grid[cyanGhost.getX()][cyanGhost.getY()])
+            {
+                lives -= 1;
+                return true;
+            }
+            else if (grid[player.getXLocation()][player.getYLocation()] == grid[orangeGhost.getX()][orangeGhost.getY()])
+            {
+                lives -= 1;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool checkGameOver()
+        {
+            if(lives == 0)
+            {
                 return true;
             }
             else
@@ -430,10 +484,7 @@ namespace MultiToolApplication
 
 
 
-        public void setSpeed(int newSpeed)
-        {
-            pacmanSpeed = newSpeed;
-        }
+       
 
 
         public void addScore(int x)
@@ -450,6 +501,7 @@ namespace MultiToolApplication
                 nextDirection = '-';
             }
         }
+        #region Getters
 
         public int getDotsLeft()
         {
@@ -470,7 +522,7 @@ namespace MultiToolApplication
         {
             return pacmanSpeed;
         }
-
+        #endregion
 
         #region Setters
         public void setisUp(bool x)
@@ -498,6 +550,10 @@ namespace MultiToolApplication
         public void setNextDirection(char x)
         {
             nextDirection = x;
+        }
+        public void setSpeed(int newSpeed)
+        {
+            pacmanSpeed = newSpeed;
         }
 
         #endregion

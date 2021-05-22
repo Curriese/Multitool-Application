@@ -174,6 +174,20 @@ namespace MultiToolApplication
 
 
 
+            if(pacmanGame.checkGhostCollision() == true)
+            {
+                pacmanchar.Image = Properties.Resources.PacDeathGif;
+
+            }
+            if(pacmanGame.checkGameOver() == true)
+            {
+                pacmanGame.NewGame();
+                resetGame();
+            }
+
+
+
+
             
             foreach(Control x in panel1.Controls)
             {
@@ -194,7 +208,7 @@ namespace MultiToolApplication
                 }
             }
 
-            Debug.WriteLine("Dots Left " + pacmanGame.getDotsLeft());
+            //Debug.WriteLine("Dots Left " + pacmanGame.getDotsLeft());
 
 
             if (pacmanGame.getDotsLeft() == 0)
