@@ -47,13 +47,13 @@ namespace MultiToolApplication
         public void NewGame()
         {
             score = 0;
-            lives = 3;
+            lives = 2;
             isGameOver = false;
             atStart = true;
             setUpMaze();
             populateMaze();
             player = new PackManPlayer(15, 24);
-            redGhost = new Ghost(14, 12, "Blinky");
+            redGhost = new Ghost(14, 12, "Blinky", 'L');
             pinkGhost = new Ghost(15, 15, "Pinky");
             cyanGhost = new Ghost(13, 15, "Inky");
             orangeGhost = new Ghost(17, 15, "Cylde");
@@ -68,6 +68,12 @@ namespace MultiToolApplication
             populateMaze();
             player = new PackManPlayer(15, 24);
             //grid[15][24].setOccupied('P');
+            direction = 'R';
+        }
+
+        public void resetFromDeath()
+        {
+            player = new PackManPlayer(15, 24);
             direction = 'R';
         }
 
@@ -415,6 +421,12 @@ namespace MultiToolApplication
 
         public bool checkLeft()
         {
+            if(player.getXLocation() == 1 && player.getYLocation() == 15)
+            {
+                player.setLocation(28, 15);
+            }
+
+
             if (grid[player.getXLocation() - 1][player.getYLocation()].getPathable() == true)
             {
                 Debug.WriteLine("Check Left true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
@@ -429,6 +441,11 @@ namespace MultiToolApplication
 
         public bool checkRight()
         {
+            if (player.getXLocation() == 28 && player.getYLocation() == 15)
+            {
+                player.setLocation(1, 15);
+            }
+
             if (grid[player.getXLocation() + 1][player.getYLocation()].getPathable() == true)
             {
                 Debug.WriteLine("Check Right true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
@@ -472,7 +489,7 @@ namespace MultiToolApplication
 
         public bool checkGameOver()
         {
-            if(lives == 0)
+            if(lives == -1)
             {
                 return true;
             }
@@ -484,7 +501,160 @@ namespace MultiToolApplication
 
 
 
-       
+        public void moveRedGhost()
+        {
+            if(redGhost.getX() != player.getXLocation())
+            {
+                if(redGhost.getY() != player.getXLocation())
+                {
+
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //See if the player wants to move another direction
+            if (redGhost.getDirection() == 'U')
+            {
+                if (checkUp() == true)
+                {
+                    updateDirection();
+                    redGhost.setSpeed(0);
+                }
+                return;
+            }
+            if (redGhost.getDirection() == 'R')
+            {
+                if (checkRight() == true)
+                {
+                    updateDirection();
+                    redGhost.setSpeed(0);
+                }
+                return;
+            }
+            if (redGhost.getDirection() == 'L')
+            {
+                if (checkLeft() == true)
+                {
+                    
+                    redGhost.setSpeed(0);
+                }
+                return;
+            }
+            if (redGhost.getDirection() == 'D')
+            {
+                if (checkLeft() == true)
+                {
+                    updateDirection();
+                    redGhost.setSpeed(0);
+                }
+                return;
+            }
+            //Checks if the next tile is pathable if so update direction and move that direction
+            if (checkDown())
+            {
+                redGhost.setSpeed(1);
+                redGhost.setLocation(redGhost.getX(), redGhost.getY() + 1);
+            }
+        }
+
+
+        public bool ghostCheckUp()
+        {
+            if (grid[player.getXLocation()][player.getYLocation() - 1].getPathable() == true)
+            {
+                Debug.WriteLine("Check Up true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + player.getXLocation() + " " + (player.getYLocation() - 1));
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool ghostCheckDown()
+        {
+            if (grid[player.getXLocation()][player.getYLocation() + 1].getPathable() == true)
+            {
+                Debug.WriteLine("Check Down true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + player.getXLocation() + " " + (player.getYLocation() + 1));
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool ghostCheckLeft()
+        {
+            if (player.getXLocation() == 1 && player.getYLocation() == 15)
+            {
+                player.setLocation(28, 15);
+            }
+
+
+            if (grid[player.getXLocation() - 1][player.getYLocation()].getPathable() == true)
+            {
+                Debug.WriteLine("Check Left true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + (player.getXLocation() - 1) + " " + player.getYLocation());
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool ghostCheckRight()
+        {
+            if (player.getXLocation() == 28 && player.getYLocation() == 15)
+            {
+                player.setLocation(1, 15);
+            }
+
+            if (grid[player.getXLocation() + 1][player.getYLocation()].getPathable() == true)
+            {
+                Debug.WriteLine("Check Right true. PacMan Location " + player.getXLocation() + " " + player.getYLocation());
+                Debug.WriteLine("Location checked : " + (player.getXLocation() + 1) + " " + player.getYLocation());
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         public void addScore(int x)
@@ -521,6 +691,11 @@ namespace MultiToolApplication
         public int getPlayerSpeed()
         {
             return pacmanSpeed;
+        }
+
+        public int getLives()
+        {
+            return lives;
         }
         #endregion
 

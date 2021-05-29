@@ -8,7 +8,6 @@ namespace MultiToolApplication.PacMan
     {
         int xLocation;
         int yLocation;
-        int speed = 10;
         
 
 

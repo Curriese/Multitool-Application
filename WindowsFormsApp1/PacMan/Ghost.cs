@@ -27,6 +27,21 @@ namespace MultiToolApplication.PacMan
             name = ghostName;
         }
 
+        public Ghost(int startingX, int startingY, String ghostName, char startingDirection)
+        {
+            xLocation = startingX;
+            yLocation = startingY;
+            isScared = false;
+            name = ghostName;
+            direction = startingDirection;
+        }
+
+
+        
+
+
+
+
 
         public void updateDirection()
         {
@@ -65,6 +80,10 @@ namespace MultiToolApplication.PacMan
         #endregion
         #region Setters
 
+        public void setSpeed(int newSpeed)
+        {
+            speed = newSpeed;
+        }
 
         public void setLocation(int newX, int newY)
         {
