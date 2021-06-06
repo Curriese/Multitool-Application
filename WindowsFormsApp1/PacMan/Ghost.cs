@@ -25,6 +25,7 @@ namespace MultiToolApplication.PacMan
             yLocation = startingY;
             isScared = false;
             name = ghostName;
+            speed = 1;
         }
 
         public Ghost(int startingX, int startingY, String ghostName, char startingDirection)
@@ -34,6 +35,7 @@ namespace MultiToolApplication.PacMan
             isScared = false;
             name = ghostName;
             direction = startingDirection;
+            speed = 1;
         }
 
 
@@ -74,6 +76,10 @@ namespace MultiToolApplication.PacMan
         public String getName()
         {
             return name;
+        }
+        public int getSpeed()
+        {
+            return speed;
         }
 
 

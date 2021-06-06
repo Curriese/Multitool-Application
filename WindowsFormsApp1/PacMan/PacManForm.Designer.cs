@@ -41,7 +41,7 @@ namespace MultiToolApplication
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.livesPanel = new System.Windows.Forms.Panel();
             this.lifeLabel = new System.Windows.Forms.Label();
-            this.pictureBox169 = new System.Windows.Forms.PictureBox();
+            this.ghostOrange = new System.Windows.Forms.PictureBox();
             this.ghostCyan = new System.Windows.Forms.PictureBox();
             this.ghostPink = new System.Windows.Forms.PictureBox();
             this.ghostRed = new System.Windows.Forms.PictureBox();
@@ -894,7 +894,7 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.livesPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox169)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostOrange)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ghostCyan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ghostPink)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ghostRed)).BeginInit();
@@ -1756,7 +1756,7 @@ namespace MultiToolApplication
             // gameTimer
             // 
             this.gameTimer.Enabled = true;
-            this.gameTimer.Interval = 1;
+            this.gameTimer.Interval = 20;
             this.gameTimer.Tag = "";
             this.gameTimer.Tick += new System.EventHandler(this.mainGameTimer);
             // 
@@ -1837,7 +1837,7 @@ namespace MultiToolApplication
             this.livesPanel.BackColor = System.Drawing.Color.Transparent;
             this.livesPanel.Controls.Add(this.pacmanchar);
             this.livesPanel.Controls.Add(this.lifeLabel);
-            this.livesPanel.Controls.Add(this.pictureBox169);
+            this.livesPanel.Controls.Add(this.ghostOrange);
             this.livesPanel.Controls.Add(this.ghostCyan);
             this.livesPanel.Controls.Add(this.ghostPink);
             this.livesPanel.Controls.Add(this.ghostRed);
@@ -2702,17 +2702,17 @@ namespace MultiToolApplication
             this.lifeLabel.TabIndex = 945;
             this.lifeLabel.Text = "Lives:  2";
             // 
-            // pictureBox169
+            // ghostOrange
             // 
-            this.pictureBox169.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox169.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox169.Image = global::MultiToolApplication.Properties.Resources.GifOrangeUp;
-            this.pictureBox169.Location = new System.Drawing.Point(488, 439);
-            this.pictureBox169.Name = "pictureBox169";
-            this.pictureBox169.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox169.TabIndex = 944;
-            this.pictureBox169.TabStop = false;
-            this.pictureBox169.Tag = "orangeGhost";
+            this.ghostOrange.BackColor = System.Drawing.Color.Transparent;
+            this.ghostOrange.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ghostOrange.Image = global::MultiToolApplication.Properties.Resources.GifOrangeUp;
+            this.ghostOrange.Location = new System.Drawing.Point(488, 439);
+            this.ghostOrange.Name = "ghostOrange";
+            this.ghostOrange.Size = new System.Drawing.Size(50, 50);
+            this.ghostOrange.TabIndex = 944;
+            this.ghostOrange.TabStop = false;
+            this.ghostOrange.Tag = "orangeGhost";
             // 
             // ghostCyan
             // 
@@ -2743,7 +2743,7 @@ namespace MultiToolApplication
             this.ghostRed.BackColor = System.Drawing.Color.Transparent;
             this.ghostRed.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ghostRed.Image = global::MultiToolApplication.Properties.Resources.GifRedLeft;
-            this.ghostRed.Location = new System.Drawing.Point(422, 343);
+            this.ghostRed.Location = new System.Drawing.Point(408, 344);
             this.ghostRed.Name = "ghostRed";
             this.ghostRed.Size = new System.Drawing.Size(50, 50);
             this.ghostRed.TabIndex = 941;
@@ -11394,7 +11394,7 @@ namespace MultiToolApplication
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.livesPanel.ResumeLayout(false);
             this.livesPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox169)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ghostOrange)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ghostCyan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ghostPink)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ghostRed)).EndInit();
@@ -13105,5 +13105,6 @@ namespace MultiToolApplication
         private System.Windows.Forms.PictureBox ghostCyan;
         private System.Windows.Forms.PictureBox pictureBox169;
         private System.Windows.Forms.Label lifeLabel;
+        private System.Windows.Forms.PictureBox ghostOrange;
     }
 }

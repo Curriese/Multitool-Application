@@ -13,7 +13,7 @@ namespace MultiToolApplication
 {
     public partial class PacManForm : Form
     {
-        private PacManGame pacmanGame;
+        PacManGame pacmanGame;
         SoundPlayer pacSoundStart = new SoundPlayer(@"C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\PacMan\PacManSounds\pacman_beginning.wav");
         SoundPlayer pacSoundMunch = new SoundPlayer(@"C:\Users\Spenser\source\repos\WindowsFormsApp1\WindowsFormsApp1\PacMan\PacManSounds\pacman_chomp.wav");
 
@@ -59,6 +59,8 @@ namespace MultiToolApplication
             pacmanchar.Top = 728;
             hiddenPacMan.Left = 448;
             hiddenPacMan.Top = 736;
+            ghostRed.Left = 408;
+            ghostRed.Top = 344;
         }
 
 
@@ -179,6 +181,7 @@ namespace MultiToolApplication
             }
             pacmanGame.setSpeed(0);
 
+            //if(pacmanGame.)
 
             
 
@@ -246,20 +249,58 @@ namespace MultiToolApplication
                         x.Visible = false;
                     }
                 }
-                if (x is PictureBox && (string)x.Tag == "redGhost")
-                {
+            }
 
+            if (pacmanGame.ghostSpeed == 2)
+            {
+
+
+                char redMove = pacmanGame.moveRedGhost();
+                if (redMove == 'R')
+                {
+                    for (int i = 0; i < 32; i++)
+                    {
+                        ghostRed.Left += 1;
+                        ghostRed.BringToFront();
+                    }
                 }
+                if (redMove == 'D')
+                {
+                    for (int i = 0; i < 32; i++)
+                    {
+                        ghostRed.Top += 1;
+                        ghostRed.BringToFront();
+                    }
+                }
+                if (redMove == 'L')
+                {
+                    for (int i = 0; i < 32; i++)
+                    {
+                        ghostRed.Left -= 1;
+                        ghostRed.BringToFront();
+                    }
+                }
+                if (redMove == 'U')
+                {
+                    for (int i = 0; i < 32; i++)
+                    {
+                        ghostRed.Top -= 1;
+                        ghostRed.BringToFront();
+                    }
+                }
+                pacmanGame.ghostSpeed = 0;
             }
 
             //Debug.WriteLine("Dots Left " + pacmanGame.getDotsLeft());
+            Debug.WriteLine("Red Ghost Location: X:" + pacmanGame.redGhost.getX() + " Y:" + pacmanGame.redGhost.getY());
 
 
             if (pacmanGame.getDotsLeft() == 0)
             {
                 resetGame();
+                pacmanchar.Image = Properties.Resources.PacmanRightGif;
             }
-
+            pacmanGame.ghostSpeed++;
         }
 
     }
